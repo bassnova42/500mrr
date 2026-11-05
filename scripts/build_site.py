@@ -114,7 +114,7 @@ def main():
     hero = [by_name[n]["thumb"] for n in HERO_NAMES if n in by_name and by_name[n]["thumb"]]
     tpl = (ROOT / "scripts/gallery.template.html").read_text(encoding="utf-8")
     def fill(mode):
-        return tpl.replace('/*MODE*/"site"', json.dumps(mode)) \
+        return tpl.replace('/*MODE*/"site"', json.dumps(mode)).replace("/*ASSETS*/", "assets/") \
                   .replace("/*CHECKED*/", checked) \
                   .replace("/*HERO*/[]", json.dumps(hero)) \
                   .replace("/*DATA*/[]", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")) \

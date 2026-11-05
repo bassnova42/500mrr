@@ -89,6 +89,13 @@ h1, h2, h3 { text-wrap: balance; }
 .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
 .btn:hover { transform: translateY(-1px); }
 
+.byline { justify-self: start; display: inline-flex; align-items: center; gap: 12px; padding: 6px 18px 6px 6px; border-radius: 999px; text-decoration: none; background: color-mix(in srgb, var(--surface) 80%, transparent); border: 1px solid var(--line); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+.byline img { width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2px solid #e4f53a; display: block; }
+.byline > span { display: grid; line-height: 1.25; font-size: 15px; color: var(--muted); }
+.byline b { color: var(--fg); font-size: 17px; font-weight: 700; }
+.byline small { font-family: var(--font-mono); font-size: 12px; color: var(--muted); }
+.byline:hover { border-color: var(--accent); }
+
 /* ---------- Sections ---------- */
 .section { padding-block: 56px 8px; }
 .sec-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 8px 24px; margin-bottom: 20px; }
@@ -221,6 +228,10 @@ footer.foot a { color: var(--fg); }
     <div class="hero-fade"></div>
     <div class="gutter"><div class="wrap">
       <div class="hero-in">
+        <a class="byline" href="https://x.com/slashui" target="_blank" rel="noopener">
+          <img src="assets/roko.jpg" alt="洛克船长" width="60" height="60">
+          <span><span><b>洛克船长</b> 出品</span><small>@slashui · Roko AI</small></span>
+        </a>
         <div class="eyebrow">Hacker News · Show and tell · 2020–2025</div>
         <h1>月入 <span class="usd">$500</span><br>的副业</h1>
         <p class="lede">每年年底，几百位独立开发者在 Hacker News 上晒出自己的小生意。我们把六年的帖子整理成这本图鉴：<b>每个项目都有网站截图、中文简介、怎么挣钱，以及它今天是否还活着。</b></p>
