@@ -1,12 +1,38 @@
-<div class="wrap">
-  <header class="mast">
-    <div class="eyebrow">Ask HN · Those making $500/month on side projects</div>
-    <h1>HN 上月入 $500 的副业，2020–2025</h1>
-    <p class="lede">整理自 Hacker News 每年年底的 Show and tell 帖子。每张卡片是项目网站的截图，点开可以看简介、怎么挣钱和网站现在的状态。收入是作者<b>自述</b>，没有核实；网站状态是自动检查的结果，可能有误判。</p>
-    <div class="stats" id="stats"></div>
+<div id="list">
+  <header class="hero">
+    <div class="hero-wall" id="wall" aria-hidden="true"></div>
+    <div class="hero-fade"></div>
+    <div class="gutter"><div class="wrap">
+      <div class="hero-in">
+        <div class="eyebrow">Hacker News · Show and tell · 2020–2025</div>
+        <h1>月入 <span class="usd">$500</span><br>的副业</h1>
+        <p class="lede">每年年底，几百位独立开发者在 Hacker News 上晒出自己的小生意。我们把六年的帖子整理成这本图鉴：<b>每个项目都有网站截图、中文简介、怎么挣钱，以及它今天是否还活着。</b></p>
+        <div class="hstats" id="hstats"></div>
+        <div class="ctas">
+          <a class="btn primary" href="#browse">开始浏览 ↓</a>
+          <button class="btn" type="button" id="toprev">按收入从高到低看</button>
+        </div>
+      </div>
+    </div></div>
   </header>
 
-  <div class="bar" role="search">
+  <section class="section gutter"><div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow">Top earners</div><h2>自述收入最高的项目</h2></div>
+      <p>按作者自述的月收入估算排序。数字没有核实，但截图里的网站都还在。</p>
+    </div>
+    <ul class="shelf" id="shelf"></ul>
+  </div></section>
+
+  <section class="section gutter"><div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow">Browse by kind</div><h2>按类别逛</h2></div>
+      <p>从 SaaS 到散养鸡蛋，点一个类别直接筛选。</p>
+    </div>
+    <ul class="cats" id="catTiles"></ul>
+  </div></section>
+
+  <div class="bar gutter" id="browse" role="search"><div class="wrap">
     <div class="row1">
       <input id="q" type="search" placeholder="搜索项目、简介、挣钱方式，如 Kindle、广告、订阅" aria-label="搜索">
       <select id="sort" aria-label="排序">
@@ -19,15 +45,21 @@
     <div class="chips" id="years" aria-label="年份"></div>
     <div class="chips" id="cats" aria-label="类别"></div>
     <div class="chips" id="stat" aria-label="网站状态"></div>
-  </div>
+  </div></div>
 
-  <ul id="grid"></ul>
-  <footer>数据来自 HN 2020–2025 年的六个帖子。按估算月收入排序时，年收入按 1/12、周收入按 ×4.3 折算；累计或一次性收入不参与排序。</footer>
+  <div class="gutter"><div class="wrap">
+    <ul id="grid"></ul>
+    <footer class="foot">数据来自 Hacker News 2020–2025 年的六个 “Those making $500/month on side projects” 帖子。收入全部是作者自述，没有核实；网站状态是 /*CHECKED*/ 自动检查的结果，可能有误判。按估算月收入排序时，年收入按 1/12、周收入按 ×4.3 折算；累计或一次性收入不参与排序。源码：<a href="https://github.com/bassnova42/500mrr" target="_blank" rel="noopener">GitHub</a></footer>
+  </div></div>
 </div>
 
+<div id="detail" hidden></div>
+
 <script>
+const MODE = /*MODE*/"site";
 const DATA = /*DATA*/[];
 const STATUS = /*STATUS*/{};
+const HERO = /*HERO*/[];
 const GROUP = { up: '在线', blocked: '可能在线', unclear: '无法判断', unreachable: '打不开或停运', dead: '打不开或停运', hijacked: '打不开或停运', sold: '已出售或关停', closed: '已出售或关停', nourl: '没有网址' };
 
 function monthly(rev) {
@@ -42,23 +74,57 @@ function monthly(rev) {
   else if (/暑期/.test(rev)) v /= 12;
   return v;
 }
-DATA.forEach(d => {
+const host = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return ''; } };
+const money = v => v >= 1000 ? '$' + (v / 1000).toFixed(v >= 10000 ? 0 : 1).replace(/\.0$/, '') + 'k' : '$' + Math.round(v);
+const BY = {};
+DATA.forEach((d, i) => {
+  d.i = i; BY[d.pid] = d;
   d.m = monthly(d.revenue);
   d.g = GROUP[d.status] || '无法判断';
+  d.host = host(d.url);
   d.hay = [d.name, d.summary, d.money, d.revenue, d.category, d.url].join(' ').toLowerCase();
 });
 
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+const link = d => MODE === 'site' ? `p/${esc(d.pid)}.html` : `#p-${esc(d.pid)}`;
 const state = { years: new Set(), cats: new Set(), stat: new Set(), q: '', sort: 'year' };
 const counts = key => DATA.reduce((o, d) => (o[d[key]] = (o[d[key]] || 0) + 1, o), {});
 const yc = counts('year'), cc = counts('category'), gc = counts('g');
 const YEARS = Object.keys(yc).sort().reverse();
 const CATS = Object.keys(cc).sort((a, b) => cc[b] - cc[a]);
 const GROUPS = ['在线', '可能在线', '无法判断', '打不开或停运', '已出售或关停', '没有网址'].filter(g => gc[g]);
+const isDead = d => ['dead', 'unreachable', 'closed', 'hijacked'].includes(d.status);
 
-$('stats').innerHTML = `<span><b>${DATA.length}</b> 个项目</span>` +
-  GROUPS.map(g => `<span>${g} <b>${gc[g]}</b></span>`).join('');
+/* Hero: a slowly drifting wall of real screenshots */
+(function wall() {
+  const cols = [[], [], [], []];
+  HERO.forEach((src, i) => cols[i % 4].push(src));
+  $('wall').innerHTML = cols.map((c, i) =>
+    `<div class="hero-col drift${i % 2 ? ' rev' : ''}">${c.concat(c.slice(0, 2)).map(s => `<img src="${esc(s)}" alt="" loading="eager">`).join('')}</div>`).join('');
+})();
+$('hstats').innerHTML = `<div><b>${DATA.length}</b>个项目</div><div><b>${gc['在线'] || 0}</b>仍在运营</div><div><b>${Object.keys(cc).length}</b>个类别</div><div><b>${YEARS.length}</b>年帖子</div>`;
+
+/* Top earners shelf */
+const TOP = DATA.filter(d => d.thumb && d.m != null && !isDead(d)).sort((a, b) => b.m - a.m).slice(0, 10);
+$('shelf').innerHTML = TOP.map((d, i) => `<li><a class="earner" href="${link(d)}">
+  <img src="${esc(d.thumb)}" alt="${esc(d.name)} 网站截图" loading="lazy">
+  <span class="rank">#${i + 1} · ${esc(d.category)}</span>
+  <span class="ov"><span class="amt">${money(d.m)}<small style="font-size:14px;color:#b5bdb8"> /月</small></span><span class="nm">${esc(d.name)}</span><span class="yr">${d.year} 年 · 自述 ${esc(d.revenue)}</span></span>
+</a></li>`).join('');
+
+/* Category tiles */
+$('catTiles').innerHTML = CATS.map(c => {
+  const pics = DATA.filter(d => d.category === c && d.thumb && !isDead(d)).sort((a, b) => (b.m ?? -1) - (a.m ?? -1)).slice(0, 3);
+  return `<li><button class="cat" type="button" data-cat="${esc(c)}">
+    <span class="stack">${pics.map(d => `<img src="${esc(d.thumb)}" alt="" loading="lazy">`).join('')}</span>
+    <span class="cb"><b>${esc(c)}</b><span>${cc[c]} 个</span></span>
+  </button></li>`;
+}).join('');
+document.querySelectorAll('.cat').forEach(b => b.onclick = () => {
+  state.cats = new Set([b.dataset.cat]); render(); $('browse').scrollIntoView({ behavior: 'smooth' });
+});
+$('toprev').onclick = () => { state.sort = 'rev'; $('sort').value = 'rev'; render(); $('browse').scrollIntoView({ behavior: 'smooth' }); };
 
 function chips(el, values, set, cnt) {
   el.innerHTML = '';
@@ -79,12 +145,11 @@ function card(d) {
   const img = d.thumb
     ? `<img src="${esc(d.thumb)}" alt="" loading="lazy">`
     : `<div class="ph"><div><b>${esc(d.name.slice(0, 1))}</b>${d.url ? '没有截图' : '没有网址'}</div></div>`;
-  const dead = ['dead', 'unreachable', 'closed', 'hijacked'].includes(d.status) ? ' is-dead' : '';
-  return `<li class="card${dead}"><a href="p/${esc(d.pid)}.html">
-    <div class="thumb">${img}</div>
+  return `<li class="card${isDead(d) ? ' is-dead' : ''}"><a href="${link(d)}">
+    <div class="browser"><div class="chrome"><i></i><i></i><i></i><span>${esc(d.host || '没有网址')}</span></div>
+      <div class="view">${img}${d.m != null ? `<span class="badge">${money(d.m)}/月</span>` : ''}</div></div>
     <div class="ctitle">${esc(d.name)}</div>
     <div class="cmeta"><span class="yr">${d.year}</span><span>${esc(d.category)}</span><span class="status ${cls}">${esc(label)}</span></div>
-    <div class="crev">${esc(d.revenue)}</div>
     <div class="csum">${esc(d.summary)}</div>
   </a></li>`;
 }
@@ -108,4 +173,68 @@ function render() {
 $('q').addEventListener('input', ev => { state.q = ev.target.value; render(); });
 $('sort').addEventListener('change', ev => { state.sort = ev.target.value; render(); });
 render();
+
+/* In-page detail view (single-page mode, used for the claude.ai artifact) */
+function detail(d) {
+  const [label, cls] = STATUS[d.status] || ['无法判断', 'warn'];
+  let shot;
+  if (d.thumb) shot = `<img src="${esc(d.thumb)}" alt="${esc(d.name)} 网站截图">`;
+  else if (d.status === 'hijacked') shot = '<div class="ph">这个域名现在被博彩或其他无关网站占用，所以不显示截图。</div>';
+  else shot = `<div class="ph">${d.url ? '没能截到图：' + esc(d.note || '网站没有响应') : '原评论没有给出网址，所以没有截图。'}</div>`;
+  const ext = (href, text) => `<a href="${esc(href)}" target="_blank" rel="noopener">${esc(text)}</a>`;
+  let facts = `<dt>状态</dt><dd><span class="status ${cls}">${esc(label)}</span>` +
+    (d.checked ? `<span style="color:var(--muted)">（${esc(d.checked)} 检查${d.note ? '，' + esc(d.note) : ''}）</span>` : '') + '</dd>' +
+    `<dt>年份</dt><dd>${d.year} 年帖子</dd><dt>类别</dt><dd>${esc(d.category)}</dd>`;
+  if (d.url) facts += `<dt>网址</dt><dd>${ext(d.url, d.url)}</dd>`;
+  if (d.final) facts += `<dt>跳转</dt><dd>${ext(d.final, d.final)}</dd>`;
+  const rel = DATA.filter(x => x.category === d.category && x.pid !== d.pid && x.thumb && !isDead(x)).sort((a, b) => (b.m ?? -1) - (a.m ?? -1)).slice(0, 4);
+  const prev = DATA[d.i - 1], next = DATA[d.i + 1];
+  $('detail').innerHTML = `
+  <div class="dhero">${d.thumb ? `<div class="bgshot" style="background-image:url('${esc(d.thumb)}')"></div>` : ''}<div class="bgfade"></div>
+    <div class="gutter"><div class="wrap">
+      <div class="crumb"><button type="button" id="back">← 返回全部项目</button></div>
+      <article class="detail">
+        <div class="browser"><div class="chrome"><i></i><i></i><i></i><span>${esc(d.host || '没有网址')}</span></div><div class="view">${shot}</div></div>
+        <div class="prose">
+          <div class="eyebrow">${d.year} · ${esc(d.category)}</div>
+          <h1>${esc(d.name)}</h1>
+          <div class="bigrev"><small>作者自述收入</small><b>${esc(d.revenue)}</b></div>
+          <dl class="facts">${facts}</dl>
+          <h2>简介</h2><p>${esc(d.summary)}</p>
+          ${d.money ? `<h2>怎么挣钱</h2><p>${esc(d.money)}</p>` : ''}
+          ${d.url ? `<a class="btn primary visit" href="${esc(d.url)}" target="_blank" rel="noopener">访问网站 ↗</a>` : ''}
+          <div class="source">
+            <div>来源：${ext('https://news.ycombinator.com/item?id=' + d.hn_id, '作者在 HN 上的原评论 ↗')}</div>
+            ${d.stitle ? `<div>网站标题：${esc(d.stitle)}</div>` : ''}
+            ${d.sdesc ? `<div>网站描述：${esc(d.sdesc)}</div>` : ''}
+          </div>
+        </div>
+      </article>
+    </div></div>
+  </div>
+  <div class="gutter"><div class="wrap">
+    ${rel.length ? `<section class="related"><div class="sec-head"><div><div class="eyebrow">More like this</div><h2>同类项目</h2></div></div><ul class="rgrid">${rel.map(card).join('')}</ul></section>` : ''}
+    <nav class="pager">${prev ? `<a href="${link(prev)}">← ${esc(prev.name)}</a>` : '<span></span>'}${next ? `<a href="${link(next)}">${esc(next.name)} →</a>` : '<span></span>'}</nav>
+  </div></div>`;
+  $('back').onclick = () => { history.length > 1 && listY != null ? history.back() : (location.hash = ''); };
+}
+let listY = null;
+function route() {
+  if (MODE === 'site') return;
+  const m = location.hash.match(/^#p-([\w-]+)$/);
+  const d = m && BY[m[1]];
+  if (d) {
+    if (!$('list').hidden) listY = scrollY;
+    detail(d);
+    $('list').hidden = true; $('detail').hidden = false;
+    document.title = d.name + ' · HN 月入 $500 副业名录';
+    scrollTo(0, 0);
+  } else if (!$('detail').hidden || location.hash === '') {
+    $('detail').hidden = true; $('list').hidden = false;
+    document.title = 'HN 月入 $500 副业名录';
+    if (listY != null) scrollTo(0, listY);
+  }
+}
+addEventListener('hashchange', route);
+route();
 </script>
