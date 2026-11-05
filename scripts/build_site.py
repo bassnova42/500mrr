@@ -113,15 +113,24 @@ def main():
     } for r in order]
     by_name = {r["name"]: r for r in rows if r["status"] == "up"}
     hero = [by_name[n]["thumb"] for n in HERO_NAMES if n in by_name and by_name[n]["thumb"]]
+    featured = []
+    for name, hook in FEATURED:
+        cands = [r for r in order if r["name"] == name and r["thumb"]]
+        cands.sort(key=lambda r: (r["status"] != "up", -int(r["year"])))
+        if cands:
+            featured.append([cands[0]["pid"], hook])
+    assert len(featured) == 8, featured
     tpl = (ROOT / "scripts/gallery.template.html").read_text(encoding="utf-8")
-    def fill(mode):
-        return tpl.replace('/*MODE*/"site"', json.dumps(mode)).replace("/*ASSETS*/", "assets/") \
+    def fill(mode, pg="home"):
+        return tpl.replace('/*MODE*/"site"', json.dumps(mode)).replace('/*PAGE*/"home"', json.dumps(pg)) \
+                  .replace("/*FEATURED*/[]", json.dumps(featured, ensure_ascii=False)).replace("/*ASSETS*/", "assets/") \
                   .replace("/*CHECKED*/", checked).replace("/*RANGE*/", f"{years[0]}–{years[-1]}") \
                   .replace("/*NYEARS*/", str(len(years))) \
                   .replace("/*HERO*/[]", json.dumps(hero)) \
                   .replace("/*DATA*/[]", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")) \
                   .replace("/*STATUS*/{}", json.dumps({k: list(v) for k, v in STATUS.items()}, ensure_ascii=False))
     (SITE / "index.html").write_text(page("HN 月入 $500 副业名录", fill("site")), encoding="utf-8")
+    (SITE / "all.html").write_text(page("全部项目 · HN 月入 $500 副业名录", fill("site", "all")), encoding="utf-8")
     # artifact.html: one-page version for claude.ai (gallery + hash-routed detail view, no document skeleton).
     atpl = (ROOT / "scripts/artifact.template.html").read_text(encoding="utf-8")
     apage = atpl.replace("/*CSS*/", (SITE / "assets/style.css").read_text(encoding="utf-8")).replace("/*BODY*/", fill("artifact"))
@@ -129,6 +138,19 @@ def main():
     c = Counter(r["status"] for r in rows)
     print(f"{len(rows)} pages; status {dict(c)}; with details {sum(1 for r in rows if r['money'])}")
     return dict(c)
+
+
+# Editor's picks shown at the bottom of the home page: (project name, why it's interesting).
+FEATURED = [
+    ("180 Fitness", "租楼当办公室，意外接手一家倒闭的健身房。全部自动化成无人健身房后，每月利润 £4000。"),
+    ("Circa", "教授说定价太便宜，于是从 $25 提到 $100，收入反而翻倍。"),
+    ("ManyPixels", "在曼谷当数字游民时做的包月设计服务，8 个月做到 $40k/月。"),
+    ("Escape Team", "5 年没加过新关卡，收入还从 $800 涨到约 $1k/月。"),
+    ("Online Solitaire", "就是一个纸牌接龙网站，每月 $10k 以上。"),
+    ("Strum Machine", "给蓝草和民谣乐手的伴奏练习工具，300 个付费用户全靠口碑。"),
+    ("Label LIVE / myDPI", "Mac 标签设计软件，顺带捆绑卖打印机，每周收入五位数。"),
+    ("Hacker Newsletter", "一份 HN 精选周刊做了 15 年，靠赞助养活自己。"),
+]
 
 
 # Well-known projects whose screenshots make up the hero wall.
@@ -218,7 +240,7 @@ def detail_html(r, i, order):
     bg = f'<div class="bgshot" style="background-image:url(\'../{e(r["thumb"])}\')"></div>' if r["thumb"] else ""
     return f"""<div class="dhero">{bg}<div class="bgfade"></div>
 <div class="gutter"><div class="wrap">
-<div class="crumb"><a href="../index.html">← 返回全部项目</a></div>
+<div class="crumb"><a href="../index.html">← 首页</a> · <a href="../all.html">全部项目</a></div>
 <article class="detail">
   <div class="browser"><div class="chrome"><i></i><i></i><i></i><span>{e(r["host"] or "没有网址")}</span></div><div class="view">{shot}</div></div>
   <div class="prose">

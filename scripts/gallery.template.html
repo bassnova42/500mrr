@@ -1,4 +1,5 @@
 <div id="list">
+<div id="home">
   <header class="hero">
     <div class="hero-wall" id="wall" aria-hidden="true"></div>
     <div class="hero-fade"></div>
@@ -13,7 +14,7 @@
         <p class="lede">每年年底，几百位独立开发者在 Hacker News 上晒出自己的小生意。我们把 /*NYEARS*/ 年的帖子整理成这本图鉴：<b>每个项目都有网站截图、中文简介、怎么挣钱，以及它今天是否还活着。</b></p>
         <div class="hstats" id="hstats"></div>
         <div class="ctas">
-          <a class="btn primary" href="#browse">开始浏览 ↓</a>
+          <a class="btn primary" id="startAll" href="#all">浏览全部项目 →</a>
           <button class="btn" type="button" id="toprev">按收入从高到低看</button>
         </div>
       </div>
@@ -31,10 +32,30 @@
   <section class="section gutter"><div class="wrap">
     <div class="sec-head">
       <div><div class="eyebrow">Browse by kind</div><h2>按类别逛</h2></div>
-      <p>从 SaaS 到散养鸡蛋，点一个类别直接筛选。</p>
+      <p>从 SaaS 到散养鸡蛋，点一个类别直接看这一类的全部项目。</p>
     </div>
     <ul class="cats" id="catTiles"></ul>
   </div></section>
+
+  <section class="section gutter"><div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow">Editor's picks</div><h2>最有意思的 8 个</h2></div>
+      <p>不一定赚得最多，但故事最值得一看。</p>
+    </div>
+    <ul class="feat" id="feat"></ul>
+    <div class="more">
+      <p>还有 <b id="moreN"></b> 个项目，可以按年份、类别、运营状态筛选，按收入排序，或者直接搜索。</p>
+      <a class="btn primary big" id="moreLink" href="#all">查看全部项目 →</a>
+    </div>
+  </div></section>
+</div>
+
+<div id="allv" hidden>
+  <header class="allhead gutter"><div class="wrap">
+    <div class="crumb"><a id="homeLink" href="#">← 返回首页</a></div>
+    <div class="eyebrow">All projects · /*RANGE*/</div>
+    <h1>全部 <span id="allN"></span> 个项目</h1>
+  </div></header>
 
   <div class="bar gutter" id="browse" role="search"><div class="wrap">
     <div class="row1">
@@ -53,6 +74,10 @@
 
   <div class="gutter"><div class="wrap">
     <ul id="grid"></ul>
+  </div></div>
+</div>
+
+  <div class="gutter"><div class="wrap">
     <footer class="foot">数据来自 Hacker News /*RANGE*/ 年的 /*NYEARS*/ 个 “Those making $500/month on side projects” 帖子。收入全部是作者自述，没有核实；网站状态是 /*CHECKED*/ 自动检查的结果，可能有误判。按估算月收入排序时，年收入按 1/12、周收入按 ×4.3 折算；累计或一次性收入不参与排序。源码：<a href="https://github.com/bassnova42/500mrr" target="_blank" rel="noopener">GitHub</a></footer>
   </div></div>
 </div>
@@ -61,6 +86,8 @@
 
 <script>
 const MODE = /*MODE*/"site";
+const PAGE = /*PAGE*/"home";
+const FEATURED = /*FEATURED*/[];
 const DATA = /*DATA*/[];
 const STATUS = /*STATUS*/{};
 const HERO = /*HERO*/[];
@@ -92,6 +119,7 @@ DATA.forEach((d, i) => {
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
 const link = d => MODE === 'site' ? `p/${esc(d.pid)}.html` : `#p-${esc(d.pid)}`;
+const allHref = (q = '') => MODE === 'site' ? 'all.html' + q : '#all';
 const state = { years: new Set(), cats: new Set(), stat: new Set(), q: '', sort: 'year' };
 const counts = key => DATA.reduce((o, d) => (o[d[key]] = (o[d[key]] || 0) + 1, o), {});
 const yc = counts('year'), cc = counts('category'), gc = counts('g');
@@ -125,10 +153,29 @@ $('catTiles').innerHTML = CATS.map(c => {
     <span class="cb"><b>${esc(c)}</b><span>${cc[c]} 个</span></span>
   </button></li>`;
 }).join('');
-document.querySelectorAll('.cat').forEach(b => b.onclick = () => {
-  state.cats = new Set([b.dataset.cat]); render(); $('browse').scrollIntoView({ behavior: 'smooth' });
-});
-$('toprev').onclick = () => { state.sort = 'rev'; $('sort').value = 'rev'; render(); $('browse').scrollIntoView({ behavior: 'smooth' }); };
+/* Going to the all-projects page: a separate file on the site, a #all view in the single-page version. */
+function goAll(opts) {
+  if (MODE === 'site') { location.href = allHref(opts.cat ? '?cat=' + encodeURIComponent(opts.cat) : opts.sort ? '?sort=' + opts.sort : ''); return; }
+  if (opts.cat) { state.cats = new Set([opts.cat]); }
+  if (opts.sort) { state.sort = opts.sort; $('sort').value = opts.sort; }
+  render(); location.hash = 'all';
+}
+document.querySelectorAll('.cat').forEach(b => b.onclick = () => goAll({ cat: b.dataset.cat }));
+$('toprev').onclick = () => goAll({ sort: 'rev' });
+['startAll', 'moreLink'].forEach(id => $(id).href = allHref());
+$('homeLink').href = MODE === 'site' ? 'index.html' : '#home';
+$('allN').textContent = DATA.length;
+$('moreN').textContent = DATA.length - 8;
+$('moreLink').textContent = `查看全部 ${DATA.length} 个项目 →`;
+
+/* Editor's picks */
+$('feat').innerHTML = FEATURED.map(([pid, hook]) => BY[pid]).map((d, i) => d ? `<li class="card${isDead(d) ? ' is-dead' : ''}"><a href="${link(d)}">
+    <div class="browser"><div class="chrome"><i></i><i></i><i></i><span>${esc(d.host || '没有网址')}</span></div>
+      <div class="view">${d.thumb ? `<img src="${esc(d.thumb)}" alt="" loading="lazy">` : ''}${d.m != null ? `<span class="badge">${money(d.m)}/月</span>` : ''}</div></div>
+    <div class="ctitle">${esc(d.name)}</div>
+    <div class="hook">${esc(FEATURED[i][1])}</div>
+    <div class="cmeta"><span class="yr">${d.year}</span><span>${esc(d.category)}</span></div>
+  </a></li>` : '').join('');
 
 function chips(el, values, set, cnt) {
   el.innerHTML = '';
@@ -174,6 +221,11 @@ function render() {
   $('count').textContent = `${rows.length} / ${DATA.length}`;
   $('grid').innerHTML = rows.length ? rows.map(card).join('') : '<li class="empty">没有匹配的项目。换个关键词，或清除筛选。</li>';
 }
+if (MODE === 'site' && PAGE === 'all') {
+  const p = new URLSearchParams(location.search);
+  if (p.get('cat') && cc[p.get('cat')]) state.cats = new Set([p.get('cat')]);
+  if (p.get('sort')) { state.sort = p.get('sort'); $('sort').value = state.sort; }
+}
 $('q').addEventListener('input', ev => { state.q = ev.target.value; render(); });
 $('sort').addEventListener('change', ev => { state.sort = ev.target.value; render(); });
 render();
@@ -196,7 +248,7 @@ function detail(d) {
   $('detail').innerHTML = `
   <div class="dhero">${d.thumb ? `<div class="bgshot" style="background-image:url('${esc(d.thumb)}')"></div>` : ''}<div class="bgfade"></div>
     <div class="gutter"><div class="wrap">
-      <div class="crumb"><button type="button" id="back">← 返回全部项目</button></div>
+      <div class="crumb"><button type="button" id="back">← 返回</button></div>
       <article class="detail">
         <div class="browser"><div class="chrome"><i></i><i></i><i></i><span>${esc(d.host || '没有网址')}</span></div><div class="view">${shot}</div></div>
         <div class="prose">
@@ -220,24 +272,28 @@ function detail(d) {
     ${rel.length ? `<section class="related"><div class="sec-head"><div><div class="eyebrow">More like this</div><h2>同类项目</h2></div></div><ul class="rgrid">${rel.map(card).join('')}</ul></section>` : ''}
     <nav class="pager">${prev ? `<a href="${link(prev)}">← ${esc(prev.name)}</a>` : '<span></span>'}${next ? `<a href="${link(next)}">${esc(next.name)} →</a>` : '<span></span>'}</nav>
   </div></div>`;
-  $('back').onclick = () => { history.length > 1 && listY != null ? history.back() : (location.hash = ''); };
+  $('back').onclick = () => { history.length > 1 ? history.back() : (location.hash = 'home'); };
 }
-let listY = null;
+const scrollPos = {};
+let view = null;
+function show(v) {
+  if (view && view !== 'detail') scrollPos[view] = scrollY;
+  $('home').hidden = v !== 'home'; $('allv').hidden = v !== 'all'; $('list').hidden = v === 'detail'; $('detail').hidden = v !== 'detail';
+  view = v;
+}
 function route() {
-  if (MODE === 'site') return;
+  if (MODE === 'site') { show(PAGE); return; }
   const m = location.hash.match(/^#p-([\w-]+)$/);
   const d = m && BY[m[1]];
   if (d) {
-    if (!$('list').hidden) listY = scrollY;
-    detail(d);
-    $('list').hidden = true; $('detail').hidden = false;
+    const from = view; show('detail'); detail(d); scrollTo(0, 0);
     document.title = d.name + ' · HN 月入 $500 副业名录';
-    scrollTo(0, 0);
-  } else if (!$('detail').hidden || location.hash === '') {
-    $('detail').hidden = true; $('list').hidden = false;
-    document.title = 'HN 月入 $500 副业名录';
-    if (listY != null) scrollTo(0, listY);
+    return;
   }
+  const v = location.hash === '#all' ? 'all' : 'home';
+  show(v);
+  document.title = (v === 'all' ? '全部项目 · ' : '') + 'HN 月入 $500 副业名录';
+  scrollTo(0, scrollPos[v] || 0);
 }
 addEventListener('hashchange', route);
 route();

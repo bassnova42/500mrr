@@ -121,6 +121,18 @@ h1, h2, h3 { text-wrap: balance; }
 .cat .cb b { font-weight: 600; }
 .cat .cb span { font-family: var(--font-mono); font-size: 12px; color: var(--muted); }
 
+/* Editor's picks + link to the full list */
+.feat { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 30px 20px; }
+.feat .hook { font-size: 14px; color: var(--fg); opacity: .85; line-height: 1.5; }
+.more { margin: 40px 0 24px; padding: 28px; border-radius: 18px; border: 1px solid var(--line); background: linear-gradient(120deg, var(--accent-soft), transparent 70%), var(--surface); display: flex; flex-wrap: wrap; gap: 16px 28px; align-items: center; justify-content: space-between; }
+.more p { margin: 0; font-size: 17px; max-width: 46ch; color: var(--muted); }
+.more b { color: var(--fg); font-family: var(--font-display); font-size: 22px; }
+.btn.big { font-size: 17px; padding: 14px 26px; }
+.allhead { padding-block: 8px 4px; border-bottom: 1px solid var(--line); background: var(--bg-2); }
+.allhead .wrap { display: grid; gap: 6px; padding-bottom: 22px; }
+.allhead h1 { font-family: var(--font-cjk); font-weight: 900; font-size: clamp(30px, 5vw, 48px); margin: 0; line-height: 1.1; }
+.allhead + .bar { margin-top: 0; }
+
 /* ---------- Filter bar ---------- */
 .bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 10; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); padding-block: 12px 10px; border-bottom: 1px solid var(--line); margin-top: 28px; }
 .bar .wrap { display: grid; gap: 8px; }
@@ -199,6 +211,7 @@ footer.foot a { color: var(--fg); }
 .pager a:hover { color: var(--fg); border-color: var(--accent); }
 
 @media (max-width: 860px) {
+  .feat { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .detail { grid-template-columns: minmax(0, 1fr); gap: 22px; }
   .hero-wall { right: -360px; opacity: .55; }
   .hero-fade { background: linear-gradient(90deg, var(--bg) 20%, color-mix(in srgb, var(--bg) 70%, transparent)), linear-gradient(0deg, var(--bg) 0, transparent 30%); }
