@@ -1,0 +1,475 @@
+year|hn_id|name|url|category|revenue|desc
+2020|24948810|未具名副业||其他|~$150k/月|白天上班，副业已有10名员工；建议“找真实行业用软件增强，先收钱”
+2020|24949065|LogMyHours|https://logmyhours.com|SaaS|~$1k/月|时间追踪与开票软件，增长停滞
+2020|24949168|SourcingWise|https://gosourcingwise.com|SaaS|未披露|QuickBooks Online 插件，向供应商发起询价
+2020|24949415|bufr.sh|https://bufr.sh|开发者工具/API|未披露|为老客户做的工具，对外销售不多
+2020|24949528|Buy Funny Aprons|https://buyfunnyaprons.com/|电商/实体产品|未披露|按需印刷（POD）搞笑围裙网店
+2020|24949621|产品化 SEO 服务||服务/外包|~$2.5k/月（利润率20%）|$599/月固定套餐（内容+设计+外链），客户多是澳洲牙医
+2020|24949894|Violinist|https://violinist.io|开发者工具/API|盈利（未披露）|自动更新 PHP Composer 依赖
+2020|24949936|Checkbot|https://www.checkbot.io/|浏览器扩展/插件|未披露|批量检查网站 SEO/速度/安全问题的 Chrome 扩展
+2020|24950123|Castup|https://www.useCastup.com|服务/外包|未披露|产品化的播客剪辑服务，自研软件省70%剪辑时间
+2020|24950703|JoyBuddies / OpenSimWorld|https://joybuddies.com|内容/社区/媒体|未披露|中年女性家庭游戏社区 + 虚拟世界目录
+2020|24950826|AlgoDaily|https://algodaily.com|课程/书籍|~$3k MRR|面向初学者、图解式的技术面试课程
+2020|24951820|Bullish|https://bullish.email|内容/社区/媒体|未披露|全自动股市 newsletter
+2020|24953533|Google Search API|https://goog.io|开发者工具/API|年内累计 $6k+|在 RapidAPI 卖 Google 搜索 API，成本<$100/月
+2020|24954212|Egna Stickers|https://egnastickers.se|电商/实体产品|~€1k/月|拍卖捡漏印刷设备，在 Etsy 卖贴纸
+2020|24954957|TuneTranscriber|https://www.tunetranscriber.com/|内容/社区/媒体|少量|意外排上“mp3 减速”关键词，零维护被动收入
+2020|24955525|UserTrack|https://www.usertrack.net|SaaS|$1k–2k/月|可自托管的网站分析平台
+2020|24959316|WebRender|https://webrender.io/|开发者工具/API|覆盖成本|基于 Cloudflare Workers 给爬虫返回预渲染页面
+2020|24961570|Sitesauce|https://sitesauce.app|开发者工具/API|未披露|把动态网站一键转静态并部署到 Vercel
+2020|24982186|Panelbear|https://panelbear.com|SaaS|<$500（刚上线）|隐私友好的网站分析，已有200+客户
+2021|29667315|eBay 二手转卖||其他|首年流水~$20k|午休逛二手店，用 eBay 扫码比价后转卖
+2021|29667638|inlets|https://inlets.dev|开发者工具/API|未披露|自托管隧道（ngrok 替代），开源转商业授权 + 个人订阅
+2021|29667927|亚马逊联盟评测站|https://www.hayksaakian.com|内容/社区/媒体|未披露|总结热门商品评价的联盟站，大部分外包
+2021|29667962|Server Thief Bait|https://serverthiefbait.com|SaaS|不错（未披露）|一个周末做完，一年多没碰
+2021|29667970|fadel.io / PodBuddy|https://fadel.io/|移动/桌面 App|$4k/月|Mac 小工具 + iOS App
+2021|29668043|Forward Email|https://forwardemail.net|SaaS|每月数千美元|开源邮件转发服务，公开营收
+2021|29668060|Algeo 计算器|https://play.google.com/store/apps/details?id=com.algeo.algeo|移动/桌面 App|~$500/月|Android 图形计算器，早年收入更高
+2021|29668113|AppMasker|https://appmasker.com|开发者工具/API|未披露|基于 Caddy 的反向代理服务，给 SaaS 加自定义域名
+2021|29668142|DIY 生物勘探||服务/外包|未披露|为生物科技公司采集土壤并在家庭实验室做酶筛选
+2021|29668166|Magic Lasso Adblock|https://www.magiclasso.co/|移动/桌面 App|>$500/月|Safari 广告拦截（iOS/macOS），Pro 订阅；拦 YouTube 广告后大涨
+2021|29668302|5.15 攀岩卡牌游戏||游戏|~$500/月|面向攀岩爱好者的小众桌游，自己发货
+2021|29668308|AhhLife|https://ahhlife.com|SaaS|>$500/月（多年）|OhLife 克隆：回复邮件写日记，几乎零维护
+2021|29668311|Patreon（shawwn）|https://patreon.com/shawwn|开源/赞助|~$100/月|Patreon 支持
+2021|29668312|Computer Engineering for Babies|https://hackylabs.com|电商/实体产品|Kickstarter ~$250k|带按钮和 LED 演示逻辑门的婴儿书
+2021|29668326|科学实验书作者||课程/书籍|预付金 + 版税|“对亲人做科学实验”系列书，建议找文学经纪人
+2021|29668343|Automations.io|https://automations.io|SaaS|未披露|工作流 + 剧本 + iPaaS + 任务管理
+2021|29668350|Hacker Newsletter|https://hackernewsletter.com|内容/社区/媒体|未披露|第11年的 HN 精选周刊
+2021|29668367|3GeoNames|https://3geonames.org/api|开发者工具/API|~$500/月|免费逆地理编码 API，在 GCP/AWS 市场卖镜像
+2021|29668395|TypeNine|https://itunes.apple.com/us/app/typenine-ultimate-t9-style-keyboard/id926008509|移动/桌面 App|~$600/月（自2014）|多语言 T9 风格 iOS 键盘
+2021|29668425|家庭挖矿||其他|~$100/天利润|ASIC + 显卡挖矿，顺便给房子供暖
+2021|29668435|Checkbot|https://www.checkbot.io/|浏览器扩展/插件|未披露|批量检查 SEO/速度/安全问题
+2021|29668441|Homechart|https://homechart.app|SaaS|未披露|待办/日历/菜谱/预算一体化家庭应用，可自托管
+2021|29668446|Eclidus|http://eclidus.com|游戏|曾~$500/月|魔方类手游，后转为免费
+2021|29668455|MetaSnake|https://store.metasnake.com|课程/书籍|~$2k/月|Python 与数据科学点播课程
+2021|29668468|Rithm Design Co（Etsy）|https://www.etsy.com/shop/rithmdesignco/|电商/实体产品|年均~$500/月|Etsy 卖插画
+2021|29668527|Oaka 健康皮鞋|https://www.kickstarter.com/projects/oaka/oaka-the-worlds-healthiest-dress-shoes|电商/实体产品|Kickstarter ~$100k 预订|设计更健康的男士正装鞋
+2021|29668530|哥伦比亚咖啡农场||其他|~$800/月|买下咖啡农场，产量翻倍中
+2021|29668571|GreenBooks|https://greenbooks.app|移动/桌面 App|~$500/月|个人记账 App
+2021|29668604|收购电商业务||电商/实体产品|~$30k/月利润|收购月利$2k 的电商做到 $30k，团队3人
+2021|29668645|TabbyData|https://www.tabbydata.com|SaaS|预计次年2月达$500|—
+2021|29668661|Twenty|https://news.ycombinator.com/item?id=9543005|游戏|~$500/月|多年前 Show HN 起飞的数字游戏
+2021|29668670|Relm|https://www.relm.us|SaaS|~$400/月|面向人生教练的浏览器 3D 社交世界
+2021|29668677|加密借贷/质押||其他|~$500/周|稳定币与蓝筹币借贷收益
+2021|29668696|Pikaso / PostSheet / Volt.fm|https://pikaso.me|SaaS|未披露|推文转 Instagram 图片；Sheets/Airtable 群发邮件短信；Spotify 统计
+2021|29668721|UrbEmSketches（Etsy）|https://www.etsy.com/shop/UrbEmSketches|电商/实体产品|未披露|定制水彩房屋肖像
+2021|29668722|UnitPrice / OkayCup|https://unitprice.org|内容/社区/媒体|~$5/月|亚马逊单位价格比较，联盟收入（自嘲）
+2021|29668754|Drink Your Daily Water|https://drinkyourdailywater.com/|电商/实体产品|未披露|提醒喝水的玻璃水壶
+2021|29668760|老年人电脑帮助||服务/外包|~$1.5k/月（10年）|$25/小时上门帮老人用 Windows + 卖翻新笔记本
+2021|29668773|医疗用品电商||电商/实体产品|净~$4k/月|一人：iPhone + Shopify + Instagram
+2021|29668807|Mailwip（原 Hanami.run）|https://mailwip.com|SaaS|未披露|高级邮件转发：SMTP、Webhook、正则路由
+2021|29668863|Nodewood|https://nodewood.com/|开发者工具/API|~$500/月|SaaS 起步模板
+2021|29669014|英国手机套餐比价站||内容/社区/媒体|>$500/月|做了一年多 SEO 才有流量
+2021|29669065|Golf Forecast|https://www.golfforecast.co.uk|SaaS|$3k–5k/月|高尔夫投注算法，订阅 + 自投收益
+2021|29669071|Fiendish Sudoku 等数独站|https://fiendishsudoku.com|内容/社区/媒体|~$1k/月（自2005）|一组免费数独网站，广告 + 捐赠
+2021|29669079|付费专家访谈||服务/外包|几千美元/月|$500–1000/小时
+2021|29669085|n0c0de|https://www.n0c0de.com|服务/外包|年~$10k|无代码项目，大部分外包
+2021|29669100|清洁质检平台 + Airbnb 费用软件||SaaS|$600 + $1.2k/月|给一家全国性清洁公司和几位大房东定制
+2021|29669105|Just Read|https://justread.link/|浏览器扩展/插件|~$500/月|可定制的阅读模式扩展
+2021|29669110|小机构服务器运维||服务/外包|~$2k/月|给非营利和小网站做月度运维
+2021|29669114|FreeBSD/EC2 维护|https://www.patreon.com/cperciva|开源/赞助|$1,373/月|Patreon 捐赠
+2021|29669123|Currents API|https://currentsapi.services/|开发者工具/API|>$500/月|新闻爬虫 API
+2021|29669142|Wandering Labs|https://wanderinglabs.com/|SaaS|超过本职工资|抓取营地网站，有空位就提醒
+2021|29669146|跨境小件套利||电商/实体产品|净利≥$1.5k/月|爬数据找价差，海外采购本地卖
+2021|29669149|Review Signal|https://ReviewSignal.com|内容/社区/媒体|未披露|基于推特情感分析的主机评测
+2021|29669170|游戏 Wiki 站||内容/社区/媒体|~$900/月|十年前建站，今年做 SEO；托管在 S3
+2021|29669186|Excel Converter|https://excel-converter.com|SaaS|未披露|Excel 转 HTML 表格
+2021|29669201|Labrador USB 示波器|https://espotek.com/labrador|电商/实体产品|~$4k/月（毛利50%）|开源硬件，主要走 Amazon
+2021|29669242|Approximated|https://approximated.app|开发者工具/API|未披露|为 SaaS 用户接入自定义域名 + 自动 SSL
+2021|29669244|Best in Class iOS App|https://bestinclassiosapp.com|课程/书籍|5月以来 $100k+|iOS 开发系列电子书
+2021|29669257|Inspect|http://inspect.dev|开发者工具/API|$1k+ MRR|在桌面调试 iOS 上的移动网页
+2021|29669316|Filestash|https://github.com/mickael-kerjean/filestash|开源/赞助|~$600/月|开源网页文件管理器，靠定制和支持收费
+2021|29669415|Rows & Tables|https://rowsandtables.com|游戏|未披露|学 SQL 的卡牌游戏
+2021|29669467|BlueFox Music|https://bluefoxmusic.com|内容/社区/媒体|~$800/月|免费免版税音乐，靠 YouTube Content ID 分成
+2021|29669523|3D 打印卡扣配件||电商/实体产品|~$2k/月|给收藏爱好者打印小配件，eBay 销售
+2021|29669524|Codepip|https://codepip.com|游戏|未披露|Flexbox Froggy 等编程学习游戏
+2021|29669559|以太坊验证节点||其他|~$600/月（理论）|质押 ETH
+2021|29669714|OSRS 物价 Discord 机器人||SaaS|>$1k/月|游戏市场价格异动提醒，付费会员
+2021|29669740|BeeLine Reader|http://www.beelinereader.com|SaaS|可观的被动收入|阅读增强技术授权给 Blackboard 等
+2021|29669758|Shopify App||SaaS|~$2.7k/月（扣费后）|2013年至今，增长已平稳
+2021|29670081|SaaS Pegasus|https://www.saaspegasus.com/|开发者工具/API|~$5k/月|Django SaaS 模板（作者公开营收）
+2021|29670081|PlaceCard.me|https://www.placecard.me/|SaaS|~$1k/月|婚礼座位卡制作
+2021|29670146|Newsy|https://www.newsy.co|SaaS|稳定增长|用闲置域名生成内容站
+2021|29670187|Medicaid 病例管理计费系统||SaaS|~$3k/月|前期工作量大，后期维护少
+2021|29670196|Bruzu|https://Bruzu.com|开发者工具/API|$204/月|动态生成图片的 API
+2021|29670289|Bankfeeds|https://bankfeeds.io|SaaS|~$2.5k/月|把 Stripe 等同步到 Xero 自动记账
+2021|29670293|Habit Zap|https://www.habitzap.com|移动/桌面 App|<$500|番茄钟“播放列表”
+2021|29670353|Remote Leaf|https://remoteleaf.com|SaaS|~$2k/月|精选远程工作推送
+2021|29670468|Unison Hosting|https://unisonhosting.com|SaaS|~$2k/月|Discourse 论坛托管
+2021|29670504|影视/直播制作公司||服务/外包|$6k–12k/月（利润40–60%）|业余拍摄与制作
+2021|29670637|Airsoft Bazaar|https://www.airsoftbazaar.com|SaaS|~€600/月|气枪装备 C2C 交易市场
+2021|29670708|Writing for Software Developers|https://philipkiely.com/wfsd/|课程/书籍|>$500/月|大学时写的书，长尾销售
+2021|29670733|CSSBattle|https://cssbattle.dev/|游戏|>$500/月|CSS 代码高尔夫竞赛，两人团队
+2021|29670745|New Business Monitor|https://newbusinessmonitor.co.uk/|SaaS|未披露|英国公司注册数据潜客搜索，Haskell 编写
+2021|29670789|My Book Bag|https://mybookbag.com.au/|电商/实体产品|微利|儿童社交情感绘本订阅盒
+2021|29670820|Weekly Robotics|https://weeklyrobotics.com/|内容/社区/媒体|~$600/月|机器人 newsletter，开放广告后
+2021|29670854|Taskito|https://taskito.io/|移动/桌面 App|$2.5k MRR|任务管理；从内购改订阅后增长
+2021|29670891|FitYou||移动/桌面 App|~$200/月|健身 App
+2021|29670921|Fonts for Stories||移动/桌面 App|~$20/月|iOS 花式字体键盘
+2021|29670992|Part Time Larry|https://youtube.com/parttimelarry|内容/社区/媒体|~$5k/月|Python 金融 YouTube：广告 + 联盟 + 赞助
+2021|29671002|Pins|https://news.ycombinator.com/item?id=25881622|移动/桌面 App|未披露|Pinboard 客户端，$15 买断
+2021|29671019|Stock Events|https://stockevents.app|移动/桌面 App|~$5k/月|以“事件”为中心的投资追踪 App（Flutter + Go）
+2021|29671032|Escape Team|https://www.escape-team.com|游戏|~$800/月|打印式密室逃脱 + App 内购
+2021|29671087|FitLoop|https://fitloop.app|移动/桌面 App|~$1k/月|自重健身入门
+2021|29671149|Career Switch to Coding|https://CareerSwitchToCoding.com|课程/书籍|>$500/月|转行编程的书 + 约稿
+2021|29671214|ExtraStatic|https://extrastatic.com|SaaS|接近$500|静态博客托管，基于 GitLab
+2021|29671247|园林绿化公司||服务/外包|$10k/月|出资买设备 + 合伙人干活，利润五五分
+2021|29671387|Anvere|https://anvere.net|开发者工具/API|$700|Algolia 替代
+2021|29671397|Vlad.studio|https://vlad.studio/|内容/社区/媒体|~$400/月|20年手绘壁纸会员
+2021|29671480|Tradytics|https://tradytics.com|AI 产品|~$120k/月|AI 交易灵感平台，3000+ 付费用户，独自运营
+2021|29671510|PDF2QRCode|https://pdf2qrcode.com|SaaS|~$600/月|PDF 生成二维码
+2021|29671530|Mailboxfiler|https://mailboxfiler.com/|SaaS|接近$500|邮件归档
+2021|29671550|Alovez / Snapfeel + Windows Apps|https://www.alovez.com|移动/桌面 App|~$550|2个网站 + 4个 Windows App
+2021|29671574|webtoapp.design|https://webtoapp.design|SaaS|~$1.5k/月|网站转 App
+2021|29671651|OnlineOrNot|https://onlineornot.com/|SaaS|$300/月|JS 应用可用性监控
+2021|29671793|GetGeoAPI|https://getgeoapi.com|开发者工具/API|$1k–1.8k/月|IP 定位 + 汇率 API，借 RapidAPI 等市场获客
+2021|29671876|NoisyCamp|https://noisycamp.com|SaaS|<$500|帮音乐人找排练/演出场地
+2021|29672120|微型 ISP||服务/外包|~$4.5k/月|给约100家企业提供千兆网络
+2021|29672134|TurnShift|https://turnshift.app|SaaS|~$500 MRR|Slack 内轮值排班，10个客户
+2021|29672197|Boomla|https://boomla.com/|SaaS|暂无|免费无代码建站 + 应用平台
+2021|29672252|Krok.link|https://krok.link/|SaaS|<$300/月|社交主页链接管理，代理商渠道
+2021|29672583|建筑工地 iOS App||移动/桌面 App|~$700/月|正以 $60k 出售
+2021|29672601|Vimalin / Vimarun / AntView|https://vimalin.com|开发者工具/API|未披露|VMware 热备份等小工具
+2021|29672635|Reacher|https://reacher.email|开发者工具/API|$10k ARR|开源邮箱验证 API（Rust）
+2021|29672706|Online Solitaire|https://online-solitaire.com/|游戏|$10k+/月|纸牌接龙网站
+2021|29673047|ClassPlacer|https://classplacer.com|SaaS|~$6k/暑期|小学分班算法
+2021|29673131|体育比分 App 组合||移动/桌面 App|~$100k/月|单人，从早期移动应用时代做起
+2021|29673162|CodeReview.doctor|http://codereview.doctor/|开发者工具/API|未披露|在 GitHub PR 内给出修复建议的静态分析
+2021|29673464|ChessCraft|https://www.chesscraft.ca|游戏|~$500/月|国际象棋变体 AI 沙盒，“赞助式”内购
+2021|29673723|营销管理定制 SaaS||SaaS|~$2.5k/月（已终止）|为大公司定制，8年零改动
+2021|29673792|AskReddit YouTube 频道||内容/社区/媒体|~$1k/月|自研软件半自动生成视频
+2021|29673866|Jammed|https://jammed.app|SaaS|~£400/月|音乐排练室预订软件
+2021|29674129|VersionSQL|https://www.versionsql.com/|开发者工具/API|增长中|SSMS 版本控制插件；开发/营销时间对半分后增长
+2021|29674448|Timestamp.online|https://timestamp.online/|内容/社区/媒体|~$100/月|时间戳转换工具站
+2021|29675176|Medium 专栏 + ML 课程||课程/书籍|~$1.5k/月|
+2021|29675385|Get To Know|https://gettoknowapp.com|SaaS|未披露|Slack 问答机器人（Elixir）
+2021|29675774|意大利 Telegram 机器人||内容/社区/媒体|广告|每月只卖一个定向广告位
+2021|29677766|金融 YouTube 频道||内容/社区/媒体|~$30k/月|ffmpeg 自动剪辑省 75% 时间
+2021|29678305|Udemy Vue.js 课程|https://www.udemy.com/user/lachlan-miller-4/|课程/书籍|~$500/月|
+2021|29679643|SyncXColors|https://syncxcolors.xyz/|其他|累计~$20k|链上动画 NFT
+2021|29679880|音色预设 Patreon|https://www.patreon.com/kyefox|内容/社区/媒体|$110/月|合成器预设
+2021|29681086|Learn Programmatic SEO|https://preetamnath.com/programmatic-seo|课程/书籍|$500–600/月|程序化 SEO 课程，累计 ~$20k
+2021|29681657|VATComply|https://vatcomply.com|开发者工具/API|未披露|增值税合规 API（开源）
+2021|29682521|自出版科幻小说||课程/书籍|接近$500|每出一本新书基线就抬高一点
+2021|29682742|HSK Tests|https://hsktests.com/|课程/书籍|曾~$500/月|HSK 备考资料（网站坏后归零）
+2021|29690637|Varianto:25|https://varianto25.com/|电商/实体产品|~$400/月|程序员周边商品
+2021|29695703|EasyTee Golf|https://easyteegolf.com/|SaaS|<$1k MRR|高尔夫球场订场 + Square 支付
+2021|29701432|Linguakit|http://linguakit.com|内容/社区/媒体|~$400/月|NLP 工具前端 + AdSense
+2021|29753150|Gematrix|https://www.gematrix.org|内容/社区/媒体|>$500/月|希伯来数字命理计算器
+2021|29826920|Slotted|https://slotted.co|SaaS|未披露|报名表/预约时段 App（2013年起）
+2022|34190657|CheckVisaSlots|https://checkvisaslots.com|浏览器扩展/插件|未披露|美签预约位查询；入选 Google 2022 年度扩展
+2022|34191462|Junior to Senior|https://www.holloway.com/b/junior-to-senior|课程/书籍|>$500/月|面向初级工程师的软技能书 + newsletter
+2022|34191930|Mailsac|https://mailsac.com|开发者工具/API|未披露|面向 QA/开发团队的临时邮箱，做了10年+
+2022|34192944|Breeze Order Manager|http://breeze.humbersoft.ca|SaaS|未披露|批量打印 PayPal 订单，运营7年+
+2022|34194400|MesoSim|https://portal.deltaray.io|SaaS|未披露|期权策略回测
+2022|34194508|OnlineOrNot|https://onlineornot.com|SaaS|未披露|状态页 + 可用性监控
+2022|34194716|PEPChecker|https://pepchecker.com|开发者工具/API|未披露|政治公众人物/制裁名单查询 API
+2022|34195032|KTool|https://ktool.io|SaaS|$580 MRR|把网页/newsletter/RSS 推送到 Kindle
+2022|34195173|Velomapa|https://velomapa.pl|内容/社区/媒体|旺季~$1k/月|波兰骑行内容站，广告 + 捐赠
+2022|34195325|运营8年的工具（已关停）|https://news.ycombinator.com/item?id=8669122|SaaS|$5k/月|2022年底主动关停
+2022|34195615|Gaintrain|https://gaintrainapp.com/|移动/桌面 App|>$500/月|增肌饮食计划 App，订阅
+2022|34196005|Sleeve|https://replay.software/sleeve|移动/桌面 App|~$700/月|Mac “正在播放”桌面组件，一次性付费
+2022|34197885|ValidBot|https://www.validbot.com|开发者工具/API|未披露|网站配置检测与监控
+2022|34198140|Inveester|https://www.inveester.com|移动/桌面 App|>$100 MRR|股息导向的组合追踪 App
+2022|34199490|Delta Outpost|https://deltaoutpost.io/|开发者工具/API|$2k MRR|私有以太坊节点
+2022|34200908|Vlad.studio|https://vlad.studio/|内容/社区/媒体|~$500/月|手绘壁纸会员
+2022|34203500|NitroHire|https://nitrohire.co|SaaS|几百美元/月|招聘推荐人核查
+2022|34363424|MessageDuck|https://www.messageduck.com|SaaS|未达$500|短信营销案例库
+2023|38469624|Label LIVE / myDPI|https://label.live|移动/桌面 App|5位数/周|Mac 标签条码设计 App + 捆绑卖打印机
+2023|38470410|出租房产||其他|$500–2100/套/月|6套出租房，物业外包
+2023|38471446|OnlineOrNot|https://onlineornot.com|SaaS|未披露|每天上班前2小时；“熬死对手”策略
+2023|38471679|ChatGPT Writer|https://chatgptwriter.ai|浏览器扩展/插件|$7k MRR|免费增值 ChatGPT 写作扩展
+2023|38471703|T3X 编程书|http://t3x.org|课程/书籍|~$500/月（合计）|
+2023|38472066|太阳能电站投资||其他|预计~$5k/月|年终奖 + 贷款买太阳能电站
+2023|38472319|Refined GitHub|https://github.com/refined-github/refined-github|开源/赞助|~$500/月|GitHub Sponsors
+2023|38473094|Stratospheric|https://stratospheric.dev/|课程/书籍|~$1.3k/月（3人分）|Spring Boot + AWS 电子书与课程
+2023|38473529|ScreenMemory|https://screenmemory.app/|移动/桌面 App|>$500（一次性）|Mac 持续截屏 + 时间轴搜索
+2023|38473544|webtoapp.design|https://webtoapp.design|SaaS|可养活自己|网站转 App，4年，主要靠 SEO
+2023|38475239|ScreenPrices|https://www.screenprices.info/|内容/社区/媒体|11月>$500|显示器比价，上线不到一个月
+2023|38479991|FundedList|https://www.fundedlist.com|SaaS|~$1.1k/月|每周新融资公司销售线索，冷邮件获客
+2024|42374427|技术文档写作||服务/外包|$80/小时|
+2024|42374487|Heliographe|https://heliographe.net|移动/桌面 App|增长中|苹果平台摄影工具
+2024|42374831|Aptakube|https://aptakube.com|开发者工具/API|已成主业|Kubernetes 桌面 UI，$99
+2024|42374907|Mockoon|https://mockoon.com|开源/赞助|稳步增长|开源 API Mock 工具 + 云服务
+2024|42375215|PortDroid|https://portdroid.net|移动/桌面 App|未披露|Android 端口扫描，80万下载
+2024|42375403|SmoothTrack|https://smoothtrack.app|移动/桌面 App|未披露|用手机做头部追踪（TrackIR 替代）
+2024|42375423|DIGRIN|https://digrin.com|SaaS|$740 MRR|股息追踪
+2024|42375440|LeetCode Wizard|https://leetcodewizard.io|AI 产品|~$15k/月|面试作弊用的隐形 AI 应用（争议）
+2024|42375603|Cluehound|https://cluehound.com|电商/实体产品|~$500 利润/月|插画叙事解谜杂志
+2024|42375890|Vocabuo / GifMemes|https://vocabuo.com|移动/桌面 App|$3.5k 营收 + $100–300|背单词（多投广告）+ GIF 表情站
+2024|42375987|Pink Pigeon CMS|https://pinkpigeon.co.uk|SaaS|~£500/月|快速、移动端友好的 CMS，全靠口碑
+2024|42376005|清洁公司分成||服务/外包|$6k–7k/月|帮清洁公司获客，抽7%流水
+2024|42376028|ReqRes|https://reqres.in/|开发者工具/API|~$500/月|假数据 REST API，广告收入
+2024|42376246|Unlisted Jobs|https://www.unlistedjobs.com/|SaaS|未披露|直接抓取公司官网职位
+2024|42376682|OnlyFans AI 聊天机器人||AI 产品|~$15k MRR|自建 GPU + Llama 3 模仿创作者口吻
+2024|42376811|节日支付系统||SaaS|>$500/月（年均）|线上线下节庆支付
+2024|42379218|Rogue Stargun|https://roguestargun.com|游戏|未披露|独立 VR 太空战斗
+2024|42379261|Littler Books|https://littlerbooks.com|内容/社区/媒体|少量|非虚构书摘
+2024|42379313|Cronitor|https://cronitor.io|开发者工具/API|已成主业|2014年 HN 起步的定时任务监控
+2024|42379391|Story Treasure|https://www.storytreasure.ai/|AI 产品|刚上线|生成插画儿童书
+2024|42379512|SparkFX|https://sparkfxstudio.com/|移动/桌面 App|未披露|DaVinci Resolve 辅助工具
+2024|42379516|NanaGram|https://nanagram.co|SaaS|足够全职|短信发照片，每月打印寄给长辈
+2024|42379557|文档数据提取||AI 产品|未披露|主要客户是一家私募基金
+2024|42379600|terminal.shop|https://terminal.shop|电商/实体产品|首年6位数|用 ssh 在终端里卖咖啡
+2024|42379635|Lulim Jewelry|https://lulimjewelry.com|电商/实体产品|盈利|3D 打印蜡模定制珠宝
+2024|42379691|Rigged.ai|https://rigged.ai|SaaS|未披露|期权大单分析与提醒
+2024|42379744|FitBee|https://apps.apple.com/us/app/fitbee-calorie-counter/id6443979108|移动/桌面 App|未披露|轻快的卡路里追踪
+2024|42379793|激光切割墙饰||电商/实体产品|$2k–5k/月|Facebook Marketplace 销售
+2024|42379838|5/3/1 App|https://fivethreeone.app/|移动/桌面 App|~$1k/月|5/3/1 力量训练 App
+2024|42380124|Figmage|https://figmage.com|浏览器扩展/插件|未披露|Figma 图片托管插件
+2024|42380127|Keila|https://www.keila.io|开源/赞助|刚过$500 MRR|开源邮件营销平台（Elixir）
+2024|42380300|广告拦截检测 SaaS||SaaS|$600/月|2个企业客户私有部署
+2024|42380333|Skippies|https://blog.labsbell.com/blog/SkippiesPart2|电商/实体产品|未披露|$4.99 的鞋
+2024|42380370|Hacker Newsletter|https://hackernewsletter.com/|内容/社区/媒体|赞助|15年，6万+订阅
+2024|42380416|律所文件传输||服务/外包|6个月€10k|
+2024|42380418|Lightnote|https://www.lightnote.co/|课程/书籍|够付房租|交互式乐理课；加 PayPal 后收入翻倍
+2024|42380428|PastMaps|https://pastmaps.com|SaaS|~$5k/月|老地图版 Google Maps，18.5万张地理配准地图
+2024|42380494|小说播客|https://news.ycombinator.com/item?id=42380474|内容/社区/媒体|~$1.1k/月|
+2024|42380515|ClearPayments|https://clearpayments.ca|服务/外包|$3.5k–5k/月|支付处理服务，纯转介绍
+2024|42380517|FreeSolitaire.win|https://FreeSolitaire.win|游戏|~$500/月|极简纸牌 PWA，广告收入
+2024|42380735|RankPic|https://www.rankpic.info|移动/桌面 App|>$500/月|众包帮你选最好的照片
+2024|42380779|Hyperpaper|https://hyperpaper.me/|SaaS|>$500/月|为 reMarkable 等电子墨水平板生成计划本
+2024|42380788|The Stoned Craftsmen（Etsy）||电商/实体产品|$1.2k–2k/月|实木卷烟托盘
+2024|42380809|Atomic Note-Taking|https://atomicnotetaking.com|课程/书籍|~$1k/月|笔记方法书/课程
+2024|42380847|SnipCSS|https://chromewebstore.google.com/detail/snipcss/hbdnoadcmapfbngbodpppofgagiclicf|浏览器扩展/插件|$500–1k/月|提取网页 CSS，支持转 Tailwind
+2024|42380889|Serpentine|https://SerpentineGame.com|游戏|接近$500|Boggle 类文字游戏，广告 + 会员
+2024|42380904|News Minimalist|https://www.newsminimalist.com/|AI 产品|~$1k MRR|按重要性 0–10 打分的新闻
+2024|42380926|BlueRetro|https://blueretro.com|开源/赞助|~$1k/月 + 硬件|开源蓝牙手柄适配固件，厂商捐助
+2024|42380936|Virtual Graph Paper|https://virtual-graph-paper.com|SaaS|未披露|网格绘图工具
+2024|42381161|WhatDinner / FluentRead|https://whatdinner.com/|移动/桌面 App|合计~$500|“吃什么”版 Tinder 等
+2024|42381174|openinverter 付费咨询|https://openinverter.org|服务/外包|$200/次，每月~2次|电动车改装
+2024|42381265|Audjust|https://www.audjust.com/|SaaS|盈利|音频智能伸缩/循环
+2024|42381279|Elite Hoops 等|https://elitehoopsapp.com|移动/桌面 App|$3.5k/月|篮球教练 App；另有 iOS 书累计 $120k
+2024|42381343|Reminder Sync for Obsidian|https://turquoisehexagon.co.uk/remindersync/|移动/桌面 App|~$500/月|Obsidian 任务同步到提醒事项
+2024|42381438|TradeInsight|https://tradeinsight.info|SaaS|<$500|内部人与国会交易提醒
+2024|42381508|ScrapeNinja|https://scrapeninja.net|开发者工具/API|未披露（1万+订阅用户）|网页抓取 API
+2024|42381512|3D 打印小商品||电商/实体产品|$500–1k/月|eBay/Etsy/Mercari
+2024|42381540|Sweet Clay|https://sweetclay.net|电商/实体产品|3周 $910|网上卖密西西比有机红薯
+2024|42381582|Wavekit|https://wavekit.app/|SaaS|<$500|无品牌音频托管与播放器
+2024|42381612|ExploreHere|https://explorehere.app|移动/桌面 App|~$1k/月|经过历史标志时推送介绍
+2024|42381759|ESP32 Rainbow|https://www.esp32rainbow.com/|电商/实体产品|年均>$500|硬件
+2024|42381844|Canyon|https://www.usecanyon.com/|AI 产品|未披露|简历与模拟面试
+2024|42381869|Why Now / Growth Units||课程/书籍|未披露|创业书籍
+2024|42381878|Forest Friends（LLM 评测 zine）|https://forestfriends.tech|课程/书籍|未披露|LLM 应用系统评测入门
+2024|42381885|Konfig|https://konfig.xyz/|SaaS|未披露|3D 产品配置器
+2024|42382078|Loaf|https://getloaf.io/|移动/桌面 App|未披露|SVG 动画定制
+2024|42382157|Airbnb 小木屋||其他|$3k–6k/月流水|远程运营
+2024|42382196|Baby Teeth|https://getbabyteeth.app|移动/桌面 App|€1k–2k/月（5年）|记录宝宝长牙，主要市场德国
+2024|42382204|植物护理 App|https://apps.apple.com/app/plant-care-identify-flowers/id1610611017|移动/桌面 App|几百美元|
+2024|42382249|智能体市场||AI 产品|>$500|
+2024|42382252|Sink It for Reddit|https://gosinkit.com|浏览器扩展/插件|4位数/月|Reddit 增强扩展，30万用户
+2024|42382295|Vidi|https://vidi.plomo.se/|移动/桌面 App|未披露|兼容 Stremio 插件的苹果媒体中心
+2024|42382300|LinkedIn Profile Optimizer|http://profileoptimizer.org/|AI 产品|未披露|
+2024|42382418|PostalAgent / CheckAnyVIN|https://postalagent.com|SaaS|未披露|在线寄明信片；车辆历史报告
+2024|42382590|发票 / 简历 App（lpeancovschi）|https://apps.apple.com/app/invoice-maker-quote-builder/id1538355349|移动/桌面 App|未披露|iOS/macOS 发票、简历生成器
+2024|42382602|Substack2Kindle|https://substack2kindle.com|SaaS|未披露|
+2024|42382635|Pikuma|https://pikuma.com|课程/书籍|未披露|计算机科学、复古编程、数学课程
+2024|42382667|Achromatic|https://achromatic.dev|开发者工具/API|未披露|Next.js SaaS 模板，3个月进前三
+2024|42382719|Jump Comedy|https://www.jumpcomedy.com|其他|未披露|
+2024|42382730|Canine|https://canine.sh|开源/赞助|>$500|K8s 版 Heroku，免费 + 3家企业付费支持
+2024|42382732|InstaBooks|https://instabooks.ai|AI 产品|未披露|AI 生成 200+ 页书，1万+本
+2024|42382785|Produktly|https://produktly.com/|SaaS|未披露|产品导览、清单、更新日志
+2024|42382827|MyTestament|https://mytestament.io/|SaaS|预计~$500|数字遗产托管
+2024|42382842|Boston Digital Fab|https://bostondigitalfab.com|服务/外包|已成主业|小批量制造
+2024|42382867|Rows & Tables|https://rowsandtables.com|游戏|未披露|SQL 卡牌游戏
+2024|42382960|FLX Websites|https://flxwebsites.com|服务/外包|~$11k MRR|给本地小商家做网站，45+客户
+2024|42383220|pdf.to|https://www.pdf.to|SaaS|未披露|PDF 工具
+2024|42383254|SendBroadcast|https://sendbroadcast.net|SaaS|2个月 $1.5k|自托管邮件群发
+2024|42383377|SMS to Slack|https://smstoslack.com|SaaS|未披露|在 Slack 里双向收发短信
+2024|42383394|Tender|https://tender.run|移动/桌面 App|增长慢|收件箱式个人记账（CRDT + 浏览器 SQLite）
+2024|42383435|Udemy 数据集成课程|https://www.udemy.com/course/data-integration-guide/|课程/书籍|~€300/月|另有一本书
+2024|42383466|Check Supply|https://check.supply|移动/桌面 App|未披露|像 Cash App 一样寄支票
+2024|42383513|That's Ex Quiz|https://thatsexquiz.com|SaaS|$50/天|情侣问答；改定价后从 $5/天涨到 $50/天
+2024|42383547|脱发社区与论坛||内容/社区/媒体|未披露|一人运营15年+，重度用 AI
+2024|42383567|Filestash|https://github.com/mickael-kerjean/filestash|开源/赞助|未披露|企业插件与定制
+2024|42383605|NRI Meet|https://www.nrimeet.app/|移动/桌面 App|~$250/月|海外印度人约会/社交
+2024|42383656|The Greatest Books|https://thegreatestbooks.org|内容/社区/媒体|~$2k/月|2008年起，日均25万 PV，AdSense + 会员
+2024|42383657|Violinist|https://violinist.io|开发者工具/API|>$500/月|约2021年过线
+2024|42383693|VPZen|https://vpzen.io|SaaS|未披露|按天付费的专用 VPN
+2024|42383919|Hands-on Scala|https://www.handsonscala.com/|课程/书籍|$300–400/月|发布4.5年后仍在卖
+2024|42383928|Interview Solver|https://interviewsolver.com|AI 产品|~$6k/月|LeetCode 面试 AI 助手（争议）
+2024|42383958|TF2 帽子交易|https://marketplace.tf|其他|$10k–15k/月|游戏虚拟物品倒卖，每天4–6小时
+2024|42384048|AskLibrary / MemoryPlugin|https://www.memoryplugin.com|AI 产品|未披露|和自己的书对话；给各家 AI 加长期记忆
+2024|42384360|Blymp|https://blymp.ca|SaaS|~$600/月|户外广告媒体主的销售工具，2个客户
+2024|42384498|VoiceType|https://carelesswhisper.app/|移动/桌面 App|未披露|本地 Whisper 的 Mac 听写
+2024|42384525|BrainDump|https://voicebraindump.com/|移动/桌面 App|未披露|语音笔记 + LLM 整理
+2024|42384629|Deezign|https://www.deezign.io|SaaS|~$1.4k MRR|Figma 转 Bubble.io
+2024|42384704|Tunnelmole|https://tunnelmole.com/|开源/赞助|~A$500/月|开源 ngrok 替代
+2024|42384792|ChessCraft|https://www.chesscraft.ca|游戏|~$400/月|
+2024|42384801|Notion Boost|https://gourav.io/blog/notion-boost|浏览器扩展/插件|累计$10k|开源 Notion 增强
+2024|42384817|ScreenMemory 等 Mac App|https://screenmemory.app|移动/桌面 App|~$500/月|
+2024|42384824|CodeApprove|https://codeapprove.com|开发者工具/API|未披露|类 Google Critique 的 GitHub 代码审查界面
+2024|42384859|自行车零件网店|https://bike-parts.cc|电商/实体产品|未披露|对接表哥的 ERP，家里服务器托管
+2024|42384891|FreeBSD/EC2 维护||开源/赞助|未披露|Amazon 赞助 + Patreon
+2024|42384983|Batch Compress|https://batchcompress.com/en|SaaS|未披露|免费批量图片压缩
+2024|42385238|KaiOS App 组合 + MonitorPrices|https://monitorprices.org|移动/桌面 App|$500–750 + $125/月|20个 KaiOS 应用
+2024|42385240|Security Newsletter|https://securitynewsletter.co|内容/社区/媒体|~$25k/年|网络安全周刊，赞助
+2024|42385249|Tomotcha|https://tomotcha.com|电商/实体产品|毛$2k/净<$500|日本绿茶月度订阅
+2024|42385254|Cadence Prints|https://cadenceprints.com|电商/实体产品|几百美元|用 Strava 数据生成艺术挂画
+2024|42385307|网站托管维护订阅||服务/外包|~$2k/月|4个老客户
+2024|42385331|Inbox Zero|https://getinboxzero.com|AI 产品|未披露|AI 邮件助理
+2024|42385602|Jummbo|https://www.jummbo.ai|AI 产品|几百美元/月|B2B 销售线索研究与话术
+2024|42385611|spl.ing|https://spl.ing|SaaS|未披露|网站拼写检查
+2024|42385618|Tubbie / Mission Control Plus|https://www.fadel.io/missioncontrolplus|移动/桌面 App|各~$700/月|Mac YouTube 下载器；调度中心增强
+2024|42385818|Cophone|https://cophone.io|SaaS|增长中|浏览器里的云端安卓手机
+2024|42385821|The Maps Guy|https://themapsguy.com|电商/实体产品|未披露|激光切割立体地图
+2024|42385896|Audiala|https://audiala.com|移动/桌面 App|>$500/月|全球景点语音导览，SEO 获客
+2024|42385966|Minute Master|https://minute-master.com|SaaS|未披露|基金管理机构董事会会议纪要
+2024|42386053|PhotoVortex|https://www.photovortex.com|AI 产品|>$500 MRR|SD/FLUX 图片生成
+2024|42386209|Attic Manager|https://guacosoft.com/attic/|移动/桌面 App|部分月份>$500|家庭物品清单；唯一能导入 Quicken 数据
+2024|42386292|ResumeyPro|https://resumey.pro/|SaaS|未披露|Markdown 简历，靠自然搜索
+2024|42386453|HostedGitea + Dopeloop|https://hostedgitea.com|SaaS|合计>$500|Gitea 托管 + 在线音乐应用
+2024|42386570|IELTS IELTS|https://ieltsielts.com/|课程/书籍|>$500/月|雅思口语跟读练习
+2024|42386675|Heuristica|https://www.heuristi.ca/|AI 产品|够付房租|AI 概念图学习工具
+2024|42386790|OnlineOrNot|https://onlineornot.com|SaaS|未披露|将近4年
+2024|42386855|私有抓取 API||服务/外包|~$600/月|2个客户
+2024|42386857|FormTester365|https://formtester365.com|SaaS|>$1k/月|每天自动提交表单，确认没坏
+2024|42386952|ClickConnector|https://clickconnector.com/|SaaS|未披露|SaaS 客服一体化平台
+2024|42387209|Volt.fm|https://volt.fm|SaaS|已全职|Spotify 统计
+2024|42387378|RunJS|https://runjs.app|移动/桌面 App|未披露|JS 草稿本，免费增值
+2024|42387999|Loshadki Apps|https://loshadki.app|移动/桌面 App|$1k–1.5k/月|Mac/iOS 应用
+2024|42388538|iximiuz Labs|https://labs.iximiuz.com|课程/书籍|~$3k MRR|DevOps 动手实验平台；黑五一周卖了~$25k
+2024|42389230|BudgetSheet|https://www.budgetsheet.com|SaaS|~$5k/月|用 Plaid 把银行流水导入 Google Sheets
+2024|42393154|OpenCourser|https://opencourser.com|内容/社区/媒体|联盟收入|在线课程聚合
+2024|42393685|Zwemindex|https://zwemindex.nl|内容/社区/媒体|~$500/月|荷兰游泳地点目录，联盟收入
+2024|42395681|二手设备拍卖套利||其他|每台约$1k|拍卖买高空作业平台，FB 转卖
+2024|42396147|体育彩票分析 App|https://play.google.com/store/apps/details?id=com.tistory.ddaying.pm|移动/桌面 App|$500–550/月|韩国 Toto 分析
+2024|42396535|密室逃脱实体店||其他|>$500/月|极其耗时间
+2024|42398490|strands.today|https://strands.today|内容/社区/媒体|~$600/月|NYT Strands 每日答案站，AdSense
+2024|42399221|WolfTickets|https://wolftickets.ai|AI 产品|~$500/月|UFC 比赛 AI 预测
+2024|42400286|桌游卡牌店||其他|盈利|实体店 + 活动
+2024|42408721|Hortus LED 徽章|https://hortus.dev|电商/实体产品|自给自足|
+2024|42409552|Digest|https://usedigest.com|AI 产品|未披露|多信息源 AI 摘要日报
+2024|42410822|FIXParser|https://fixparser.dev|开发者工具/API|不多|FIX 协议解析器，作者将全职做
+2024|42420588|战术笔等耐用产品||电商/实体产品|$2k–3k/月|Kickstarter 打爆款
+2024|42421370|Math Club|https://mathclub.ai/math-exercises|课程/书籍|$50/月/人|奥数练习 + AI 辅导
+2024|42422729|Skybear|https://www.skybear.net|开发者工具/API|未披露|托管 Hurl HTTP API 测试
+2024|42423347|ComicsMaker|https://www.comicsmaker.ai|AI 产品|未披露|AI 漫画
+2024|42430195|散养鸡蛋|https://www.paivarinne.farm|其他|毛€3k/净€2k/月|芬兰，每天1–2小时
+2024|42447861|Tapflow|https://tapflow.co|SaaS|$2k–3k/月（模板收入）|把内部文档/模板变成付费产品
+2024|42451437|CoverLetterGPT|https://coverLetterGPT.xyz|AI 产品|~$600/月|开源的求职信 GPT 套壳
+2025|46308750|TrueCast|https://www.truecast.fr/|AI 产品|€600/月|面向招聘人员的 Granola，3个客户
+2025|46308814|Dream and Color|https://dreamandcolor.com/|AI 产品|月增10–20%|照片转涂色页
+2025|46308835|Little Lantern Shop（Etsy）|https://www.etsy.com/shop/LittleLanternShop|电商/实体产品|>$1k/月|数字缝纫图纸
+2025|46308870|Video Hub App|https://videohubapp.com/|移动/桌面 App|$300–500/月|本地视频库浏览，$5 买断 + MIT 开源
+2025|46308876|The Maps Guy|https://TheMapsGuy.com|电商/实体产品|未披露|激光切割装饰地图
+2025|46308882|Repth|https://www.repth.com|AI 产品|未披露|AI 骑行教练，向真人教练授权
+2025|46308887|5/3/1 App|https://fivethreeone.app/|移动/桌面 App|~$1k/月（2年+）|
+2025|46308923|Unrav|https://unrav.io|AI 产品|增长中|把文章/视频变成思维导图、播客等
+2025|46308928|Part Time Larry|https://youtube.com/@parttimelarry|内容/社区/媒体|联盟收入|
+2025|46308934|Hacky Labs|https://hackylabs.com|电商/实体产品|未披露|交互式儿童书
+2025|46308935|Canine|https://canine.sh|开源/赞助|$5k+/月|Portainer 等赞助
+2025|46308952|AIEasyPic / BestPhoto|https://bestphoto.ai|AI 产品|$3k + $2k/月|AI 图片站
+2025|46308968|TrendyZip|https://trendyzip.com|SaaS|未披露|房屋成交趋势报告，$5/份
+2025|46308984|MergeCal|https://mergecal.org|SaaS|未披露|合并多个 iCal 订阅
+2025|46309013|dsebastien 工具集|https://tools.dsebastien.net|课程/书籍|~$3k/月|课程、App、社群、书
+2025|46309025|DB Pro|https://dbpro.app|开发者工具/API|$1k MRR|桌面数据库客户端，上线1个月
+2025|46309035|Sportsbook API / Odds Assist Pro|https://sportsbookapi.com/|开发者工具/API|各~$500+/月|美国博彩赔率 API + 套利扫描
+2025|46309113|Formester|https://formester.com|SaaS|$7k/月|表单构建器
+2025|46309114|The Blue|https://theblue.social|SaaS|未披露|Bluesky 工具与跨平台发布
+2025|46309116|komorebi|https://lgug2z.com/software/komorebi|开源/赞助|部分月份>$500|Windows 平铺窗口管理器，卖商业授权
+2025|46309117|Python 数据课程与书||课程/书籍|未披露|Pandas、XGBoost、可视化
+2025|46309198|Universymbols|https://universymbols.com|AI 产品|起步不错|生成/统一风格的图标
+2025|46309222|SideProjectors|https://www.sideprojectors.com|SaaS|未披露|买卖副业项目的市场，14年
+2025|46309246|Only Recipe|https://onlyrecipeapp.com|移动/桌面 App|>$500|HN/Reddit 发帖带来订阅
+2025|46309324|Manu 的博客会员||内容/社区/媒体|有时$500|$1/月起的自愿会员
+2025|46309336|Norma|https://norma.grouplabs.ca|AI 产品|未披露|训练数据集筛选
+2025|46309341|Smitten|https://smittenstories.com|AI 产品|未披露|情侣情色故事生成
+2025|46309364|Dead Chefs Society|https://www.deadchefssociety.com/|其他|2025年营收$126k|每月一次民族菜晚宴俱乐部
+2025|46309392|Hacker Newsletter|https://hackernewsletter.com/|内容/社区/媒体|未披露|15年
+2025|46309416|Standly|https://apps.apple.com/us/app/standly-standing-desk-timer/id6502892335|移动/桌面 App|未披露|站立办公计时
+2025|46309417|Manabi Reader|https://reader.manabi.io|移动/桌面 App|>$500，已全职|读日语学日语
+2025|46309480|Olly|https://olly.bot|AI 产品|~$500（峰值$5k）|iMessage 群聊 AI 助手
+2025|46309499|Find Boxes|https://www.findboxes.co|SaaS|~$300/月|影音公司库存与项目管理
+2025|46309541|Filestash|https://github.com/mickael-kerjean/filestash|开源/赞助|比“拉面盈利”多一点|
+2025|46309552|CoPlay|https://coplay.io/|SaaS|$6k MRR|儿童医院游戏主机设备管理
+2025|46309558|CodeApprove|https://codeapprove.com|开发者工具/API|未披露|
+2025|46309632|NotebookLM Web Importer|https://notebooklm-web-importer.com|浏览器扩展/插件|>$500/月|一键导入网页到 NotebookLM，10万+用户
+2025|46309661|Escape Team|https://www.escape-team.com|游戏|~$1k/月|8年，5年没加新关卡仍在增长
+2025|46309764|Daily Chinese Stories|https://dailychinesestories.com|课程/书籍|<$500|按 HSK 等级每日中文故事
+2025|46309770|zine.baby|https://zine.baby|SaaS|早期|制作小型艺术书
+2025|46309786|OnlineOrNot|https://OnlineOrNot.com|SaaS|2022年起>$500|每天2小时，“default-alive”
+2025|46309841|Clues by Sam|https://cluesbysam.com|游戏|足以推掉咨询|每日逻辑谜题，卖题包
+2025|46309864|Percento|https://www.percento.app|移动/桌面 App|未披露|iOS 净资产追踪
+2025|46309941|IronCalc|https://www.ironcalc.com|开源/赞助|NLnet 资助|开源电子表格引擎
+2025|46310065|Jamp Audio|https://www.jamp-audio.com|移动/桌面 App|~$300/月|iOS 音频插件
+2025|46310069|StationDisplay|https://stationdisplay.com/|电商/实体产品|未披露|瑞士公交到站显示屏
+2025|46310072|Dave-bot / Headsnap / Quantiq 等|https://dave-bot.com|AI 产品|足以辞职|多个 AI/金融 SaaS
+2025|46310097|Mereth|https://mereth.dev/|服务/外包|首月$500|用 Apps Script 做 Google Workspace 自动化
+2025|46310114|miniChord|https://minichord.com/|电商/实体产品|版税>$500/月|口袋乐器，矽递（Seeed）代工代销
+2025|46310126|PrivacyPolicyURL|https://privacypolicyurl.com|SaaS|未披露|一分钟生成隐私政策链接
+2025|46310129|Wheel Screener 等|https://wheelscreener.com|SaaS|~$2k/月利润|期权筛选器 + 书和课程
+2025|46310136|Multy|https://multy.me|SaaS|~€400 MRR|清单工具
+2025|46310149|PPTX Mail Merge|https://pptxmailmerge.com|SaaS|已有销售|PowerPoint 邮件合并
+2025|46310161|JustFax Online|https://justfaxonline.com|SaaS|>€500/月|一次性在线传真
+2025|46310212|Humadroid|https://humadroid.io|AI 产品|>$500/月|AI 辅助 SOC 2 / ISO 27001 合规
+2025|46310284|Logic Gates 训练板|https://logicgat.es|电商/实体产品|尚未盈利|逻辑门教学电路板
+2025|46310309|摄影印刷品|https://leejo.github.io/2025/11/01/print_costs/|电商/实体产品|微利|附成本明细
+2025|46310334|DedupX|https://maheepk.net/projects/dedupx/|移动/桌面 App|100+付费用户|Mac 重复/相似图片查找
+2025|46310384|Gravity Analytica|https://www.gravityanalytica.com|SaaS|两个产品各>$500|证券事件分析
+2025|46310410|Pixie|https://trypixie.com|SaaS|>$500/月|雇佣自家孩子的记录与报税
+2025|46310554|NumeroMoney|https://www.numeromoney.com|SaaS|>$500|家庭支出分类
+2025|46310565|LeetArxiv|https://leetarxiv.substack.com/|内容/社区/媒体|未披露|把数学论文写成代码
+2025|46310616|KeywordsPal|https://keywordspal.com|SaaS|未披露|社交平台关键词监控
+2025|46310802|Shepherd|https://shepherd.com/|内容/社区/媒体|未披露|作者访谈驱动的选书推荐
+2025|46310872|Stock Events|https://stockevents.app|移动/桌面 App|已成主业|
+2025|46310905|Cadence Guitar|https://cadenceguitar.com/|移动/桌面 App|~$500/月|吉他乐理 App
+2025|46311005|Smart Notes|https://smart-notes.xyz|AI 产品|~$500/月|Anki AI 插件
+2025|46311096|YouHere|https://www.youhere.org|SaaS|多数月份>$500|App 签到考勤
+2025|46311148|Save For Later|https://saveforlater.pro|AI 产品|未披露|AI 书签管理
+2025|46311182|iOS App 组合（jclardy）|https://daylightgoals.com|移动/桌面 App|~$500/月|老 App 合计；15年前的蜂鸣器 App 仍月入$100
+2025|46311191|Wallpunch|https://wallpunch.net/|SaaS|早期|抗审查 VPN
+2025|46311227|ShoppingScraper|https://shoppingscraper.com/features|开发者工具/API|未披露|EAN/GTIN 转价格与商品数据
+2025|46311333|n0c0de|https://www.n0c0de.com|服务/外包|$3k–5k/月|为想创业的从业者开发应用
+2025|46311374|DrawCharts / LinkedMemo|https://drawcharts.xyz|SaaS|~$500/年|手绘风图表；LinkedIn CRM
+2025|46311557|Saviament|https://www.saviament.com/|课程/书籍|可观|加泰罗尼亚语教育站 + 打印资料
+2025|46311560|You Don't Need JS|https://theosoti.com/you-dont-need-js/|课程/书籍|首月$5k，现$300–500/月|少用 JS 的 HTML/CSS 书
+2025|46311562|AFI Explorer|https://apps.apple.com/us/app/afi-explorer/id1564964107|移动/桌面 App|未披露|空军条令查阅
+2025|46311922|Atlas AI YouTube 配音|https://chromewebstore.google.com/detail/atlas-ai-youtube-dubbing/ggkjmkjofkcbaobpohgciabgaocebefc|浏览器扩展/插件|新上线|作者刚卖掉 ~$800 MRR 的 Shopify App
+2025|46311938|PDF Scanner App|https://www.pdfscannerapp.com/|移动/桌面 App|~$500/月（15年）|Mac App Store 首日上架
+2025|46311957|RenderApp|https://renderapp.io/|SaaS|未披露|数字资产评审（汽车配置器）
+2025|46311972|Brick Ranker|https://brickranker.com|内容/社区/媒体|~$500/月|乐高价值追踪，每月只花1小时
+2025|46312003|ChatKeeper|https://martiansoftware.com/chatkeeper/|开发者工具/API|稳步增长|ChatGPT 历史同步为本地 Markdown
+2025|46312014|SoundReads|https://soundreads.io/|移动/桌面 App|未披露|公版经典有声书
+2025|46312019|Meetinghouse|https://meetinghouse.cc|SaaS|474 × $12|推特用户地图，$12 一个图钉
+2025|46312117|Tornado Research and Rescue|https://store.steampowered.com/app/2250550/Tornado_Research_and_Rescue/|游戏|>$500/月|Steam 游戏
+2025|46312349|Control Panel for Twitter|https://soitis.dev/control-panel-for-twitter|浏览器扩展/插件|>$500/月|官方封杀第三方客户端后用户三倍增长
+2025|46312377|PickYour.photos|https://pickyour.photos/|SaaS|~$790 MRR|面向拉美摄影师
+2025|46312600|Tredict|https://www.tredict.com|SaaS|€500–600/月（6年）|耐力运动训练计划（TrainingPeaks 替代）
+2025|46312739|Half Lemons|https://halflemons.com|移动/桌面 App|未披露|按现有食材找菜谱
+2025|46312785|匿名开源项目||开源/赞助|$600/月|GitHub 赞助
+2025|46312841|Last Year of Carbon|https://lastyearofcarbon.com|游戏|曾>$500|气候主题桌游
+2025|46312887|Cold Call Gym|https://coldcallgym.com|AI 产品|未披露|和 AI 机器人练习陌生电话
+2025|46313032|FFmpeg API|https://ffmpeg-api.com|开发者工具/API|未披露|FFmpeg REST API
+2025|46313286|AliveAI（NSFW）||AI 产品|>$50k/月|无审查 AI 图像/视频生成；作者表示严重倦怠
+2025|46313431|TechniCalc|https://jacobdoescode.com/technicalc|移动/桌面 App|~$500/月|科学计算器，一次性付费
+2025|46313669|Kite Courier|https://kitecourier.com|SaaS|$100–10k/月|在线寄挂号信/法律通知
+2025|46314208|SFX Engine|https://sfxengine.com/|AI 产品|~$1.2k MRR|AI 音效生成
+2025|46314283|CondoAlly / HOAAlly|https://www.condoally.com/|SaaS|未披露|小型业主协会管理，15年
+2025|46315296|Damn Interesting|https://damninteresting.com|内容/社区/媒体|~$700/月利润|长期运营的文章站，捐赠下滑
+2025|46315582|BudgetSheet|https://www.budgetsheet.com|SaaS|~$6k MRR|有季节性
+2025|46315904|Brezza|https://brezza.cc/|移动/桌面 App|曾~$400 MRR|路线天气 + 体能准备度
+2025|46315993|PodLP|https://podlp.com|移动/桌面 App|年均>$500|功能机播客 App，靠赞助
+2025|46316386|Whenish|https://apps.apple.com/us/app/whenish/id6745035749|移动/桌面 App|少量|iMessage 内约时间
+2025|46316798|Unlisted Jobs|https://www.unlistedjobs.com/|SaaS|未披露|
+2025|46317542|Happybara|https://happybara.io|SaaS|未披露|Slack 应用组合；加付费墙后立刻有人付费
+2025|46317632|Microlandia|https://microlandia.city|游戏|>$500/月|“残酷真实”的城市建造游戏
+2025|46317773|Super Fine Cuts|https://superfinecuts.com/|电商/实体产品|未披露|极小批量定制黑胶，用户多从 ChatGPT 找来
+2025|46318013|Buzz Print Co|http://buzzprintco.etsy.com|电商/实体产品|~$750/月|大众 ID.Buzz 的 3D 打印配件
+2025|46318040|CineQuote|https://cinequote.net|游戏|未披露|每日电影台词猜谜
+2025|46318423|Packetriot|https://packetriot.com|开发者工具/API|>$500/月（第二年起）|ngrok 替代
+2025|46320749|Libremen Compta|https://compta.libremen.com|SaaS|~$500/年|法国小企业记账
+2025|46323889|Timizer|https://timizer.io|SaaS|~$1k/月|法国自由职业者工时报告（CRA）
+2025|46327554|bewCloud|https://bewcloud.com|开源/赞助|NLnet 资助>$500/月|轻量 Nextcloud 替代
+2025|46329205|DiskPrices|https://unli.xyz/diskprices/|内容/社区/媒体|$400–600/月|eBay 硬盘/胶片比价
+2025|46335459|SlouchSniper|https://slouchsniper.com|移动/桌面 App|未披露|摄像头 + 本地 AI 检测坐姿
+2025|46335677|abot|https://abot.app/|SaaS|~$2k/月（峰值$4k）|
+2025|46339623|VideoToBe|https://videotobe.com|AI 产品|$200–600/月|音视频转录与问答
+2025|46340664|线下德州扑克||其他|$100–200/场（约8小时）|
+2025|46343725|Tech Talks Weekly|https://techtalksweekly.io/|内容/社区/媒体|$500–700/月|技术演讲周刊，7500订阅
+2025|46345054|MrNoFap|https://chromewebstore.google.com/detail/mrnofap-block-porn-sites/cpigeaemojebhijbmencldogableknlf|浏览器扩展/插件|未披露|RPG 化的色情网站拦截器
+2025|46353730|成人视频站（NSFW）||内容/社区/媒体|~$1k/月|Next.js 重写，VPS + R2
+2025|46357698|Bottle and Plume|https://www.bottleandplume.com|电商/实体产品|未披露|钢笔与墨水网店
+2025|46362261|build.ms AI 工作坊|https://build.ms/ai|课程/书籍|每月数场|面向非技术人群的 AI 实操工作坊
+2025|46373257|mojo|https://mojoapp.ai/|AI 产品|~$1.15k/月|GLP-1 用药追踪，200付费用户
+2025|46399676|Mentorbook|https://www.mentorbook.ai|AI 产品|~$600 MRR|把长内容变成个性化课程

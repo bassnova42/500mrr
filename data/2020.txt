@@ -1,0 +1,105 @@
+### [24948095] farseer
+No one would tell you their niche money making idea.
+
+### [24948354] 908B64B197
+> It seems this question hasn't been asked for some time
+You mean since last week?
+https://news.ycombinator.com/item?id=24859111
+
+### [24948735] e9
+Trading options on Robinhood
+
+### [24948810] jollofricepeas
+Still working my day development job and now doing about $150k/month in a side project with 10 employees.
+- make lists and use them!
+- block lunches use them for meetings
+- have day job pay your healthcare
+- day job work stops on time! no meetings before 9 or after 5
+- leverage your “No” to all frivolous time wasters
+- focus on day job, side project, family, one hobby for exercise (4-6 hrs/ week)
+- get really good at delegating and automating tasks
+- hire overseas contractors to do menial, repetitive tasks that can’t be automated
+- don’t sell software instead  find something “real” that can be enhanced with software
+- identify a customer and charge upfront; it’s the only way you’ll learn
+
+### [24949065] jwho82
+https://logmyhours.com - Time Tracking & Invoicing Software. Floating around the 1K mark. Been stuck here for a bit, struggling to get any more traction.
+
+### [24949168] nocubicles
+I'm running as side project https://gosourcingwise.com
+Built it during the lockdown in spring and its a enhancement for Quickbooks Online. Allows companies to ask request for quotations from their suppliers.
+
+### [24949415] kahlonel
+Built https://bufr.sh for some existing clients who wanted the functionality. Haven’t been able to sell outside much.
+
+### [24949528] merkul204
+built https://buyfunnyaprons.com/  - would love to get feedback and suggestions on what we can do to improve. POD store thats fully online. Thanks
+
+### [24949621] milanspeaks
+I have a revenue of around $2500 for my productized SaaS SEO business with 20% profit margin. I sell SEO, Content and Graphic design service at a fixed rate of $599/month to SME's.
+In this amount I provide 4000 words of content, 6 good quality graphics and few quality backlinks. Anything on top of this is a paid add-on.
+I have hired a team of SEO Specialists, Content Writers and Graphic Designers. Most of my revenue goes in paying their salaries.
+I found few takers(all dentists) of my service from Australia.
+The best thing is that I have not even built any website or any FB, Instagram Page and still I am making this money through my old contacts.
+I guess with my website launching in next few days, I should be able to sell even more and reach to around 100 customers in next year or two.
+
+### [24949894] orkj
+Built https://violinist.io for updating php (composer) dependencies automatically to scratch my own itch. Now comfortably making a profit after server costs and so on.
+Best advice I would give:
+Implement features for paying or potential paying customers first. They already love the service and this will boost word of mouth reputation in a SaaS segment.
+
+### [24949936] seanwilson
+https://www.checkbot.io/ - I made a Chrome extension that bulk checks website pages for common SEO, speed and security issues. Free and paid version so give it a try on your own site. :)
+
+### [24950123] anmolparashar
+https://www.useCastup.com – Podcast Editing as a Productized Service.
+We build and work with software that cuts the editing time by 70% which allows us to offer our sevices at (somewhat) cheap rates while keeping the quality super high.
+Started with a team of freelancers, now we have both freelancers and people working full-time.
+Edit: I lead product for SF based startup as my full-time job.
+
+### [24950703] cblconfederate
+I run a small social gaming community. Mostly cute middle aged ladies playing family games while making friends, none of the social cringe. And also a virtual worlds community, those are a lot more weird people. I generally love small communities  cause they re manageable.
+https://joybuddies.com - https://opensimworld.com/
+
+### [24950826] sciencewolf
+Technical interview course that focuses on being accessible to beginners through visuals - https://algodaily.com - Imagine leetcode with a lot of hand holding.
+Recently wrote about hitting 3k MRR at https://algodaily.com/blog/what-i-didnt-expect-to-learn-from-running-my-side-hustle
+
+### [24951820] blakbelt78
+I’ve built a fully automated and passive stock market newsletter. https://bullish.email
+
+### [24953533] tuangeek
+I made a Google Search API (https://rapidapi.com/apigeek/api/google-search3) which I launched at the start of 2020 and made over $6k+ so far. It cost me less than $100/month to run. All I have to do is answer support questions here and there.
+I am currently trying to build a standalone website (https://goog.io) and moving the service away from RapidAPI.
+
+### [24954212] brtkdotse
+It's probably a bit different from the usual HN side-projects, but I sell stickers on the internet. A bunch of print shops went belly up during this spring and I accidentally won an auction for the machinery for a song.
+So far I've been selling by word-of-mouth, and in September I started an Etsy store. I'm also building https://egnastickers.se, but that landing page alone made me €100 in sales.
+I'm close to €1k in sales for October on Etsy and I'm racing to sell as much as possible before the end of the year when Brexit wipes out more than half my current customer base.
+
+### [24954957] notdan
+https://www.tunetranscriber.com/
+Accidentally ranked high on some slow down mp3 keywords and make a small bit of cash each month with no time spent.
+
+### [24955525] XCSme
+Currently I'm making around $1k-$2k/month with a self-hosted analytics platform https://www.usertrack.net , but I recently switched to working on it full-time so I hope to be able to grow it enough to make a living out of it.
+
+### [24959316] jasonkester
+I started WebRender back in the spring to scratch a personal itch.  Was lucky enough to get a couple good reference customers early on so it's already bringing in enough to keep the lights on:
+https://webrender.io/
+Basically, it's a quick and easy way to get SSR up and running for sites that use modern frontend frameworks for their whole site.  It seems that every team I work with needs to jump through the same crazy set of hoops and stand up servers just so they can serve pre-rendered pages to search engines.
+Our thing solves the problem by sitting in front of your site (using Cloudflare Workers), passing regular traffic through, and showing crawlers a cached, pre-rendered version.
+Best (for me), it's designed to fail open, meaning customers are unaffected if my stuff falls over.  Thus, letting me have things like weekends and sleep.
+
+### [24961570] m1guelpf
+I started Sitesauce[1] to provide an easy way to make your website/blog static, without worrying about plugins and finding an alternative for your specific stack.
+It allows you to enter an URL and deploy a static clone to Vercel in seconds. You can also configure it so that it updates your static side as soon as you change something on the dynamic one.
+[1]: https://sitesauce.app
+
+### [24982186] amzans
+I’m building a private analytics suite for websites. It aims to be a more complete toolset than alternatives like Plausible, Fathom or Simple Analytics (great products too BTW).
+Feeling super lucky as I just launched and already handling millions of page views per month for 200+ customers.
+Not yet at $500 MRR but I’m focusing on providing a lot of value in a simple package, and automating as much as possible to reduce daily operations and move fast.
+The stack mainly consists of Python, React, Postgres, Clickhouse, and Redis running on Kubernetes (deployment configured via Terraform and Kustomize). Was running on DO + Linode and just moved to AWS.
+https://panelbear.com
+Happy to answer any questions!

@@ -1,0 +1,96 @@
+### [38468007] mrKola
+There is one more month. Why is everyone saying it is the end of the year?
+
+### [38469624] semireg
+$500/month (3 figures) is a great milestone. I remember talking to a mentor that said, “you have something people will buy, stop working on features and focus just a bit on marketing.” It was good advice because now I’m regularly generating revenue of 4 figures per day.
+Rewind 5 years…
+I was so frustrated I couldn’t easily design and print barcode labels on my Mac using a spreadsheet. I opened up vscode and wrote a crude MVP in react and got it working in electron.
+I put it on the Mac App Store and the next morning had my first sale in the Caribbean of all places. It’s now making 5-figures per week.
+Last year I decided to start another side hustle, importing and selling high quality label printers bundled with my app, now making 4-figures per week with a growing reseller network.
+Design App at https://label.live
+Label Printers at https://mydpi.com
+Edit: I’m still consulting so I still consider these two projects my side hustles.
+
+### [38469903] frankmao
+It's very inspiring. A lot of ideas has been verified.
+
+### [38470410] didip
+Any kind of side projects?
+The lowest RE rental income I have is $500/mo. I have 6 of them, between $500 to $2100 per month.
+I don't actually do anything besides approving invoices. The PMs do everything.
+
+### [38471446] rozenmd
+I'm coming up on three years of running OnlineOrNot (https://onlineornot.com).
+I still work on it two hours per workday, before my day job starts, but it now supports uptime monitoring for websites, APIs and JavaScript apps, as well as cron job/scheduled task monitoring, and has built-in status pages (https://hackernews.onlineornot.com for example).
+It's been funny working in a "red ocean" (as MBA-types call it), competitors will enter the market with such enthusiasm, and close up shop a few months later when they haven't made nearly enough money to justify the effort.
+Anyway, I'm a big fan of the "outlast" strategy as described by Justin Duke (of Buttondown): https://www.applied-cartography.com/goon-squad - my aim is to ship high quality code over a very long time, and the business seems to be growing faster and faster each year, so it seems to be working.
+
+### [38471625] killingtime74
+Is the figure for profit or revenue?
+
+### [38471679] jerrygoyal
+I built freemium chatgpt extension.. reached $7k MRR recently.
+https://chatgptwriter.ai
+
+### [38471703] nils-m-holm
+Writing books which generate revenues of about $500 per month (all of them combined, not every single one). See http://t3x.org
+
+### [38472066] not_me_ever
+I stopped doing (for money) side projects in 2015.
+Instead I started to buy solar farms from my yearly xmas bonus.
+Invest 40K (10K bonus + 30K loan) -> 6000K/year. Net -- post costs & taxes.
+On average the loan was paid off in 6 years (thanks to low interest rates).
+From there on it's pure revenue.
+Rinse repeat.
+Not even accounting for the free tax credits I get out of the investment.
+Just doing my planning for the '23 investment.
+If I stop doing anything right now
+the last loan will be paid off in 2030 (interest rates are up a bit),
+and I will be making ~5K/month. Net. "Forever".
+I use the time I gained for free work on important projects.
+
+### [38472319] fregante
+https://github.com/refined-github/refined-github
+I never intended it to be a side project, I just liked the extension and started contributing heavily to it, to the point where I became the maintainer for the next several years.
+I get about that amount per month in GitHub Sponsorships. Not nearly worth the amount of time I put into it, but it’s relatively effortless work. It makes my regular work on other GitHub projects more enjoyable (due to the features that Refined GitHub adds)
+
+### [38472434] blackslate
+I maintain Blackslate it is tech journal where we publish articles and news about Open source, AI, ML, Blockchain, Cloud, Mobile and other latest technologies.
+https://www.blackslate.io/articles
+Currently I am not making $500 but over the period of time there is a potential to make.
+
+### [38472981] VikingCoder
+I love one of my friends - among many other things he does, he grounds me.
+I'll pitch some moonshot crazy idea that would be nearly impossible to pull off even with tremendous effort.
+And he'll agree that it sounds neat, but comment, "I think you could make dozens of dollars with that."
+It's then that I realize, I have no strategy for how to actually make money off my idea.  I just wish the free product already existed.
+Every now and then he thinks my ideas are worth following, and it's nice to have someone more objective than me help ground me in ideas that might actually pay off!
+
+### [38473094] BjoernKW
+We make about $1300/month (shared among three co-authors) from the ebook "Stratospheric - From Zero to Production with Spring Boot and AWS" and a companion online course: https://stratospheric.dev/
+
+### [38473529] wingerlang
+It's not recurring but my most recent macOS app ScreenMemory [0] passed that (and more) recently without much marketing. I posted on some subreddits and on my small twitter following.
+It's an app that takes screenshots of your screen continuously, and lets you explore it on a timeline, as well as search text on the screen.
+It's a new-old idea for me. In 2015 [1] I wrote a script that did this, without a GUI. In recent times Rewind.ai started getting hype, which I guess reminded me of it. Earlier this year I saw an open source app, which seemed to vanish. Another app I tried, I just didn't like (can't remember the name). And finally, there existed a very barebones similar app (TimeSnapper) which has been around for ages, but doesn't have much feature wise, my MVP had the same base features, and I felt as if I was only getting started at that point.
+I figured I could fill some void between all of this and so far people have given me good feedback.
+[0] https://screenmemory.app/
+[1] https://jontelang.com/blog/2015/08/15/automating-screenshots.html
+
+### [38473544] Aulig
+I've been working on https://webtoapp.design for for 4 years now (in 10 days). It's my first business, so I've made plenty of mistakes. By now I have someone that handles the easier customer support inquiries and after all the other costs I can live off of it (not an appropriate software engineer salary for Europe, but it's enough).
+It can be very frustrating, since I help my customers through the entire app creation and publishing process, so that includes dealing with Google and Apple.
+I keep working on it because it's growing slowly but steadily and it provides me a lot of flexibility. I don't know which marketing channels to focus on to speed up growth though, at the moment it's pretty much all SEO.
+
+### [38475239] arbn
+I created https://www.screenprices.info/ whilst looking for a new monitor for my WFH setup - I wanted a super simple interface to help find the right screen and felt the other sites out there were too convoluted.
+Launched just under a month ago, and recently passed $500 for November.
+Plan to add analytics similar to Google Flights next to help people find the best monitor for their needs, and focus on the scope and quality of the data.
+
+### [38479991] dhruvkar
+https://www.fundedlist.com (~$1100/month)
+I curate and sell leads to agencies/marketers that want to sell to recently funded startups.
+Each weekend the list is created for the previous 7 days and is sent out on Monday morning.
+Marketing is purely cold email outreach right now (since that's my wheelhouse).
+However, I'm considering SEO and content, as it's less intrusive and can pay off long term.
+Looking forward to ideas around marketing in this thread!

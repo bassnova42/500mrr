@@ -1,0 +1,111 @@
+<div class="wrap">
+  <header class="mast">
+    <div class="eyebrow">Ask HN · Those making $500/month on side projects</div>
+    <h1>HN 上月入 $500 的副业，2020–2025</h1>
+    <p class="lede">整理自 Hacker News 每年年底的 Show and tell 帖子。每张卡片是项目网站的截图，点开可以看简介、怎么挣钱和网站现在的状态。收入是作者<b>自述</b>，没有核实；网站状态是自动检查的结果，可能有误判。</p>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <div class="bar" role="search">
+    <div class="row1">
+      <input id="q" type="search" placeholder="搜索项目、简介、挣钱方式，如 Kindle、广告、订阅" aria-label="搜索">
+      <select id="sort" aria-label="排序">
+        <option value="year">按年份（新→旧）</option>
+        <option value="rev">按估算月收入（高→低）</option>
+        <option value="name">按名称</option>
+      </select>
+      <span class="count" id="count" aria-live="polite"></span>
+    </div>
+    <div class="chips" id="years" aria-label="年份"></div>
+    <div class="chips" id="cats" aria-label="类别"></div>
+    <div class="chips" id="stat" aria-label="网站状态"></div>
+  </div>
+
+  <ul id="grid"></ul>
+  <footer>数据来自 HN 2020–2025 年的六个帖子。按估算月收入排序时，年收入按 1/12、周收入按 ×4.3 折算；累计或一次性收入不参与排序。</footer>
+</div>
+
+<script>
+const DATA = /*DATA*/[];
+const STATUS = /*STATUS*/{};
+const GROUP = { up: '在线', blocked: '可能在线', unclear: '无法判断', unreachable: '打不开或停运', dead: '打不开或停运', hijacked: '打不开或停运', sold: '已出售或关停', closed: '已出售或关停', nourl: '没有网址' };
+
+function monthly(rev) {
+  if (/累计|Kickstarter|首年|首月|以来|个月|3周|营收\$|\d+ ×/.test(rev)) return null;
+  const m = rev.match(/[$€£]\s?([\d.,]+)\s*(k)?/i);
+  if (!m) return null;
+  let v = parseFloat(m[1].replace(/,/g, ''));
+  if (m[2]) v *= 1000;
+  if (/年|ARR/.test(rev) && !/\/月/.test(rev)) v /= 12;
+  else if (/\/周/.test(rev)) v *= 4.3;
+  else if (/\/天/.test(rev)) v *= 30;
+  else if (/暑期/.test(rev)) v /= 12;
+  return v;
+}
+DATA.forEach(d => {
+  d.m = monthly(d.revenue);
+  d.g = GROUP[d.status] || '无法判断';
+  d.hay = [d.name, d.summary, d.money, d.revenue, d.category, d.url].join(' ').toLowerCase();
+});
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+const state = { years: new Set(), cats: new Set(), stat: new Set(), q: '', sort: 'year' };
+const counts = key => DATA.reduce((o, d) => (o[d[key]] = (o[d[key]] || 0) + 1, o), {});
+const yc = counts('year'), cc = counts('category'), gc = counts('g');
+const YEARS = Object.keys(yc).sort().reverse();
+const CATS = Object.keys(cc).sort((a, b) => cc[b] - cc[a]);
+const GROUPS = ['在线', '可能在线', '无法判断', '打不开或停运', '已出售或关停', '没有网址'].filter(g => gc[g]);
+
+$('stats').innerHTML = `<span><b>${DATA.length}</b> 个项目</span>` +
+  GROUPS.map(g => `<span>${g} <b>${gc[g]}</b></span>`).join('');
+
+function chips(el, values, set, cnt) {
+  el.innerHTML = '';
+  const mk = (label, active, onclick, n) => {
+    const b = document.createElement('button');
+    b.className = 'chip'; b.type = 'button';
+    b.innerHTML = esc(label) + (n != null ? `<span class="n">${n}</span>` : '');
+    b.setAttribute('aria-pressed', active);
+    b.onclick = onclick;
+    el.append(b);
+  };
+  mk('全部', set.size === 0, () => { set.clear(); render(); });
+  values.forEach(v => mk(v, set.has(v), () => { set.has(v) ? set.delete(v) : set.add(v); render(); }, cnt[v]));
+}
+
+function card(d) {
+  const [label, cls] = STATUS[d.status] || ['无法判断', 'warn'];
+  const img = d.thumb
+    ? `<img src="${esc(d.thumb)}" alt="" loading="lazy">`
+    : `<div class="ph"><div><b>${esc(d.name.slice(0, 1))}</b>${d.url ? '没有截图' : '没有网址'}</div></div>`;
+  const dead = ['dead', 'unreachable', 'closed', 'hijacked'].includes(d.status) ? ' is-dead' : '';
+  return `<li class="card${dead}"><a href="p/${esc(d.pid)}.html">
+    <div class="thumb">${img}</div>
+    <div class="ctitle">${esc(d.name)}</div>
+    <div class="cmeta"><span class="yr">${d.year}</span><span>${esc(d.category)}</span><span class="status ${cls}">${esc(label)}</span></div>
+    <div class="crev">${esc(d.revenue)}</div>
+    <div class="csum">${esc(d.summary)}</div>
+  </a></li>`;
+}
+
+function render() {
+  chips($('years'), YEARS, state.years, yc);
+  chips($('cats'), CATS, state.cats, cc);
+  chips($('stat'), GROUPS, state.stat, gc);
+  const terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+  const rows = DATA.filter(d =>
+    (!state.years.size || state.years.has(String(d.year))) &&
+    (!state.cats.size || state.cats.has(d.category)) &&
+    (!state.stat.size || state.stat.has(d.g)) &&
+    terms.every(t => d.hay.includes(t)));
+  if (state.sort === 'rev') rows.sort((a, b) => (b.m ?? -1) - (a.m ?? -1) || b.year - a.year);
+  else if (state.sort === 'name') rows.sort((a, b) => a.name.localeCompare(b.name, 'zh'));
+  else rows.sort((a, b) => b.year - a.year || (b.m ?? -1) - (a.m ?? -1));
+  $('count').textContent = `${rows.length} / ${DATA.length}`;
+  $('grid').innerHTML = rows.length ? rows.map(card).join('') : '<li class="empty">没有匹配的项目。换个关键词，或清除筛选。</li>';
+}
+$('q').addEventListener('input', ev => { state.q = ev.target.value; render(); });
+$('sort').addEventListener('change', ev => { state.sort = ev.target.value; render(); });
+render();
+</script>

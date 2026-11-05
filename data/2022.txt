@@ -1,0 +1,108 @@
+### [34190657] saradhi
+Checkvisaslots.com - recently picked as one of 12 Google's favourite chrome extension for 2022. It got the attention more than I expected, been a big hit.
+I've expanded the service to visaholics.com (yet to generate revenue) where visa applicants can share their experiences.
+
+### [34191462] dglass
+Not your typical side project but my book, Junior to Senior, has been averaging over $500/month in sales since it was published back in October of this year.
+I've also been growing my newsletter, Beginner.dev, to help reach my target audience for the book and teach them the importance of soft-skills for software engineers.
+I also have a job board for junior software engineering roles in the works to add even more value for the book's target audience.
+book: https://www.holloway.com/b/junior-to-senior
+newsletter: https://newsletter.beginner.dev/
+
+### [34191930] ruffrey
+Mailsac.com
+Disposable email for quality assurance and dev teams. A long term side project (10+ years). Started with Node.js and mongodb. Grew to golang and Postgres, with several custom micro services.
+
+### [34191997] codegeek
+I think lately there has been this concern from many folks that copycats are taking away some market share from indiehackers. A post was made on indiehackers as well recently related to this. So I feel that people would be hesitant to share. I personally have come across couple of indie hackers who stopped "building in public".
+
+### [34192944] gregohumber
+Breeze Order Manager: Batch print your PayPal orders. Been running this for over 7 years. http://breeze.humbersoft.ca
+
+### [34194400] lockdown22
+MesoSim: Advanced Options Backtester - https://portal.deltaray.io
+Put it together while I was learning about Options Trading and 
+manual backtesting was very tedious. It made me better understand
+options, develop and validate strategies and now also enables users
+to iterate quickly on trading system development on SPX, BTCUSD and ETHUSD options.
+For example trades see these posts:
+- https://blog.deltaray.io/boxcar-trade
+- https://blog.deltaray.io/boxcar-ng-an-optimized-boxcar
+
+### [34194463] ATHF-Rabbot
+Nice try, taxman!  Nyahaha!
+
+### [34194508] rozenmd
+I built OnlineOrNot (https://onlineornot.com) - it's a hosted Status Page, with built-in Uptime Monitoring.
+----
+As the 200th uptime monitoring service, folks often ask me what makes OnlineOrNot different - and they often find the answer disappointing: me.
+I've worked on the web for Atlassian and Cloudflare, I've seen what works and doesn't work for self-serve web apps. So OnlineOrNot has:
+- docs written in clear English that aren't out of date, and load fast
+- a modern, responsive web UI with errors that don't make you feel dumb
+- uptime monitoring for websites, web apps, and APIs that Just Works
+
+### [34194716] eerikkivistik
+A few years ago we set up https://pepchecker.com.  
+It's a relatively simple API/Dashboard to search for politically exposed people and monitor sanctions. We rolled it out a separate product, because we kept rebuilding it for various financial systems.
+
+### [34195032] longnguyen
+I built KTool (https://ktool.io) — it allows you to forward web articles, newsletters and RSS feeds to your Kindle.
+---
+I did a Show HN 4 months ago[1].
+The reason I started KTool was to spend less time on computer screens, and more on e-ink Kindle. I was afraid of going blind.
+After 4 months improving KTool, it now becomes a tool to help you combat doom-scrolling. Instead of mindlessly scrolling the web, I deliberately send interesting articles to my Kindle.
+Recently, I added newsletter & RSS support, it's 100% automated now.
+My favorite source of content is Hacker News RSS[2], Stratechery[3], Indie Hacker Newsletters[4] and a few other Substack newsletters.
+I can enjoy reading HN latest stories or my fav authors' latest pieces on my Kindle without spending hours browsing on my computer.
+I just reached $580 MRR today (Dec 31st)
+[1]: https://news.ycombinator.com/item?id=32637996
+[2]: https://hnrss.github.io
+[3]: https://stratechery.com
+[4]: https://www.indiehackers.com/newsletter
+
+### [34195173] caspg
+I'm running a https://velomapa.pl - website with cycling related stuff (routes, races, photos, and other stuff) in Poland.
+It's a super seasonal niche. During the season it brings around $1000/month through various types of ads and donations.
+Now, I'm building and growing https://travelermap.net, which hopefully will work nicely all year around. It's also a content site that I'm planning to monetize using ads.
+
+### [34195325] nhoughto
+We built a tool that does $5k/month which we are _shutting_ down today (end of 2022) after 8 years. Kind of the opposite but thought I’d share.
+Show HN: https://news.ycombinator.com/item?id=8669122
+
+### [34195615] middleman90
+I built Gaintrain (https://gaintrainapp.com/), a meal planning app designed to help users optimize their muscle gain.
+---
+Since its launch in July, we have focused on improving retention and making the app as useful as possible. Currently, we have not actively pursued marketing efforts, but have gained users through searches on app and play stores. Recently, we introduced a paid subscription option and have already surpassed $500 in monthly revenue.
+
+### [34196005] sgottit
+I'm one of the creators of Sleeve, a "now playing" desktop accessory for the Mac https://replay.software/sleeve. We charge a one time fee for the app, and average around $700/mo. We've been working on it entirely in our spare time for the last couple of years.
+
+### [34197885] offsky
+https://www.validbot.com
+A website I made to test other websites for valid configurations. Sort of like chrome lighthouse on steroids with the ability to automatically monitor and alert if some configuration changes.
+
+### [34198140] tmms
+I built https://www.inveester.com , it's a stock portfolio tracker mobile app with some focus on dividends/passive income.
+Didn't reach 500$ yet but it's growing and crossed 100$ MRR already
+
+### [34199490] throw298340
+https://deltaoutpost.io/
+Private ETH nodes, 2k MRR
+
+### [34200763] deafpolygon
+Nice try, IRS.
+
+### [34200908] vladstudio
+And I still sell access to wallpapers I draw (for last 20+ years), and some people still seem to like them enough to buy an account, and the average income is still around 500$/month.
+https://vlad.studio/
+
+### [34203500] dmundhra
+I built nitrohire.co, a reference checking tool for hiring managers and also did a Show HN recently [1].
+The revenues are a few $100s currently though I have not been doing a lot of marketing for it yet since the beta launch resulted in a lot of feedback that I am trying to evaluate and address.
+Also, if someone is interested in hiring/recruitment/professional networking space, would love to connect! Email in profile
+1. https://news.ycombinator.com/item?id=34101264
+
+### [34363424] machilin
+We have been reading these $500/month posts year after year and recently we have been holding back on launching our own as well. Recently we finally decide to just went in after months of working on it. It is called MessageDuck (https://www.messageduck.com) which was built while we were looking for a good solution for SMS data marketing.
+We built this after we noticed that there was not much good solution except one which is quite pricey called MailCharts SMS. We are still working on it and we also have a code YC that you can use for 10% off our Pro Plan.
+Hopefully, we can reach $500 by 2023 and we can Show and Tell as well.

@@ -1,0 +1,924 @@
+### [42373772] vintageclothldn
+Clicky:
+Earlier in 2024 → https://news.ycombinator.com/item?id=39110194
+2023 → https://news.ycombinator.com/item?id=38467691
+2022 → https://news.ycombinator.com/item?id=34190421
+2021 → https://news.ycombinator.com/item?id=29667095
+2020 → https://news.ycombinator.com/item?id=24947167
+2019 → https://news.ycombinator.com/item?id=20899863
+2018 → https://news.ycombinator.com/item?id=17790306
+2017 → https://news.ycombinator.com/item?id=15148804
+
+### [42374427] anotheracc88
+It is work work not passive, but I write dev docs for $80/h. But it is simple work, you just go research and write. No Racoon calling out to Wingman to get user info provider services.
+
+### [42374487] heliographe
+I'm making photography software: https://heliographe.net
+Right now my work is Apple platforms only (revenue through App Store), but I'm actively looking into ways to expand to other platforms.
+As a long time photographer, my philosophy is to make tools that are useful to me first and foremost, and to build smaller scope things that compose well (UNIX philosophy). I've got some exciting new things planned for 2025.
+These are all side projects right now, as my official full time occupation is Japanese language school student (I moved to Japan at the end of 2023 year after almost 15 years in SF Bay Area tech companies/startups, becoming a full time student at 34 surrounded by 21 year olds from a very different background has been an interesting experience on its own).
+Since the revenue has been increasing the last few months, I incorporated to keep things organized, but for now these projects are still "side projects". It'd be cool if I could justify financially to do this full time after I finish language school in 2026.
+
+### [42374825] manuelmoreale
+Not even halfway there with mine. Gonna make a reminder and look for this post in 2026!
+
+### [42374831] goenning
+I did not like any Kubernetes UI so I built my own https://aptakube.com
+It went from side project to my primary job in less than 6 months.
+Everyone was saying that $99 was too much for “an API wrapper”, but here we are, 2 years later and with hundreds of small to enterprise companies using it :)
+
+### [42374907] 255kb
+I maintain https://mockoon.com, an API mocking tool for developers. I created it in 2017 and initially worked on it during my free time. I started focusing on it full-time three years ago and introduced cloud options to make the project sustainable alongside donations.
+Revenue is growing slowly but steadily, and I’m proud to 1) start making a living from it, and 2) ensure the project’s open-source future.
+
+### [42375215] stealthcopter
+I made PortDroid, an Android Port Scanner and networking toolkit back in 2014 because I was learning programming and was curious to what was possible. I mainly wrote it for myself and I've done no marketing so have been quite surprised how popular it has become (~800k downloads).
+It's been a consistent passion project for me now over the years and I love getting feedback and suggestions from people using it. It'll never have ads (I hate them) and only data collection is optional crash reports.
+https://portdroid.net
+
+### [42375403] epaga
+I made SmoothTrack, a no-equipment head tracking app for iOS and Android which lets you control the game camera in sim games (like MSFS 2024 for example) with your head - basically like TrackIR, just without any equipment and for $15 instead of $150. I originally made the app just for myself to save myself the money of buying a TrackIR system, but then /r/flightsim begged me to release it as a full app.
+Last month, I released SmoothTrack 2.0 which includes basic eye tracking and camera control gestures.
+https://smoothtrack.app
+
+### [42375423] lucas03
+I made dividend tracking website. I am a backend engineer, so the UI is simple bootstrap and I focus on having data I find valuable.
+I've been working on it since I finished University, so it's like 7 years, and current MRR at $740 isn't great, but at least I don't have to pay for hosting (and financial data sources are expensive).
+I believe that spare money should be invested in stocks, so I like that I work on something I use, and will be using in the following decades.
+The website is DIGRIN.com (DIvidend GRowth INvesting), good value for free users as well IMHO.
+
+### [42375440] leetcodewizard
+https://leetcodewizard.io
+I released this fairly simple ChatGPT/Claude wrapper a few months ago. Currently it’s doing about 15K/month. It’s an invisible Electron app that can be used to cheat in coding interviews / OA’s.
+
+### [42375603] tikotus
+I'm making a physical product with my wife: an illustrated narrative puzzle magazine. It's similar to escape games, but it's more story driven and easy to do in short sessions and at your own pace.
+It started with my wife making the first magazine pretty much by herself. Since then we've made more magazines together and the business is slowly growing.
+We're selling them mainly on our custom lightweight online store. It's done with minimal JS and Node as backend, Stripe as payment provider. We have a Meta pixel to help us track our advertising conversion, but we've disabled cookies, they just felt somehow dirty... It's nice to have power over these things when running your own business. As a next step for the website I'm thinking of including a templating language in the workflow, now I'm still doing edits with search and replace, sometimes missing things... but I do enjoy the simplicity.
+The actual business has two main challenges: 
+First is discoverability. It's a pretty unique product, an adventure escape game in a magazine. It doesn't sell well in physical game shops since it doesn't look like a game. We sell well in conventions where we get to explain what the product is, but we also want some weekends for ourselves! Meta ads for our online shop are working surprisingly well though.
+The second and bigger challenge is shipping. Our flat is filled with boxes, and the time I spend sorting magazines, enveloping them, printing address labels, carrying them to the post office... it's really not worth my hourly rate as an engineer (Nor my wife's, but I do it since my schedule is more flexible, and I've automated some parts of the process with a string of incredibly user hostile shell scripts). And the shipping costs are downputting to many, we're quite cornered here in Finland. We are slowly gaining some distribution partners in Europe, but we should also be looking into better shipping options, like perhaps some kind of shipping warehouse exist? Our volume is slowly getting big enough so that it might be feasible. I've only done some cursory googling on this but don't exactly know what I'm even looking for, and there's only so many hours in a day.
+A lot of work, small margins (ads+printing+misc takes a big slice), but around $500 profit per month. Feels absolutely fantastic to have an actual concrete business we own!
+https://cluehound.com
+
+### [42375890] kebsup
+I have two!
+https://gifmemes.io, haven't touched the code for years, makes between 100-300$ a month, depending on the season.
+https://vocabuo.com - a side project I hope to turn into a business, so I work on it around two days a week, made around $3.5k in revenue last month but most of it went back into ads.
+
+### [42375987] PinkPigeon
+https://pinkpigeon.co.uk
+Who'd have thought that a CMS could still make money in 2024, but this one is around £500 a month.
+It obviously doesn't pay the bills or the mortgage, but it works. All my clients are word of mouth, I do not advertise at all (a combination of costs and insanely opaque / fractured advertising models by Facebook and co...I don't have time to get a phd in your ad platform to see if any of my money is actually doing anything)
+I build it originally because I was fed up with Wordpress / Squarespace / Weebly / Wix, because all of their interfaces are slow and don't work on mobile.
+This CMS is fast and works on mobile.
+It's also pretty cheap nowadays, as I've not been raising prices like everyone else.
+It won't do super-flashy websites. It's mostly about having low-JS, good SEO, easy access to information, which can be managed by very inexperienced users (I live rurally and we have a fair few pensioners as clients, they all get along with the system very well).
+There are just about a billion things I want to do with it, but it never made enough money to become my full-time job, so it mostly just sits there and does its job.
+
+### [42376005] henrygabby
+Unsexy tech business making roughly $6-7k/mo. I partnered with a local janitorial company that targets industrial clients with recurring nightly cleaning needs and I make roughly 7% of gross revenue as a recurring weekly payment as long as the client stays on w/o much work. I help do some client support, SEO, and pay for things like Apollo.AI to reach out to customers but other than that it is pretty hands off. I feel very fortunate.
+
+### [42376028] benhowdle
+https://reqres.in/ - roughly that much in ads revenue. Would love to add a paid plan for more features, but....time.
+
+### [42376246] Jabbs
+https://www.unlistedjobs.com/
+Scraper of job listings directly from company websites. I found my last day job by using a scraper that visits company websites in search of job listings. Now I've turned it into an app for others to use and access jobs that are posted on company websites (rather than paid employer ads on Indeed or wherever). This gives the job searcher an advantage to find jobs not listed on job search sites and show the company you have taken time/interest to visit their site.
+
+### [42376682] GaryNumanVevo
+I made an AI chatbot for OnlyFans models. Their fans can speak to "them" via a third party messaging app. It's currently pulling ~15k USD MRR. I built my own GPU infra for inference and I run Llama 3 with a fewshot prompting to get the model to respond like a given OF model, typically using their actual DMs with fans.
+I don't have a website for obvious reasons, but if you're in the biz you've no doubt heard about my tool :)
+
+### [42376811] joshstrange
+It’s not really MMR but I have a side business when I provide software for online and in-person festival payments (entry/food/drinks). If you take the total revenue (or profit) for the year and divide by 12 I’m well over the $500/mo limit.
+I currently do 3 festivals a year which all pretty much fell in my lap, I’ve yet to start any sort of sales/marketing due to being busy with my day job/life and not wanting to grow too fast.
+I started back in 2021 when a local company I’ve worked with to make apps came to me looking for a solution for their food/music festival that didn’t require handing out and (almost as importantly) counting all the tickets/tokens that people bought to spend at the vendors. I did a quick turn around of a couple months to get a v1 out and working in time for the event. In the next year I essentially rewrote 90% of it and added in-person payment support (previously had just supported recording in-person payments made through a CC terminal.
+Each new festival has new needs but I’m starting to get fewer feature requests and less I need to build for each new client which is nice.
+
+### [42379218] LarsDu88
+https://roguestargun.com
+Solo Developed VR starfighter combat sim for Quest, PCVR, and soon the PICO4
+Meta, send me a free Quest 3, please.
+Would not recommend doing a game, let alone a VR game as a sideproject for anyone
+My day job is Machine Learning engineer, so I really should've picked an AI sideproject facepalm
+
+### [42379261] ssz
+I'm making a little by sharing all my nonfiction book summaries/notes on https://littlerbooks.com.
+
+### [42379313] encoderer
+My SaaS Cronitor.io started here in 2014 as a side project. Left my job at Zillow 4 years ago and we are still going strong.
+Here’s my reply from 2017:
+https://news.ycombinator.com/item?id=15150205
+
+### [42379391] guico
+Just launched Story Treasure a way to create illustrated children's books, motivated by the fact that I'm a portuguese dad raising two bilingual girls in Germany... very hard to find portuguese books around here!
+https://www.storytreasure.ai/
+
+### [42379512] rstupek
+We made a couple apps to work better with Davinci Resolve after finding things it did or did inefficiently.  One (SparkFX) is still a work in progress
+https://sparkfxstudio.com/
+
+### [42379516] andygcook
+I started a side project with my older brother called NanaGram.co that makes it easy to text message photos to a unique phone number, then once a month they get printed and shipped to your loved ones.
+If you have kids, it makes a good holiday gift for the grandparents if you're stumped on what to get them.
+I've since moved on from it, but my brother makes enough to work on NanaGram full-time now. It's also just been really cool to see the project grow over the years and bring happiness to thousands of grandparents all over the world.
+
+### [42379557] cccybernetic
+I built a web app that extracts data from documents, like PDFs, Word, etc. I've seen people say "GPT wrapper", but it consistently outperforms similar tools in the space. My main customer is a private equity fund that randomly reached out. I didn't know much at all about fintech, but it works and gets the job done.
+I don't have a proper marketing site yet since I've been focused on building the app, but it's coming soon (hopefully...)
+
+### [42379600] thdxr
+we sell coffee from the terminal
+ssh terminal.shop
+will do 6 figures in revenue the first year - not bad for a side thing!
+
+### [42379635] doctoboggan
+I sell custom jewelry on Etsy and my Shopify website (lulimjewelry.com). I have a background in 3d printing and through that I realized that the sweet spot for 3d printed products is something that is small, high value, and custom. The jewelry industry fits this perfectly, and has already seen a large uptake in 3d printer adoption.
+I built a pipeline using fabric.js, flask, and blender that lets me take my customer's customizations (fingerprints, signatures, other engravings) and place them on a ring. I ultimately generate a STL file that I send over to my casting house in LA. They 3d print the STL in wax, and then cast that wax mould with precious metals using the traditional casting process.
+It's a fun side business as I get to tinker with new technologies (recently working on integrating a LLM into the ring design process). I have decent profits (enough to pay my mom and sister to help with customer support and shipping), so the workload I take on myself is relatively small.
+
+### [42379691] JoeMattie
+I built the frontend for https://rigged.ai
+We do statistical processing and breakdown of options sweep data, and generate realtime alerts that people can use to copy trade big Wall Street traders. We also have a strategy playground you can use to test different strategies that could be used for a trading bot.
+
+### [42379744] yqiang
+I'm building a better calorie/macro tracker called FitBee: https://apps.apple.com/us/app/fitbee-calorie-counter/id6443979108
+Tracking my food has helped me get into much better shape but the leading apps in this space IMO are all quite clunky. I wanted to built something that was fast and lets you get on with your life.
+A few stand out features:
+- Nutrition label scanning if I don't have the food you're looking for
+- Photo Logging for restaurant meals or complex meals you don't want to manually track
+- It's light weight & fast 
+- Interactive widgets for things like water tracking.
+
+### [42379793] giarc
+I laser cut wall art and sell over Facebook marketplace. Making $2000-5000/month.
+I have a website, but most sales are done over FB and customers pick up at my house. I either purchase designs on Etsy, pay a designer to create dxf file or do it myself (if it's easy). To be honest, I don't like the position I'm in with this. It makes too much to give up, but not enough to be a "real thing". Plus, I'm still trading time for dollars.
+
+### [42379838] strongpigeon
+I still make about ~$1000/month with my 5/3/1 app : https://fivethreeone.app/
+Managed to raise some money from friends to work full-time on a successor that allows you to write your own workout programs with formulas.
+
+### [42380124] catchmeifyoucan
+I built a Figma plugin that makes it easier to upload and host and manage images from Figma.
+https://figmage.com
+
+### [42380127] pentacent_hq
+https://www.keila.io
+I’m building an Open Source (AGPLv3) email marketing platform   with Elixir/Phoenix and it's only just crossed that MRR threshold - three years since the first version.
+
+### [42380300] dowakin
+I started a mini-SaaS focused on identifying what content/scripts are blocked on websites by AdBlockers, Firefox Tracking Protection, and similar tools.
+I initially aimed for an cheap monthly pricing plan and many clients, but that strategy hasn't been successful so far.
+However, in the process of finding clients, I found two 'enterprise' customers. I built a custom on-premise version for them and charging $300 per month for each, which technically sums to over $500. Not sure it is what I wanted )
+
+### [42380333] Bellspringsteen
+https://blog.labsbell.com/blog/SkippiesPart2 selling 4.99$ shoes, strangely fun to see the inner workings of ecommerce. I dont understand how amazon sellers make any money.
+
+### [42380370] duck
+Still running https://hackernewsletter.com/ after 15 years and 60k+ subscribers. It has been hard to put a lot of focus on it the past couple years, but been finally getting some time to spend on some improvements there. Income here has always been simple sponsors which I'm very grateful for.
+
+### [42380416] ramthehack
+I wrote a small application for a Customer which enables File Transfer, Notifies Users about files that they should have uploaded and displays some progress. The Customer is a law firm. No Recurring Renevue, But yielded 10000€ in 6 months. Is More of a second Job than a side project tho
+
+### [42380418] nspeller
+I built an interactive Music Theory course 8 years ago over a winter break and it continues to bring in enough to pay my rent each month.
+I just thought there had to be a more intuitive way to learn music theory than the very boring and jargon-heavy alternatives.
+It uses Tone.js to include little interactive pianos, guitars, and other demos.
+I've done no marketing, it hit the HN front page for a day, and after that initial spike in traffic has been fairly consistent over the past 8 years.
+It uses Stripe for payments and for the first few years it was only Stripe. 3 years in I decided to add PayPal support... revenue doubled overnight, mostly from international customers.
+https://www.lightnote.co/
+
+### [42380428] Soupy
+I run https://pastmaps.com as a lil' solo bootstrapped labor of love. Think Google Maps, but for OLD maps. It has 185K+ fully georeferenced high-res maps covering all of America, as well as satellite, LiDAR, and 3D layers to enable exploration through space and time.
+History is cool yo. And apparently lucrative - it currently makes ~$5000/mo and is slowly but surely growing through word of mouth
+
+### [42380463] firefax
+I play Texas Holdem.
+It's not enough $$$ to be a full time role, especially considering the costs of purchasing health insurance w/o a traditional W2 employer, but it's perfectly possible to buy in for the the table max (500) and leave with between between three hundred and a thousand dollars in profit in ~8 hours of play.
+(Real life, not online. "Caro's Book of Poker Tells"[1] will aid you more than fancy math, though knowing the basics of what is a good hand, what a check raise is, that sort of thing will help -- the biggest thing to remember is to play less hands, and be aggressive when you do. Fold or raise -- no calls!)
+[1] https://archive.org/details/carosbookofpoker00caro
+
+### [42380494] I-M-S
+I'm making a fiction podcast (that actually launched on HN) that is now earning ~$1100 USD monthly. I just wrote the latest report documenting how I got there, which you can find and discuss at https://news.ycombinator.com/item?id=42380474
+
+### [42380515] crazymoka
+I run clearpayments.ca completely word of mouth and referrals only payment processing services and sytescope.com
+I give all clients the best rates possible because it doesn't matter as its not my primary source of income. However, business owners hate change so its hard to convince them lower fees and better products are better for them in the long run.
+I make between $3500/m - $5000/m
+maybe 10 support emails a month.
+I also build apps on the side for sytescope.com integrations.
+
+### [42380517] palsecam
+https://FreeSolitaire.win brings around $500/mo in advertising revenue. It’s a Klondike Solitaire PWA (progressive web application).
+I started making it in 2016 and I’ve been slowly iterating on it over time. It has stayed minimal & lightweight, on purpose. No framework, no cruft, no obtrusive ads.
+Fun fact: because it’s so lightweight, it was included in 2020 in Moya (https://play.google.com/store/apps/details?id=nu.bi.moya), a popular messaging app in South Africa that is “data-free” for users (it does reverse-billing). Now ~40% of players are South Africans!
+Discussed on HN from to time, for instance:
+— https://news.ycombinator.com/item?id=42026575 (38 days ago, 19 points)
+— https://news.ycombinator.com/item?id=41971887 (43 days ago, 25 points) “Quick side-note. Thank you for freesolitaire.win. It's such a beautiful implementation of solitaire. Works so well as a PWA, I can enjoy it even without proper internet connection, it's simple, does the basics, but does it perfectly. There's nothing to add to it, but more importantly... nothing to take out.” (!)
+— https://news.ycombinator.com/item?id=34483398 (2023, 4 points)
+Feedback always welcome, and happy to answer any question!
+
+### [42380735] bengold14
+RankPic (https://www.rankpic.info) is an app to help users crowdsource their best photo.
+I've been building over the past 3 years & just recently monetized and crossed the $500/m mark through a Pro subscription. It's grown into a lovely community of people who help each other pick their best pictures for dating apps, professional photos etc.
+I've seen some pretty fun novel use cases, such as (multiple!) people using it to pick out glasses, wedding invites & so on
+-- https://apps.apple.com/us/app/rankpic-photo-ranking/id1602991264 (ios)
+-- https://play.google.com/store/apps/details?id=app.rankpic.rankpic (android)
+
+### [42380779] funksta
+I've built a custom planner/calendar generator targeting e-ink tablets like the reMarkable, Supernote, and Kindle Scribe. Revenue is highly seasonal, but now consistently over the $500/mo threshold :)
+https://hyperpaper.me/
+
+### [42380788] jermaustin1
+In 2023, I started selling solid wood rolling trays designed by my little sister and I on Etsy (The Stoned Craftsmen).
+Almost immediately I was making $1200-2000 per month. Some months can be big months (especially around Thanksgiving/Christmas) where I'm getting $75-200 a day in sales, but some months can be dogs (July and August this year were literally $0 months - the only 2 on record - I think an algorithm changed on Etsy and we got punished or something). When the sales were growing, the work was fun, when they plateaued then dipped, it made it hard to feel energized to do the work.
+The first year I spent a lot of time optimizing everything on the manufacturing side. Better tool paths, less tool changes, better speeds to not break everything, better use of materials, better use of disposables. I tried optimizing my Etsy store, but I couldn't get anything to increase sales, and moving to my own Shopify was a waste of $40/mo for 6 months because driving my own paid traffic from social media (which has rules against paraphernalia) was hard, so eventually I dropped that and stuck with Etsy and tried to wholesale to dispensaries and headshops around me, but my wholesale price is too high, and I don't want to offshore my manufacturing to get my price low enough.
+I had grand plans on growing the brand. I was in talk with major brands in the space for collaboration, but our wholesale price point was too high, and 1 celebrity brand said the gap was too large, the other never got back in touch after sending them our wholesale sheet.
+So I think I'm just going to have a nice side biz as a niche maker of solid wood rolling trays.
+
+### [42380809] martin-adams
+I'm currently making about $1K a month on my book/course Atomic Note-Taking which has sold in 69 countries—something I didn't anticipate!
+https://atomicnotetaking.com
+Along side this I'm build a note-taking app—flowtelic that aims to help you get into flow and have an autotelic experience. It's to put into software the goals of my note-taking book where I feel other apps are missing the mark.
+I have a waitlist if anyone is interested
+https://join.flowtelic.com
+
+### [42380847] mrieck
+Same as last year - still making between $500 and $1k on SnipCSS.  Didn't work on it for 6 months, but recently added Tailwind conversion:
+https://chromewebstore.google.com/detail/snipcss/hbdnoadcmapfbngbodpppofgagiclicf
+
+### [42380889] AtticusTheGreat
+https://SerpentineGame.com brings in close to that with advertisements and premium subscriptions.  It is a clone of a game called Tangleword that is itself a clone of Boggle.  I originally wrote it in 2008 and am currently re-writing it from scratch because the technology stack is so old and cumbersome to maintain.
+
+### [42380904] yakhinvadim
+I made News Minimalist — a news aggregator where all news is ranked by significance on a scale from 0 to 10.
+The ranking lets readers select a "significance threshold" and ignore all news below it.
+It's making close to $1000 MRR now with all money coming from premium subscriptions: users can personalize their feed with category/country filters, block topics and get access to news summaries.
+https://www.newsminimalist.com/
+
+### [42380920] markvdb
+Silly related question...
+How much gross taxable do you need to make from your side gig to take home 500/m net from a side gig? Here, that's about 1360/m if itemising expenses, or 900€/m with the standard deduction for side income and doing your own taxes.
+
+### [42380926] darthcloud
+I've build BlueRetro [1] an universal Bluetooth controller adapter for nearly all pre-USB gaming console.
+I guess I could update from my previous post in a similar thread. [2]
+Long story short, my open source firmware is used by product makers and they make a voluntary contribution often base on how many unit they sell. It is also widely used by Chinese company on AliExpress.
+I got one of those Chinese company to sponsor me a significant amount on GitHub sponsor since August 2022.
+I guess they forgot about it, still going ever since!
+I still make 1000 USD a month from the various HW makers.
+One new thing I made this year after 5 year of doing this hobby, is that I finally manufactured and sold one adapter base on this code myself for the OG Xbox console. [3]
+Factoring all the expenses I made 7K for a batch of 300. I plan to do a 2nd batch next year, which should yield double that since I will only incur raw materials & shipping expenses.
+It took me 48 hour of manual labor to assemble them and ship them. So it's doesn't make  much sense TBH, but it's a good experience. Made me appreciate my desk job.
+[1] https://github.com/darthcloud/BlueRetro
+[2] https://news.ycombinator.com/item?id=35568543
+[3] https://blueretro.com
+
+### [42380936] graphpapermaker
+I'm building Virtual Graph Paper (https://virtual-graph-paper.com) which is a web app for sketching on a grid.
+Basically a (limited) vector graphics editor that's trying to be very approachable, aimed at use-cases where something like Illustrator or a CAD package wouldn't be a great fit. I keep hearing about new things people use it for, which is something I truly enjoy.
+It's free and ad-free, but there's also a paid version in the form of a downloadable Electron app or a subscription.
+
+### [42381161] kiru_io
+I have been building a few apps, combined (+ with my saas sites/games) I manage to reach 500$:
+WhatDinner[0]: Basically Tinder to decide what to eat
+FleuntRead[1]: A new app I am working on to learn languages by learning sentences by heart
+[0] https://whatdinner.com/
+[1] https://apps.apple.com/us/app/fluentread-language-learning/id6738277606
+
+### [42381174] janosch_123
+I built custom electric cars, and now I am sharing my knowledge for free in a knowledge base and in a YouTube series:
+https://foxev.io/batteries
+https://youtube.com/@foxev-content
+I hope this helps someone :)
+My knowledge is EV and renewable energy knowledge from first principles and for an open source tool.
+https://openinverter.org lets you re-purpose the drivetrain from any EV, like Toyota Prius or Tesla Model S and put it into another car.
+For this I offer paid support at $200/call and have about 2 of them per month.
+I am trying to turn this trickle of revenue into a more predictable stream, suggestions welcome. The videos are meant to give free help and at the same time serve as lead-gen.
+
+### [42381179] flashu
+SpaceShout (https://spaceshout.com) is Social Mapping Platform focused on our user's content and interaction.
+Project is in active development since 2 years, 10+ ppl engaged, iOS and Android apps published in the stores. We're not yet into making money but we're on the way to start with profits.
+iOS - https://apps.apple.com/app/spaceshout/id6475599807
+Android - https://play.google.com/store/apps/details?id=com.spaceshout
+
+### [42381196] andyfchen
+I built my language learning app, which is helps learners to study common Chinese idioms. The website (https://everydaychengyu.com/) has the content for free and a kid friendly app teaching the material with flash cards and spaced repetition is available on the app store
+
+### [42381265] jaflo
+I have been working on Audjust (https://www.audjust.com/) on and off in my spare time. It's a service to manipulate (shorten/lengthen/loop) audio for video editors and music producers.
+I had a Show HN a while back that was well-received and kicked things off (https://news.ycombinator.com/item?id=36480687). Since launching I have changed the name and added paid accounts which have brought in enough money to cover costs and make some profit!
+
+### [42381279] jordanmorgan10
+I develop a basketball coaching app called Elite Hoops, it makes $3.5k/month and thankfully growing:
+--> https://elitehoopsapp.com
+I wrote a book series over iOS development, self-published, made over $120k:
+--> https://bestinclassiosapp.com
+I do one sponsored ad a year, which translates to over $500/month (i.e. your criteria):
+--> https://www.swiftjectivec.com
+And launching another app soon to follow D2/D3 collegiate scores, hoping to get that up and over $500 MRR quickly:
+--> https://x.com/JordanMorgan10/status/1864796895396110737
+
+### [42381343] rahilb
+I just about qualify! My first side project that actually delivered anything: Reminder Sync for Obsidian! https://turquoisehexagon.co.uk/remindersync/
+I built it for myself after I began using Obsidian for day to day note making. A simple idea: get reminders for tasks you create in Obsidian. People seem to like it.
+previous discussion: https://news.ycombinator.com/item?id=39764919
+
+### [42381438] timmit
+I made a website to alert people about inside trading and congress trading, https://tradeinsight.info (updated)
+Not $500/month yet, but towards it, the work flow is quite simple, the infrastructure is a bit complicated, need quite amount of time to maintain.
+
+### [42381508] jetter
+I am running a web scraping API ScrapeNinja https://scrapeninja.net. 
+10K+ subscribers.
+It is a (rather messy) node.js codebase. Two rendering engines, including a hacked puppeteer package with stealth mode for better success rate. A big set of proxy providers under the hood. Bootstrapped.
+
+### [42381512] bdcravens
+Pretty basic 3d printing. Right now I'm focusing on the usual kinds of products (either commercial-compatible CC licenses or models of those I've purchased licenses to), but I'm working towards learning Autodesk Fusion and creating my own products. (Probably focus more on functional items, since I'm definitely not artistic). Netting around $500-1000 a month (eBay, Etsy, Mercari, some FB marketplace)
+
+### [42381540] greenie_beans
+I just launched a website for buying organic Mississippi sweet potatoes online: https://sweetclay.net.
+I've made $910 in revenue in the first three weeks. Does that count?
+
+### [42381582] pier25
+Still not hitting $500 consistently but...
+Wavekit https://wavekit.app/
+It's an audio hosting service with high quality audio and a customizable unbranded player.
+Embeds are done with iframes but we're starting to offer web components which offer some cool opportunities like interaction between components.
+Most of our customers are selling some kind of audio product or service. Think plugin developers, sound designers, media composers, etc.
+Currently working on a B2B integration with an API so that it would be trivial to add audio to any web app. Think chats, marketplaces, etc.
+
+### [42381612] wesvance
+I built https://explorehere.app to help you learn about the history of the world around you by sending a push notification whenever you pass a new historical marker on your travels!
+It’s a freemium app with a pro subscription for advanced features; our revenue is just under $1k/month.
+We’re working towards ExploreHere being a passive adventure guide. As you go about your travels ExploreHere will nudge you about interesting information wherever you go; history, unique things to see, special food known only in the city you’re in, etc.
+
+### [42381626] marco-dev
+I founded [Marin Labs](https://www.marinlabs.io), a studio where I get to develop whatever comes to mind. Last Friday, I launched a mobile game on iOS and Android, it's a popular trivia game but tropicalized for Latin America. I'm currently sitting on a juicy $14.00 MRR. Gotta start somewhere, I guess.
+
+### [42381759] iamflimflam1
+I guess if you spread this over 12 months it counts? https://www.esp32rainbow.com/
+I’d really like to build on this and start a hardware company.
+
+### [42381780] h317
+I was tired of coming home after networking events and shift through pile of business cards, so I made an app to just scan cards and export them to csv. Pretty much just for fun app for myself, friends, and friends of friends, but other people started using it too.
+https://apps.apple.com/ca/app/krane-build-relationships/id6738585311
+
+### [42381844] arahman4710
+I built a tool called Canyon to help jobseekers land their dream job by helping them perfect their resume, be much faster at applying to jobs, and practicing with our mock interview tool.
+https://www.usecanyon.com/
+
+### [42381869] paulorlando
+I wrote these two books based on work I had done in/with startups over the years.
+Why Now: How Good Timing Makes Great Products: https://www.amazon.com/Why-Now-Timing-Makes-Products/dp/B0CYXSNMT3/
+Growth Units: https://www.amazon.com/dp/B08GJVV8RJ/
+
+### [42381878] iamwil
+We wrote a zine on System evals for LLM-driven apps. Lots of people building impressive demos with AIs, but to get it working well in production over time (maintainable), you need some kind of system eval. It's like some kind of open secret, since lots of people are still floating on vibes-based engineering and looks-good-to-me@K metrics.
+https://forestfriends.tech
+Sri and I wrote it as a way to collaborate after doing a podcast together, which made no money. Picked a topic that people seemed to be interested in. Did the whole customer dev thing, and honestly, we were unsure if it'd make any money at all. Representing the AI as a shoggoth is from that meme, and we merely thought juxtaposing it with some furry animals was funny.
+But it turns out people like it. It introduces system evals without jargon, and frames how to get started with evals for AI engineers that moved into the space from other kinds of engineering. It feels pretty good when people buy it and say they like it.
+
+### [42381885] rolandpeelen
+I made https://konfig.xyz/ after making about 6500 images for a product configurator. Instead of using images, we use 3d models. Initially quite simple and for use with relatively flat scenes (ie - no tree like structure for options / scenes) but grown over time to sort of support those too.
+The main use case are fixed-in-size products that can be customize-able. So colours and materials, but also swapping one object for another, or turning one on or off (imagine rims on a car, or a bow thruster on a boat).
+We tried saas’in it completely, but the onboarding is proving to be quite hands-on. So we’ve partnered with a 3d firm that does the 3d work so we can focus ok building software
+
+### [42381907] Traubenfuchs
+I don‘t know if I should really say it, but here I go.
+You can order certain pills that are meant for men for like 50c a piece online from India and sell them for 10€ a piece face to face to normies. Handing out a few freebies ALWAYS leads to the guys becoming frequent future customers. Because those damn pills, while not considered addictive, make things so, so much better. And not every country already has easy, cheap and low effort ways to order them normally…
+(I am talking about vitamin pills aimed at men and nothing else and I am not doing this, I heard someone tell me this story.)
+
+### [42382078] knowingathing
+I run https://getloaf.io/ an app which lets you customise SVG animations that are built into the app. Constantly plugging away for 4ish years now!
+
+### [42382139] codeisawesome
+It would be great if these questions also included a sub-question on distribution strategy, that's one of the hardest things to visualize as a developer from $0 to $500.
+
+### [42382157] mtw
+I make between $3k to $6k from putting a log cabin on Airbnb. This started during period of boredom during the pandemic. I operate remotely with smart home devices and with a local cleaning team/handyman.
+I had a project to completely automate this with an AI agent but Airbnb doesn't offer a publicly available API.
+$3k seems high but the costs add up and the time as well (details here https://studiozenkai.com/post/airbnb-the-good-the-bad-the-profitable/ ). I always have a bit of profit at the end of year and the mortgage costs are entirely paid so no complaints here
+If I ever get fed up from tech projects, I can see myself getting a bigger vacation property and making this my own version of Barista FIRE
+
+### [42382196] laber
+Created a simple and cute iOS app for tracking baby teeth — makes about 1-2k EUR (after Apple’s cut) per month since five years.
+getbabyteeth.app
+Last year a couple of copy cats showed up, but they missed the part that people actually value in the app: the visuals.
+It‘s a simple webapp, wrapped in Expo, but highly polished to make it look and feel native to iOS.
+Last year we added a second app, written in Swift and SwiftUI (great dev experience!): wobblyteeth.app
+What still makes me wonder: most sales are made in Germany, even though there is an English translation and the American market is huge. \o/
+Do you have an idea why it‘s not interesting abroad?
+
+### [42382204] lpeancovschi
+I made a plant care app for iOS and macOS. Making few hundreds $$$ on it - https://apps.apple.com/app/plant-care-identify-flowers/id1610611017
+
+### [42382249] ilrwbwrkhv
+I built an agentic marketplace where people create agents which get a cut of the task price if their agents take part in doing something in the chain.
+Making more than $500 but it is a side project.
+
+### [42382252] ssiddharth
+I’m building Sink It for Reddit (https://gosinkit.com), a Safari/Chrome/Firefox/Edge extension to make Reddit usable on the web. It’s similar to RES (Reddit enhancement suite) but supports all of Reddit’s designs and is being actively developed with around 300k users, mainly on the Apple platforms.
+It was built during the Reddit API shenanigans last year and is making four figures a month. 99% of the app’s feature are free with the money coming from a premium (dark mode etc) for old Reddit and donations.
+Have a few high five figure/low six figure acquisition offers already but I’m afraid it’ll be turned into malware so haven’t gone through with it.
+
+### [42382295] parski
+I develop a modular media center compatible with Stremio addons for Apple platforms. It's called [Vidi](https://vidi.plomo.se/).
+I've done zero marketing and have a few thousand users from organic growth alone since August. It's a one-time purchase type of deal and I'm overwhelmed by positive feedback.
+
+### [42382300] flixing
+http://profileoptimizer.org/
+LinkedIn Profile Optimizer is an AI-driven service designed to enhance your LinkedIn profile, making it more appealing to recruiters and expanding your professional network. By analyzing each section of your profile, it provides personalized recommendations to help you stand out.
+Key Features:
+ • AI-Powered Analysis: Thorough examination of your profile to identify areas for improvement.
+• Tailored Content Suggestions: Customized advice for posts and updates to engage your audience.
+• Optimized Headline and About Sections: Creation of compelling summaries that highlight your expertise.
+• Profile Visibility Boost: Strategies to increase your profile’s reach and attractiveness to recruiters.
+• CV Generation: Development of resumes tailored to specific LinkedIn job postings.
+• Content Strategy Development: Formulation of plans to effectively engage your network.
+By comparing your profile to industry leaders and staying updated with LinkedIn’s latest trends, LinkedIn Profile Optimizer offers actionable, prioritized recommendations to elevate your professional presence.
+
+### [42382418] AutoAPI
+https://postalagent.com is my side project that lets you building mailing lists and send postcards online
+https://checkanyvin.com is a slightly older project that lets you run vehicle history reports cheaper than other services
+
+### [42382590] lpeancovschi
+I made an invoice maker app. Available for iOS and macOS. It's a document-based app with custom file format for invoices: https://apps.apple.com/app/invoice-maker-quote-builder/id1538355349
+
+### [42382600] lpeancovschi
+I made a Resume Builder app for iOS and macOS: https://apps.apple.com/app/professional-resume-builder/id1358430976
+
+### [42382602] alpn
+I made a simple service that lets you read Substack newsletters on your Kindle.
+https://substack2kindle.com
+
+### [42382635] gustavopezzi
+I have created https://pikuma.com to teach computer science, retro programming, and mathematics.
+
+### [42382667] mjomaa
+https://achromatic.dev - Next.js SaaS starter kit that is not crap. That's it in a nutshell haha
+It become the #3 selling one (after Shipfast and Makerkit) in under 3 month.
+I know the website itself is not the most descriptive, but I do prio feature and customer requests over website/marketing. Soon the starter kit will also have multi-organization support :)
+2025 is gonna be interesting since I plan to add multiple boilerplates to the same package deal. Realized I'm not a business that needs to be greedy and grow, just helping others is enough.
+
+### [42382719] recroad
+https://www.jumpcomedy.com
+
+### [42382730] czhu12
+Building https://canine.sh, which is a platform to make any Kubernetes cluster as easy to use as Heroku for deploying web apps, cron jobs, etc.
+The >$500 is basically by offering it for free to everyone and having support to 3 small corporate customers.
+I found this is a really great way to get feedback and bootstrap the roadmap of a project. Little usability / quality of life features, that I never would've worked on myself, turned out to be sizable pain points for others.
+And since they're paying at least something for it, the few beta customers are a lot more committed to making the thing work.
+
+### [42382732] melvinmelih
+Thanksgiving last year, after GPT-4 was released, I realized large language models were finally good enough to bring my idea to life: an AI book generator. Over the holiday weekend, I built the prototype for https://instabooks.ai, to allow anyone to instantly generate 200+ page books on any topic. I sell them in pdf, epub and print form and they take about 30 minutes to complete.
+Since launch, over 10,000 books have been generated on topics ranging from niche hobbies to advanced research. The system runs almost entirely on its own, requiring only occasional updates and customer support. The best part of it: as new LLM models come out, the books get better written as well, so each year it improves without much effort on my end.
+
+### [42382785] Kkoala
+https://produktly.com/ - a suite of tools to improve onboarding, product adoption, and retention. Things like product tours, checklists, feedback widgets, changelogs etc. that help you proactively guide your users, listen to their feedback, and communicate progress and upcoming features.
+All manageable without any coding (after the initial copy-paste script integration), so e.g. product managers or customer success can build and add these from the web dashboard.
+
+### [42382827] mytestament
+I have made https://mytestament.io/
+To describe it:
+“Ever wondered what happens to all our digital memories, important information, and personal messages when we're gone? That's exactly the challenge I wanted to solve. MyTestament.io lets you securely store and designate digital inheritances - from heartfelt messages to important account information - to be shared with loved ones when the time comes.”
+It’s just been released, so technically it’s not yet made $500 , but the projections so far are for about that amount the first month.
+
+### [42382842] technolo-g
+I began creating art a few years ago which is beginning to ramp up:
+https://matthew.bajor.art/
+In April of this year my fabrication business switched from side to primary and I traded Jenkins infra (https://cicd.life) for small manufacturing:
+https://bostondigitalfab.com
+I’ll would prefer to never go back, but I do miss some aspects of the old job.
+
+### [42382867] Rinum
+I've got a SQL card game
+https://rowsandtables.com
+
+### [42382960] nicksergeant
+I started designing and building websites for locally-owned small businesses in my town, and have grown it to 45+ clients with a current MRR around $11k. I still work full-time and have built an awesome team over the years!
+https://flxwebsites.com
+
+### [42383141] protocolture
+The gist I get from this thread is that if you have something on the cards you should just commit to it?
+How much is just survivorship bias?
+I have like 4-5 side hustles being worked on at any one time, but I rarely ship for various reasons.
+Lots of people in this thread seem to have just gone and done it without thinking. How often does that pay off?
+
+### [42383220] nadermx
+Made https://www.pdf.to since one day I had an issue with a PDF and figured why not since the domain was available.  But because previous owner had it as a book torrent site, only gets traffic via Bing as it seems to be blackballed in Google
+
+### [42383254] drchiu
+Built https://sendbroadcast.net for myself and started selling it too. Made about $1500 usd so far over the past 2 months and a bit.
+
+### [42383377] gordalina
+I've built a SMS to Slack which enables two-way SMS messaging from your Slack channels.
+I had an annoying use case where when trying to login to a shared work account, the 2FA code was being sent to a colleague's phone number. Now being able to receive that code in Slack solved the problem.
+Customers now use it for their own customer support. End users really like SMS as a messaging platform, nobody wants to send an email or talk to a chatbot.
+It uses Elixir, Fly, GCP, Stripe, and a couple carriers.
+https://smstoslack.com
+
+### [42383394] stpn
+I built a personal finance app (https://tender.run) in the style of mailbox (swiping, keyboard shortcut, inbox-based workflow for reviewing transactions).
+It's built on the automerge CRDT and sqlite running in the browser, which has been really fun to work with. I'd like to keep going, though honestly I've struggled with the marketing side (growth has been slow) and it's a pretty competitive space.
+
+### [42383435] algoghostf
+I created this course about Data Integration around 2 years back following delivering some complex integrations
+https://www.udemy.com/course/data-integration-guide/?couponCode=FA75E6490059715C82E3
+(Link with coupon code) 
+It brings around 300€/month, and is very much appreciated by professionals despite it not being very conventional. The reason to put it was to share some lessons learned in such projects
+I also published a book on Amazon (with some more detailed content) and it sells handful (sometimes more) copies every month.
+
+### [42383466] johnjungles
+I built https://check.supply with a friend - it’s an iOS app that is like a cash app experience for mailing a check.
+Old school landlords, paying gardeners, or other people still only accepting checks. We use plaid to connect your account, then press send, then track the printing, mailing and delivery of the check.
+Only iOS App here:
+https://apps.apple.com/us/app/check-supply/id6475490646
+
+### [42383513] aarreedd
+I built thatsexquiz.com - a quiz for couples to improve their intimacy. Changed the pricing model and went from $5 to $50 per day
+
+### [42383547] _hnlo
+I've worked on and run [link redacted] and the related subreddit and forum for 15+ years.
+I've generally done everything alone as an exercise in scaling utility for others with constrained time on my part.
+Have used AI heavily in the last few years, which has been the greatest force multiplier of my career for sure: scraping, evaluating, summarizing, organizing, indexing, moderating, writing, ... I've coded so much alopecia related tech at this point it could probably be patented.
+I can recommend giving yourselves big, sprawling projects like this and working on it a few hours every weekend. It adds up!
+
+### [42383567] mickael-kerjean
+I built Filestash (https://github.com/mickael-kerjean/filestash), an open source Dropbox like frontend for any cloud storage / protocols (S3, SFTP, FTP, SMB, NFS, etc...). This was made as a reflection of the Dropbox launch top comment with the infamous FTP guy as I was wondering what was missing from the FTP specs to be able to make a great interface to a protocol like FTP.
+The money come from customisation and enterprise plugins (SSO, audit plugins, etc..). The entire product was made so you can quickly build custom file management solution by assembling a bunch of lego blocks (aka plugins)
+
+### [42383605] throwawayUS9
+I made a dating/meetup app exclusively for Indians and for the NRI Indians (Non-resident Indians).
+https://www.nrimeet.app/
+Available on IOS and Android.
+Gets me around $250 per month. I've not done much marketing either. Started as a hobby project after Covid and continued after.
+I also built an Indian Version of Neighborhood app (like Nextdoor). But I am not making any money from it. https://neighar.com
+PS: I am planning to scale up and also planning to spend some money on marketing. Investors are welcome!
+
+### [42383656] wtf242
+The Greatest Books https://thegreatestbooks.org
+I created it in 2008 and have maintained and improved it over the years. I am trying to figure out how to monetize it more. I currently make around $2k a month. I just use adsense and have a paid membership feature through buymeacoffee. I get massive traffic and I'm pretty much the #1 result for anything related to best/greatest books.
+It's built with Rails and Postgresql and hosted on 3 linode servers. I get around 250k page visits a day.
+
+### [42383657] orkj
+Built https://violinist.io, a PHP / composer update service in 2017 and it passed that figure probably something like 2021?
+
+### [42383693] nick_pou
+I built https://vpzen.io - dedicated VPN servers that are pay as you go. 79c per day and 10c per Gb. Great if you only need a VPN occasionally. Plus there's no VPN client to download... it works with the native VPN client on Windows, iOS, macOS and Android.
+
+### [42383919] lihaoyi
+Not quite 500$/month, but my book https://www.handsonscala.com/ is still making 300-400/month 4.5 years after releasing it. Not a lot of money compared to silicon valley FAANG salaries, especially given the amount of effort that went in, but it's a nice feeling to see the dollars trickling after so long
+
+### [42383928] erics32
+I was laid off at the start of 2024 and built https://interviewsolver.com which is an AI copilot for helping you with your leetcode interviews. Doing about 6k/month, though the space is becoming fairly crowded.
+
+### [42383958] idoma
+I buy & sell pixels (hats) in a video-game - Team Fortress 2.
+I'm currently making $10k-15k per month; I'm one of the largest sellers on the game's main third-party marketplace (https://marketplace.tf).
+Less of a side project and more of a part-time job, since it's ~4-6 hours of work per day.
+
+### [42384048] asaddhamani
+I’ve built two AI based apps. 
+Earlier this year, I wanted clarity on some issues. I knew several of my books held keys to the answers I was seeking, but finding those felt impossible. I wanted an AI based tool I could use to talk to my books. I built https://www.asklibrary.ai to enable this, implementing tons of RAG tech like query fanout, query understanding and breakdown, multi step retrieval, reranking, etc., and I pull in dozens of pages of text for each answer.
+Secondly I love Claude and also use TypingMind but missed the memory feature from ChatGPT. I made MemoryPlugin (https://www.memoryplugin.com) that adds long-term memory to ChatGPT, Claude, Gemini, TypingMind, and LibreChat on desktop and mobile browsers. This got me really interested in AI memory in general, I’ve played around with fine tuning AI models with memories (results = some data learned, way more hallucinations).
+
+### [42384063] kgthegreat
+Made https://meeteffective.com/ for useful 1 on 1 meetings. Not charging for it though right now
+
+### [42384360] true_pk
+https://blymp.ca is about $600/mo with two clients.
+Building an MVP took two weeks, and getting the first paying customers another two.
+I wrote about it here: https://news.ycombinator.com/item?id=42344002
+It’s a B2B SaaS in out-of-home advertising. We found that buying ads outside the digital realm is hard and the only alternative are marketplaces that take away control over media owner’s inventory. So we did for those companies what Shopify did for small businesses — we gave them the tools to sell and to market.
+
+### [42384498] Tsarp
+VoiceType: Mac Dictation tool. Running locally with WhisperLarge Turbo. So its fast accurate and can get a lot of Rust Library names correctly when I use with Cursor.
+Why I Built It?
+I ended up getting RSI over the last year and half. Despite lifting 3x a week and physio-therapy, circumstances had me working >12-15hours 6-7days a week for a few months straight. I’d read about folks using diction but never worked well for me or was pricey software.
+At the same time I started using ChatGPT, Claude, Cursor etc quite a bit. When the Whisper Large turbo model was released by OpenAI, I tried transcribing some technical terms and it got transcribed quite well. ( still makes errors, but its within tolerance of what ChatGPT et.all can understand). I mostly talk type to my Mac now.
+https://carelesswhisper.app/
+
+### [42384525] Tsarp
+BrainDump: Apple Notes + VoiceMemos + ChatGpt in 1.
+What is it? 
+- Apple Eco-system based voice note taking/journal. 
+- Tried various note taking apps. Nothing stuck like Apple Notes. 
+- Writing by hand was the best way to get clarity but seemed high friction. Talking about ideas with friends/colleagues was the second best to thought clarity.
+- Basically combined it. Voice -> Transcribe (whisper accuracy locally) -> Rewrite with COT LLMs. 
+- Helped me maintain journal now ( life events, ideas, anxiety days etc ). Added some prompts to help me. ( researched what experts in the field recommend; as an example - How do I start? And what do i say if i want to gratitude journal ).
+Since launch, more than 50% end up using it for meeting notes.
+https://voicebraindump.com/
+
+### [42384629] kebob
+I built a Figma to Bubble.io converter, basically Figma to code but for a nocode platform. Niche, but something that I personally needed so figured others may find value as well. I charge a flat $25/mo, and based on the Figma design it significantly speeds up my development in bubble.
+Been hovering around $1.4K MRR, only real spend is ~$15/day google ads which has yet to pay for itself, but I keep telling myself its a good excuse to learn google ads.
+https://www.deezign.io.
+
+### [42384704] aussieguy1234
+Tunnelmole - https://tunnelmole.com/. This is an open source tunneling tool in the same category as ngrok. I have turned this into an actual company, it's just a one person one for now.
+While it is open source, I am trying to build a sustainable business around it. It is bootstrapped and there is no VC funding as of yet.
+Currently there are several thousand monthly users and just enough paid subscriptions to be making ~$500 (AUD) per month. Promoting it so far has not been too difficult with different strategies, but the conversion rate is quite low, so i'm planning to start doing some data science type analytics to find ways to optimise that.
+
+### [42384792] zulban
+More like $400 a month the past couple months. Maybe that counts.
+www.chesscraft.ca
+I started this chess variant AI sandbox 5 years ago for myself to help with a brutal commute. Still working on it now and then. I've learned so much building and releasing a commercial product with a community, on Google Play and Steam. It's great to see the flexibility of the "good enough" AI I made has still held up after 5 years.
+
+### [42384801] jerrygoyal
+it's not consistent on a monthly basis but so far i have made $10k from my open source side project and I wrote about that in detail: 
+https://gourav.io/blog/notion-boost
+
+### [42384817] wingerlang
+I make macOS apps [0], the revenue is irregular but on average it fits the $500/m. The main driver is [1] ScreenMemory, which records your screens and allows you to navigate a timeline / calendar. Sort of a Rewind.ai alternative.
+[0] https://jontelang.com
+[1] https://screenmemory.app
+
+### [42384824] habosa
+I run CodeApprove (https://codeapprove.com) which is a better code review interface for teams that work on GitHub. Know when it's your turn to review, what discussions/files need your attention, and do it all in a lightning-fast single-page interface with keyboard shortcuts. The UX and workflows are inspired by the excellent tool Critique which Googlers/Xooglers know and love.
+Doesn't make enough money to be my full-time job, but enough to keep me interested over the past 3+ years.
+
+### [42384859] vachina
+I sell bike parts on the side (https://bike-parts.cc and a few others). Plugs into my cousin’s ERP system with a middleware that I wrote.  Everything is hosted at home, integration, DB on a 500mbps home internet :).
+
+### [42384891] cperciva
+Probably not exactly what OP means by "side project" but in 2006 I started working towards getting FreeBSD running on EC2, and I got it working in 2011; I've been the maintainer of the FreeBSD/EC2 platform ever since.
+This started because I wanted to use FreeBSD in EC2 for Tarsnap, but I'm now getting sponsorship from Amazon for my work on FreeBSD (EC2 and release engineering) as well as a much smaller amount from a Patreon I set up a few years ago.
+
+### [42384983] jfoster
+Among some related tools, I run Batch Compress (https://batchcompress.com/en), an online image compressor. It converts images to WebP or JPEG with a lot of compression applied in order to shrink file size by a lot.
+There is a lot of competitors, but usually they have limits requiring accounts & payment if the images are too large to begin with or if you want to compress a lot of images. Batch Compress is free for unlimited use. The concept of Batch Compress is to be a batch version of Google's Squoosh tool.
+Always very open to feedback or feature requests.
+
+### [42385172] crush_robo_1536
+https://rockyai.me/ - a chrome extension that lets you chat with any webpage using LLMs. Just a simple side project that I wanted to build for me and my friends. Don't intent to monetize it
+
+### [42385238] woutr_be
+I have developed about 20 mobile apps for the KaiOS ecosystem, which does around $500-$750 a month.
+I also run https://monitorprices.org, which is just a list of available monitors on Amazon, but provides a bit more filters. Does about $125 a month, maybe double if there’s a creator reward campaign running.
+Nothing splashy or exciting really, but it gives me motivation to keep trying things.
+
+### [42385240] dietervds
+I write a newsletter on cybersecurity every week. Usually a summary of interesting articles and a list of known breaches and software issues.
+It's been going for seven years now I think? It makes about 25k in sponsorships each year, although it could be more if I actually got myself to sell a bit more.
+Either way, it's been a great way for me to keep learning. Nothing beats having to summarize a thing to thousands of people to make sure you really understand it :-)
+https://securitynewsletter.co
+
+### [42385249] Xixi
+I've been running a Japanese green tea-of-the-month club on the side, with a friend and a (very part-time) employee in Japan [1]. It's bringing about $2000/month gross, and slightly under $500/month net.
+[1] https://tomotcha.com
+
+### [42385254] Ave
+Built this back during COVID, still chugging along at a few hundred $/month. Sales tend to pick up around the holidays, it makes for a nice xmas gift.
+https://cadenceprints.com
+Use your strava / fitness data to create beautiful wall art
+
+### [42385307] burningChrome
+My side project is managing several clients websites on a subscription based service. My buddy and I started a web design agency for small companies. It was just us two and we bootstrapped everything and were in the process of building several apps for the dozen or so architectural firms we were working with when he died suddenly of an aortic aneurism. It was such a shock to me and so I just shut the company down.
+Several clients begged me to keep going because we did such a good job doing the SEO, their sites were generating a ton of great leads and we had built a way to track the leads and send out first response emails with a phone call follow-up with 2 hours of the firm getting the email. Because of the fast turn around, they were beating other firms to the punch and we unknowingly had created a significant business advantage for them.
+Those 4 clients pay me for 8 hours of work a month at $65.00/hour. If you do the math, I'm clearing about 2K/month just to manage their sites, send out analytics and make content suggestions. It was a nice side hustle to have a few years back when I was laid off and was able to lean on this income until I got hired again.
+
+### [42385331] elieskilled
+Inbox Zero - https://getinboxzero.com - your ai personal assistant for email. Spend 50% less time on email.
+
+### [42385602] apapli
+My wife built https://www.jummbo.ai but she doesn't have an HN account so I'll share for her.
+Jummbo takes the "umm" out of prospecting in B2B sales.
+It makes it really quick to find and prospect new customers, as it googles them, researches them, and writes custom emails and call scripts that are highly targeted to each of them.
+The app is in the $hundreds per month, getting a lot of interest in a niche vertical which is quite promising so a lot of extra features will be added in the new year.
+We're always up for feedback on how to make it better so if you set up a trial don't be shy with any suggestions you might have :)
+
+### [42385611] cdosborn
+I created a website spellchecker/proofreader (https://spl.ing). We use aws step functions for the actual processing, it's very cool tech!
+Reply with your websites, and I'll run a few checks!
+
+### [42385618] ronyfadel
+My 2 Mac Apps bring about $700/mo each:
+Tubbie [1] is a simple and clean Mac YouTube downloader.
+Mission Control Plus [2] fixes something stupidly simple: it adds closing, minimizing and quitting apps functionality to macOS' Mission Control.
+[1] https://www.fadel.io/tubbie
+[2] https://www.fadel.io/missioncontrolplus
+
+### [42385671] motyar
+Launched ZenMic: AI Podcast Generator few months ago. Crossed 400 free users so far.
+Zero MRR but it makes money indirectly.
+We still have to add pricing and paid plans but it attracted enough freelancing client who need related custom solution.
+https://zenmic.com
+
+### [42385782] dc0848
+I do a couple of bucks on digital marketing
+
+### [42385818] t1tech
+I've built https://cophone.io - your online smartphone, complete with a phone number. It is an Android system running in the cloud that you can access via a browser, even on mobiles. Things like microphone and webcam work nicely, so you can even have meetings on cophone.
+After iterating on it for a while, customers seem very happy and now growing day by day.
+No marketing so far, just being out there and posting on various channels once in a while.
+
+### [42385821] trubalca
+I sell 3D laser manufactured maps - themapsguy.com
+
+### [42385896] audiala
+I have built https://audiala.com which creates audioguides for historical and touristic places in cities all over the world. It brings a bit over $500/month in in-app purchases.
+I got the idea in 2023 as I was solo traveling Florence, Italy and thought it would be much nicer to listen to stories about the monuments around me instead of having to read a guide. There is also so much more to be done: next, my plan is to create personalised itineraries based on your preferences, starting point, etc.
+I tried paid marketing but found much more effective the SEO I have done on the website, and users seem to share with their friends and come back, which makes me happy.
+
+### [42385966] simonswords82
+Running https://minute-master.com as a side project, landed a couple of clients this year and a good pipeline of new clients for next year.
+It's a board governance and minutes generation tool for fund administrators, trust companies etc. The types of firms that need to have regular meetings with directors and need those minutes formally captured.
+But isn't there co-pilot for that? Yes, but no.  Copilot can summarize a meeting - this is more regulatory orientated. So the agenda is set out, participants sent a pack before the meeting, and then minutes generated almost in real time to draft level of 80% accuracy. Ultimately means the process for managing and minuting a meeting is reduced from hours to minutes.
+If we carry on doing well I suspect this will become more than a side project in 2025...
+
+### [42386053] cmenge
+Not exactly a new idea, but as a fun side project, I built an AI photo generator (i.e., an SD/FLUX wrapper) https://www.photovortex.com which has crossed $500MRR last month.
+I also just launched a spin-off of it, https://www.portrayya.com which is more focused on generating a set of portraits of a single person (i.e. headshots for linkedin etc.) instead of prompting individual images.
+Overall this is a very crowded space now because it's so easy to build, but there is still a learning curve around landing page design, conversion, ads etc. and potentially some niches to explore.
+
+### [42386209] babuskov
+I built a Home Inventory software back in 2006 called Attic Manager:
+https://guacosoft.com/attic/
+In the first few years it only sold a couple of copies per quarter, but then Intuit decided to discontinue support for their Quicken Home Inventory programs and users got stuck. I added the ability to import that data and then the sales started doing well. It has tapered off in the past three years but I still get some months over $500 during the year. I haven't really done any marketing, as it's just a Home Inventory program I made for myself, to keep track of stuff when we were moving to a new home.
+As far as I know, Attic Manager is still the only program which can load QHI data.
+
+### [42386292] kavyaj
+We launched a Markdown resume builder called ResumeyPro (https://resumey.pro/) as a side project in 2020. It has been consistently generating revenue with barely any active marketing from our side. Most of the revenue is via organic search.
+
+### [42386453] chr15m
+The combination of https://hostedgitea.com and https://dopeloop.ai brings in over $500 per month. In 2025 I'm going to focus on shipping a bunch of new online music apps on dopeloop.
+
+### [42386567] gamebak
+My side project is about market making in a very particular way / or niched between decentralised exchanges and centralised one. The good thing is that this industry is so big that even as a small competitor I can do a lot. I don't have a product, just a basic page that's broken here and there https://asset.plus/, my actual revenue comes from my bots trading. I am currently expanding my infrastructure, but I really have to take care of costs because servers for low latency are expensive.
+
+### [42386570] kimchidude
+https://ieltsielts.com/
+I build simple speech shadowing exercises that help people train for IELTS Speaking. The project makes more than $500/month.
+
+### [42386675] predictand
+I have been working on Heuristica for the last 1.5 years, which pays for my rent. It is a subscription-based, AI-powered concept mapping tool that helps visualize learning and research.
+As I started to make money, I was able to start hiring freelancers to help with certain aspects of the site, like the design, SEO, and some independent coding tasks. It is rewarding, but due to the pace of developments in the AI space, it feels like I need to improve the product constantly to remain competitive, which can get a bit burdensome.
+https://www.heuristi.ca/
+
+### [42386790] rozenmd
+I built a service that tells you whether your team's website/API or cron jobs are online, or not.
+It's called OnlineOrNot: https://onlineornot.com
+Coming close to 4 years of operation!
+
+### [42386855] ruzig
+I wrote scrapers to scrape data from Google, Bing, Walmart, eBay... I work with clients, support them to integrate all data into their workflows. Basically, I'll provide private APIs, specific to their use-cases. Not many clients, only 2, about 600 USD/month cause clients are testing the market. It's fun cause I can debug and get feedback directly, in real-time, from clients about the results.
+
+### [42386857] jonkratz
+I built a service that makes sure your forms are always working — no more lost leads due to something breaking.  Currently bringing in over 1k/mo: https://formtester365.com
+It fills out the form as a human would (daily or on whatever weekly schedule you want) and then confirms it was received. It currently supports Gravity Forms on Wordpress due to their API for confirming submissions, but a new version that supports all web forms is nearly ready.
+One of the main use cases is for agencies that want to make sure clients sites are always working.
+
+### [42386952] ragularuban
+I built ClickConnector - a customer support platform for SaaS products.
+Customer support and customer success are interconnected functions, especially for SaaS products. We took it upon ourselves to build a platform with HelpDesk, Knowledge Base Portals, Feature Requests, Bug Reports, Changelogs, Email Drip Campaigns, Product Tours, NPS, Testimonial Collection, Checklists, and everything a SaaS team needs to win over their customers.
+Initially, my focus was on travel agencies. I then started building tools that I needed to support my customers (since I couldn't use another product to assist them—it would have been a shame to use an external product if we were marketing our solution as a customer support platform for travel agencies). Fast forward, with all the tools that we built, it was a no-brainer for me to pivot our product. I thought this would be a great fit since this niche has a better founder fit for me.
+https://clickconnector.com/
+
+### [42387209] soheilpro
+https://volt.fm
+Can't really call it a side project, though, as I'm working on it full-time.
+
+### [42387378] lukehaas
+I built https://runjs.app because I wanted an easy way to run JavaScript and test out ideas.
+It turned out that a lot of other people wanted the same thing.
+The first version was free and very basic. After getting a lot of suggestions and feedback from the people using it, I added more features and introduced a freemium pricing model.
+
+### [42387999] outcoldman
+Mac/iOS apps https://loshadki.app
+Stable between 1000-1500 monthly, depends on the month.
+
+### [42388538] iximiuz
+Hey there! I built a learning-by-doing platform for DevOps, SRE, and all other types of infra engineers - https://labs.iximiuz.com. Started working on the project exactly two years ago, and about 12 months ago added a Premium membership, which immediately took off! Still mind-blown by the results, and it's something I build only in my free (from the main job) time. The labs were making ~$3K MRR for a few months before the Black Friday sale and then doubled the annual revenue in a week by making another ~25K at the end of this November.
+
+### [42388612] vfulco2
+This was a terrific back and forth between the community with a lot of genuine insights.  Kudos!
+
+### [42389230] vlucas
+I built a Google Sheets Add-on that imports bank transactions via Plaid into Google Sheets.
+It formats transactions, auto-categorizes them, has custom category rules, and can automate data imports nightly.
+It's called BudgetSheet ( https://www.budgetsheet.com ) and has been my side hustle for almost 5 years now.
+Revenue is just over $5,000/month. Growing well. Targeting $9k MRR for 2025. Expenses are high because Plaid is expensive (last invoice was over $1,600), but still good margins and will get better with scale.
+It's good software and I've put a lot into it, but the user experience really just comes down to how well Plaid supports your bank. Folks with really well supported banks love it, and folks with banks not well supported by Plaid tend to churn quickly.
+
+### [42389704] snapplebobapple
+My side project is not spending money. For every 100k i dont spend i can generate 500 to 1500 a month just by buying an s&p 500 tracking etf.
+
+### [42393154] denz88
+I built an online course catalog / aggregator many years ago. It's my first web project after learning how to code using courses from edX and Treehouse. My goal was to build something that I'd want to use myself. It's undergone a few iterations since then.
+The site gained initial traction on Reddit where I shared my experience learning and building in the r/learnprogramming subreddit. That was enough momentum to get me ranking on search engines. I eventually set up affiliate relationships with several of the major online course platforms.
+Although I've built a handful of apps using React, Vue, etc. this one's a classic Flask app using Jinja templating. There's just a few tiny JS scripts I wrote for basic interactivity (like updating the state of the "Save" button). Feedback is most welcome!
+https://opencourser.com
+
+### [42393685] kasperkamperman
+I created a site (https://zwemindex.nl) with all the pools and open water places in The Netherlands (it's in Dutch). It started off with the idea that I wanted to do a places search but without Google Places. I learned about GIS, build a lookup array with placenames, slugs and latlon. Just simple PHP and autocomplete.js.
+I started out with some Open Data from the Dutch governent on all open water swimpots. I thought the current site (still is) not user-friendly on mobile. I also added all the public pools.
+I got some traction because I got interviewed as an example project and I reached out to news sites.
+Actually my backend is a Google sheet, which I sync to MongoDB (works nice with geo). Did a write up on that: https://www.kasperkamperman.com/blog/web/import-csv-in-mongodb/
+Rest is all vanilla PHP, cached to HTML, Bulma css. Running on shared hosting, with Cloudflare cache in front.
+I really worked on accessibility too, allowing keyboard navigation (press TAB) and making sure everything is readable and with good contrast (Bulma 2.0 fixed that).
+I make about $500 with some affiliate links (waterparks with hotels, wellness) which really fit with the search intent of the user. The last thing I want is stuffing the site full with Google ads.
+
+### [42394812] PrimaryAlibi
+I have been making youtube videos for a long time on many different accounts. I don't know what else to say except try to choose topics that youtube won't give you trouble over so avoid things like privacy, crypto, politics. Then you just keep making videos and one day you win the lottery when the algorithm finally shines the light on you.
+
+### [42395681] JP_Watts
+Last August I bought 6 small work platforms/mast lifts at an equipment auction and sold them in FB Marketplace for an extra $1000 each after expenses. Cleaned them up a bit, but that was it! I’m bidding on 5 more this week, should be an easy $5k arbitrage.
+
+### [42396126] ddaying
+ㄹㄹ
+
+### [42396147] ddaying
+I am currently running an application in Korea that analyzes the results of sports Toto matches. I earn approximately $500–550 per month through in-app purchases.
+This business model is somewhat limited, so I am considering other services.
+https://play.google.com/store/apps/details?id=com.tistory.ddaying.pm
+
+### [42396535] dpcan
+I own an escape room business with one, two-part, room and it does about this or much more in some months.
+The problem is, unlike so many examples in these threads, this business requires every available minute of my time so it’s a little more than I bargained for. Plus there is a brick and mortar location, city regulations, etc.
+You gotta REALLY love the hell out of this business to do it at all, let alone as a side project.
+
+### [42397260] addy999
+I'm building an AI web agent to fetch detailed information. Looks up and browses sites just like you.
+Have just over 500 developers signed up and releasing our client library soon.
+https://www.onequery.app
+
+### [42398490] jacksonLiu89
+Earlier this year, NYT launched a new puzzle game called Strands, which gained a lot of popularity. I created a website, https://strands.today, monetized with AdSense. It allows users to check daily puzzle answers and play previous games in the https://www.strands.today/strands-archive/ . It generates about $600 per month.
+
+### [42399221] wolftickets
+I've finally made it to the $500/month mark! I built https://wolftickets.ai , it is a collection of AI predictions for upcoming UFC fights. The predictions for the future events are private but all past results are public.
+I get to keep iterating on new models, new approaches for using gen-ai tech to write better analysis of fights and fighters, along with exploring stats and tendencies that matter.
+A good example of the writeups: https://wolftickets.ai/events/ufc-310-pantoja-vs-asakura/1398636328219261226/movsar-evloev-vs-aljamain-sterling/1387/
+This project isn't yet allowing me to retire but I'm passionate about the AIML space and combat sports, I get to explore whatever ideas I find interesting, and get a ton of feedback and ideas from members without having to do advertising.
+
+### [42400286] fsn4dN69ey
+I opened a board game/trading card store in May. We host events and sell products. Takes up a lot of my time but ultimately it's a passion project that actually makes money.
+
+### [42401040] henrygrew
+https://kenyanlist.net local Kenyan forum
+
+### [42402011] punitvara
+https://loankundli.com/
+I built this for my personal usecase to estimate savings by prepayments done during my home loan tenure. I didn’t find this feature where you can select choice to reduce emi or tenure for each prepayment. Not making any revenue but hopefully trying to make it helpful
+
+### [42403342] th3owner
+I created https://reddit-saved.com to search and organize reddit saves that I wanted to come back later. 10K+ sign ups, mainly through word of mouth and Google search. Still not monetized but hoping to in the near future.
+
+### [42404525] yanneves
+I built https://gadabout.ai through experimentation with multimodal LLMs / computer use to reduce the burden of user testing side projects. I can't recall the last time I was this excited by a new technology.
+Following conversations with others, I've since positioned the tool for marketing teams to run deep competitor analysis and monitoring. Two pilot customers through word of mouth expected to double next month. Invite-only building in tandem with customer feedback, I haven't even put together a landing page yet.
+I'm currently designing a ranking algorithm, working name UAC (Usability, Accessibility, Conversion) score.
+
+### [42408721] thip
+I'm making and selling a couple of LED pin badges on my site https://hortus.dev.
+I wrote about my experience doing these last year (previous hn post here: https://news.ycombinator.com/item?id=38904255) and since then it has really taken off! Not enough to live off, but certainly enough to sustain itself and fund some more projects in the future.
+I never expected it to turn into anything more serious than a novelty and I've learned a tonne about running a small business as a result. I'm really looking forward to (hopefully) learning how to grow this into something bigger over 2025!
+
+### [42409552] digest
+I built Digest, which allows you to create a personalized daily digest containing all of the content you already read. Add content sources like Reddit, Google Calendar, Instagram, X, TikTok, Stripe, Hacker News, Weather, YouTube, Product Hunt, RSS, Google News, Stocks, Crypto and more. Content is summarized from sources using AI. Each day (week or month) you will get a newsletter containing updates from all of the sources that you added to your digest. I also recently added a newsletter reader to it, so you can get an email address that you use to signup to all newsletters with, and then Digest becomes your newsletter reader (and even emails you a list of all your new newsletters).
+https://usedigest.com
+
+### [42410822] logotype
+I built FIXParser https://fixparser.dev initially because I wanted to learn HFT. This was over 10 years ago, but I still maintain and build it to this day. Turns out several companies find it useful too! It doesn’t make much money, but I’m more stubborn than smart so I’m quitting my day job and will work full-time on FIXParser next year.
+
+### [42415788] mnfrmcddlykrnl
+Building this on the side with a few ex colleagues. I’m making the $500/month but it’s obviously not via revenue.
+https://pathapp.co.uk
+
+### [42420588] _563m
+I started [name redacted] to design, manufacture and sell cool, tough products that I like to use and carry daily. Average monthly income is $2K–3K. This is thanks to repeat buyers as much as first-timers. Although some months are slow with no more than 15 orders, the bigger months when a Kickstarter campaign pays out a lump sum (followed by an influx of orders from being new on the KS page) help raise the average. Sales also pick up before Christmas, and whenever I run a promotion. Occasional wholesale partnerships with online retailers (in Japan, USA) also bring in a lump sum payout. 70% orders are from the USA. For shipping I use Australia Post (terrible) and NextSmartShip China (superb).
+I should mention that the first couple products I designed did not work at all. Hardly anyone placed orders and I didn't recover my investment... at a time when I didn't have money to 'waste' (I had quit my PhD in the USA and moved to Australia, I was broke so first had to get a full-time job). But of course the experience wasn't a waste, it taught me couple things I really needed to know for this journey. Things only picked up when I discovered Kickstarter. The hit product that changed things (now sold out and discontinued) was a bolt action tactical pen priced at AUD45 (USD~30) and made of reinforced polymer instead of metal. The metal ones at the time cost 3X–7X my price, were heavy, plain-looking, sharp and slippery for tactical use as a glass-breaker. Additionally, I provide the kind of customer service I wish I could get : First, I provide lifetime guarantees on all my products (there are only two products in stock now but I had a dozen; planning more in future). Second, if there's any issue — even if your cousin sneezes on your pen and you therefore want a different one — I'll ship a free pen. The rare issue has been a package getting lost in transit, I try to fix that quickly by shipping a second package and then providing a refund for the disappointing experience. I don't ask for returns and it's a hassle anyway, so nobody has ever returned a product. Only one person asked for a refund in six years which I provided in about ten seconds. Among loads of positive feedback and sometimes multi-page emails that I'm very grateful for, customers also sometimes email me to say their pens were stolen after they showed it off to curious coworkers or something — when I hear this, I send them free replacement pens because it makes me happy to flip their memory of the incident from negative to positive.
+
+### [42421370] ikliuger
+I'm a bit late to the game, but I still want to share my side project Olympiad Math Exercises for Kids https://mathclub.ai/math-exercises.
+For $50 a month, students get two sets of problems from past math contests every week. We've added nice features like an AI helper that can check answers and answer questions about the problems. Plus, for those looking to put their skills to the test, we host both online and in-person math olympiads in the Bay Area.
+
+### [42422729] lambrospetrou
+I have built a managed platform automating HTTP API testing, at https://www.skybear.net. The core basis is to run your Hurl files. Automatic report persistence, scheduled runs, and multiple files supported with hundreds of requests per "run/execution".
+Soon, I will be adding analytics, insights, and automatic test generation features.
+I have been working for a year on it, and will keep working on it for many years to come, since I am using it myself a lot anyway.
+
+### [42423347] com-adm
+https://www.comicsmaker.ai
+Its a service where users can create comics using AI generated artwork. Love creating art and writing software so it's a passion project for me. Haven't done any marketing yet, its mostly organic search traffic.
+
+### [42430195] raptorraver
+Started selling pasture raised eggs last summer. First we had a flock of 150 but soon we ordered 150 more. We kept them in the Susckovich style chicken tractors[1] and sold directly to customers through Reko-rings (Facebook based farmers market). We gross around 3k€ per month with around 2000 euros profit per month. The chores take 1-2h per day and the deliverys around 3h per week. Our web page is at www.paivarinne.farm It's in Finnish but at least the pictures are nice :)
+1: https://farmmarketingsolutions.com/stress-free-chicken-tractor-plans
+
+### [42441385] glax
+I help people mod their motorcycles. I wanted to do something not related to tech or coding in general.
+People consult me for doing performace mods, parts sourcing. The sports bike scene is emerging in my country.
+I'm planning to build a dyno from scratch, if it's a success. I'm hoping to recoup the cost from proving it as a service.
+
+### [42447861] hewmax
+I started selling my own design templates and tutorials a few years back and ended up making a steady $2–3k/month from a single Medium post that ranked well on Google and some Product Hunt traction.
+This led me to build https://tapflow.co on the side (been 3 years). It's a simple platform where tech pros-designers, devs, marketers, PMs— turn internal docs, templates and workflows into paid products. I kept it lean since most don't have time to build a full course.
+The core idea: many pros have valuable knowledge sitting unused-too busy, unsure of their expertise, or find it too complicated to create full courses. I built a tool to help them quickly pack and sell what they know, creating passive income.
+Some friends and early adopters have made over $20k from their products (mainly courses). One French teacher even earned over $7k on the first day with just a promo page https://tapflow.co/p/du-b2-au-c1-4ebMhTxqJi
+Since launch, I haven’t done any real marketing—just personal recommendations,  Product Hunt and Reddit. Now it’s stable income. The platform takes a small cut and offers a pro tier.
+
+### [42451437] hot_town
+I built https://coverLetterGPT.xyz -- super simple GPT wrapper that generates cover letters. Makes almost $600 a month now. It's also open-source. I wrote about it here: https://docs.opensaas.sh/blog/2024-12-16-my-gpt-wrapper/
