@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://500mrr.pages.dev/"><img src="assets/banner.jpg" alt="月入 $500 的副业：474 个 Hacker News 独立开发者自述的赚钱项目" width="100%"></a>
+  <a href="https://500mrr.rokoai.fun/"><img src="assets/banner.jpg" alt="月入 $500 的副业：474 个 Hacker News 独立开发者自述的赚钱项目" width="100%"></a>
 </p>
 
 <h1 align="center">500MRR · 月入 $500 的副业图鉴</h1>
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://500mrr.pages.dev/"><b>👉 打开在线图鉴</b></a> ·
+  <a href="https://500mrr.rokoai.fun/"><b>👉 打开在线图鉴</b></a> ·
   <a href="projects.csv">下载 CSV</a> ·
   <a href="#收入最高的案例自述">收入最高的案例</a> ·
   <a href="#帖子里反复出现的规律">8 条规律</a>

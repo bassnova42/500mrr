@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://500mrr.pages.dev/"><img src="assets/banner.jpg" alt="月入 $500 的副业：474 个 Hacker News 独立开发者自述的赚钱项目" width="100%"></a>
+  <a href="https://500mrr.rokoai.fun/"><img src="assets/banner.jpg" alt="月入 $500 的副业：474 个 Hacker News 独立开发者自述的赚钱项目" width="100%"></a>
 </p>
 
 <h1 align="center">500MRR · 月入 $500 的副业图鉴</h1>
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://500mrr.pages.dev/"><b>👉 打开在线图鉴</b></a> ·
+  <a href="https://500mrr.rokoai.fun/"><b>👉 打开在线图鉴</b></a> ·
   <a href="projects.csv">下载 CSV</a> ·
   <a href="#收入最高的案例自述">收入最高的案例</a> ·
   <a href="#帖子里反复出现的规律">8 条规律</a>
@@ -889,7 +889,7 @@
 
 ## Cloudflare 部署
 
-网站部署在 Cloudflare Pages：https://500mrr.pages.dev 。改完数据后运行 `python3 scripts/build.py`，再用 cf-deploy 部署 `site/` 文件夹。
+网站部署在 Cloudflare Pages：https://500mrr.rokoai.fun （备用地址 https://500mrr.pages.dev ）。改完数据后运行 `python3 scripts/build.py`，再用 cf-deploy 部署 `site/` 文件夹。
 
 ```cf-deploy
 {
@@ -897,6 +897,9 @@
   "account_id": "1c29ea2a8e89fa7bb682b7019105e563",
   "worker": false,
   "pages": [{ "project": "500mrr", "dir": "site", "branch": "main" }],
-  "verify": [{ "url": "https://500mrr.pages.dev/", "contains": "HN 月入 $500 副业名录" }]
+  "verify": [
+    { "url": "https://500mrr.rokoai.fun/", "contains": "HN 月入 $500 副业名录" },
+    { "url": "https://500mrr.pages.dev/", "contains": "HN 月入 $500 副业名录" }
+  ]
 }
 ```
