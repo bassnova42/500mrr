@@ -5,7 +5,7 @@
 <h1 align="center">500MRR · 月入 $500 的副业图鉴</h1>
 
 <p align="center">
-  <b>474 个真实的副业项目，来自 Hacker News 六年的 “Show and tell” 帖子。</b><br>
+  <b>587 个真实的副业项目，来自 Hacker News 9 年的 “Show and tell” 帖子。</b><br>
   每个项目都有网站截图、中文简介、怎么挣钱，以及它今天是否还在运营。
 </p>
 
@@ -20,24 +20,24 @@
 
 每年年底，Hacker News 都会有人发帖问：*“Those making $500/month on side projects — show and tell”*。几百位独立开发者在下面晒出自己的小生意：一个 Chrome 插件、一个纸牌网站、一份周刊、一个卖给医院的游戏机管理系统……
 
-问题是，这些帖子散落在 6 年里，大部分是英文长评论，链接也一年年失效。**500MRR 把它们整理成了一本可以逛、可以搜、可以对照现状的图鉴。**
+问题是，这些帖子散落在 9 年里，大部分是英文长评论，链接也一年年失效。**500MRR 把它们整理成了一本可以逛、可以搜、可以对照现状的图鉴。**
 
 ### 你能得到什么
 
 | | |
 |---|---|
 | 🖼 **一眼看懂** | 每个网站都截了图，点开就是详情页：做什么、怎么收费、作者说了多少收入 |
-| 🟢 **现在还活着吗** | 2026 年 11 月逐个检查：348 个仍在线，其余标出停运、域名待售、被博彩站占用或已出售 |
+| 🟢 **现在还活着吗** | 2026 年 11 月逐个检查：424 个仍在线，其余标出停运、域名待售、被博彩站占用或已出售 |
 | 💰 **怎么挣钱** | 订阅、买断、广告、联盟佣金、赞助、插件市场分成……每个项目都写清楚了 |
 | 🔎 **按需筛选** | 按年份、12 个类别、运营状态筛选，按估算月收入排序，支持全文搜索 |
 | 🧾 **可追溯** | 每条都链接到作者在 HN 上的原评论，收入数字全部来自作者自述 |
 
 ### 数字一览
 
-- **474** 个项目，覆盖 **2020–2025** 共 6 个年度帖子
-- **348** 个网站至今仍在运营
-- 自述收入最高约 **$120k/月**；能估算月收入的 271 个项目里，6 成在 **$500–$2k/月**
-- 最多的类别：SaaS（123）、移动和桌面 App（70）、内容和社区（43）、开发者工具（41）
+- **587** 个项目，覆盖 **2017–2025** 共 9 个年度帖子
+- **424** 个网站至今仍在运营
+- 自述收入最高约 **$120k/月**；能估算月收入的 340 个项目里，64% 在 **$500–$2k/月**
+- 最多的类别：SaaS（154）、移动/桌面 App（81）、内容/社区/媒体（66）、开发者工具/API（56）
 
 ## 收入最高的案例（自述）
 
@@ -46,7 +46,11 @@
 | [Tradytics](https://tradytics.com) | 2021 | ~$120k/月 | AI 交易灵感平台，独自运营，3000+ 付费用户 |
 | 体育比分 App 组合 | 2021 | ~$100k/月 | 单人，从早期移动应用时代做起 |
 | AliveAI（NSFW） | 2025 | >$50k/月 | 成人 AI 图像/视频生成，作者严重倦怠 |
+| [ManyPixels](https://www.manypixels.co) | 2018 | $40k/月 | 数字游民在曼谷做的包月无限设计服务，8 个月做到 $40k |
 | 金融 YouTube 频道 | 2021 | ~$30k/月 | 用 ffmpeg 自动剪辑，每周投入不到6小时 |
+| [The Sequencing Center](https://thesequencingcenter.com/) | 2018 | ~$23k/月 | 家族经营的基因测序实验室，年增长超过 100% |
+| [Nick Janetakis 视频课](https://nickjanetakis.com) | 2017 | $5k–15k/月 | 面向开发者的 Docker 等视频课程 |
+| [Bugfender](https://bugfender.com) | 2017 | ~$8.6k/月 | 内部调试工具差点被砍，三年做到 €7300 MRR |
 | [Label LIVE](https://label.live) | 2023 | 5位数/周 | Mac 标签设计 App，又捆绑卖打印机 |
 | [LeetCode Wizard](https://leetcodewizard.io) / OnlyFans 聊天机器人 | 2024 | ~$15k/月 | 两个都是有争议的 AI 套壳产品 |
 | [FLX Websites](https://flxwebsites.com) | 2024 | ~$11k MRR | 给本地小商家做网站的订阅服务 |
@@ -57,6 +61,8 @@
 
 ## 连续多年出现的“常青”项目
 
+- **LogMyHours**（2017、2020）、**PlaceCard.me**（2018、2021）：同一个产品隔了三年再来汇报。
+- **Cronitor**（2017）：三年做到能付两位创始人的湾区房贷，后来还收购了 2020 年帖子里的 Panelbear。
 - **OnlineOrNot**（2021→2025）：每天上班前写2小时，从 $300/月做到 2022 年起稳定超过 $500；策略是在红海里活得比对手久。
 - **Hacker Newsletter**（2021、2024、2025）：HN 精选周刊，已做15年，靠赞助。
 - **Filestash**（2021、2024、2025）：开源文件管理器，靠企业定制、插件和支持收费。
@@ -97,23 +103,26 @@
 | 2022 | 18 | [HN 原帖](https://news.ycombinator.com/item?id=34190421) |
 | 2021 | 139 | [HN 原帖](https://news.ycombinator.com/item?id=29667095) |
 | 2020 | 19 | [HN 原帖](https://news.ycombinator.com/item?id=24947167) |
+| 2019 | 15 | [HN 原帖](https://news.ycombinator.com/item?id=20899863) |
+| 2018 | 27 | [HN 原帖](https://news.ycombinator.com/item?id=17790306) |
+| 2017 | 71 | [HN 原帖](https://news.ycombinator.com/item?id=15148804) |
 
-共 **474** 条。按类别：
+共 **587** 条。按类别：
 
 | 类别 | 数量 |
 |---|---|
-| SaaS | 123 |
-| 移动/桌面 App | 70 |
-| 内容/社区/媒体 | 43 |
-| 开发者工具/API | 41 |
-| 电商/实体产品 | 39 |
-| AI 产品 | 39 |
-| 课程/书籍 | 30 |
-| 服务/外包 | 21 |
-| 游戏 | 20 |
-| 其他 | 18 |
-| 开源/赞助 | 17 |
-| 浏览器扩展/插件 | 13 |
+| SaaS | 154 |
+| 移动/桌面 App | 81 |
+| 内容/社区/媒体 | 66 |
+| 开发者工具/API | 56 |
+| 电商/实体产品 | 46 |
+| AI 产品 | 40 |
+| 课程/书籍 | 37 |
+| 服务/外包 | 29 |
+| 其他 | 21 |
+| 游戏 | 21 |
+| 开源/赞助 | 19 |
+| 浏览器扩展/插件 | 17 |
 
 ## 2025 年（125 个）
 
@@ -264,6 +273,13 @@
 | [Mereth](https://mereth.dev/) | 首月$500 | 用 Apps Script 做 Google Workspace 自动化 [↗](https://news.ycombinator.com/item?id=46310097) |
 | [n0c0de](https://www.n0c0de.com) | $3k–5k/月 | 为想创业的从业者开发应用 [↗](https://news.ycombinator.com/item?id=46311333) |
 
+### 其他
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [Dead Chefs Society](https://www.deadchefssociety.com/) | 2025年营收$126k | 每月一次民族菜晚宴俱乐部 [↗](https://news.ycombinator.com/item?id=46309364) |
+| 线下德州扑克 | $100–200/场（约8小时） |  [↗](https://news.ycombinator.com/item?id=46340664) |
+
 ### 游戏
 
 | 项目 | 收入（自述） | 简介 |
@@ -274,13 +290,6 @@
 | [Last Year of Carbon](https://lastyearofcarbon.com) | 曾>$500 | 气候主题桌游 [↗](https://news.ycombinator.com/item?id=46312841) |
 | [Microlandia](https://microlandia.city) | >$500/月 | “残酷真实”的城市建造游戏 [↗](https://news.ycombinator.com/item?id=46317632) |
 | [Tornado Research and Rescue](https://store.steampowered.com/app/2250550/Tornado_Research_and_Rescue/) | >$500/月 | Steam 游戏 [↗](https://news.ycombinator.com/item?id=46312117) |
-
-### 其他
-
-| 项目 | 收入（自述） | 简介 |
-|---|---|---|
-| [Dead Chefs Society](https://www.deadchefssociety.com/) | 2025年营收$126k | 每月一次民族菜晚宴俱乐部 [↗](https://news.ycombinator.com/item?id=46309364) |
-| 线下德州扑克 | $100–200/场（约8小时） |  [↗](https://news.ycombinator.com/item?id=46340664) |
 
 ### 开源/赞助
 
@@ -482,16 +491,6 @@
 | 私有抓取 API | ~$600/月 | 2个客户 [↗](https://news.ycombinator.com/item?id=42386855) |
 | 网站托管维护订阅 | ~$2k/月 | 4个老客户 [↗](https://news.ycombinator.com/item?id=42385307) |
 
-### 游戏
-
-| 项目 | 收入（自述） | 简介 |
-|---|---|---|
-| [ChessCraft](https://www.chesscraft.ca) | ~$400/月 |  [↗](https://news.ycombinator.com/item?id=42384792) |
-| [FreeSolitaire.win](https://FreeSolitaire.win) | ~$500/月 | 极简纸牌 PWA，广告收入 [↗](https://news.ycombinator.com/item?id=42380517) |
-| [Rogue Stargun](https://roguestargun.com) | 未披露 | 独立 VR 太空战斗 [↗](https://news.ycombinator.com/item?id=42379218) |
-| [Rows & Tables](https://rowsandtables.com) | 未披露 | SQL 卡牌游戏 [↗](https://news.ycombinator.com/item?id=42382867) |
-| [Serpentine](https://SerpentineGame.com) | 接近$500 | Boggle 类文字游戏，广告 + 会员 [↗](https://news.ycombinator.com/item?id=42380889) |
-
 ### 其他
 
 | 项目 | 收入（自述） | 简介 |
@@ -503,6 +502,16 @@
 | 密室逃脱实体店 | >$500/月 | 极其耗时间 [↗](https://news.ycombinator.com/item?id=42396535) |
 | [散养鸡蛋](https://www.paivarinne.farm) | 毛€3k/净€2k/月 | 芬兰，每天1–2小时 [↗](https://news.ycombinator.com/item?id=42430195) |
 | 桌游卡牌店 | 盈利 | 实体店 + 活动 [↗](https://news.ycombinator.com/item?id=42400286) |
+
+### 游戏
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [ChessCraft](https://www.chesscraft.ca) | ~$400/月 |  [↗](https://news.ycombinator.com/item?id=42384792) |
+| [FreeSolitaire.win](https://FreeSolitaire.win) | ~$500/月 | 极简纸牌 PWA，广告收入 [↗](https://news.ycombinator.com/item?id=42380517) |
+| [Rogue Stargun](https://roguestargun.com) | 未披露 | 独立 VR 太空战斗 [↗](https://news.ycombinator.com/item?id=42379218) |
+| [Rows & Tables](https://rowsandtables.com) | 未披露 | SQL 卡牌游戏 [↗](https://news.ycombinator.com/item?id=42382867) |
+| [Serpentine](https://SerpentineGame.com) | 接近$500 | Boggle 类文字游戏，广告 + 会员 [↗](https://news.ycombinator.com/item?id=42380889) |
 
 ### 开源/赞助
 
@@ -785,6 +794,17 @@
 | 微型 ISP | ~$4.5k/月 | 给约100家企业提供千兆网络 [↗](https://news.ycombinator.com/item?id=29672120) |
 | 老年人电脑帮助 | ~$1.5k/月（10年） | $25/小时上门帮老人用 Windows + 卖翻新笔记本 [↗](https://news.ycombinator.com/item?id=29668760) |
 
+### 其他
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| eBay 二手转卖 | 首年流水~$20k | 午休逛二手店，用 eBay 扫码比价后转卖 [↗](https://news.ycombinator.com/item?id=29667315) |
+| [SyncXColors](https://syncxcolors.xyz/) | 累计~$20k | 链上动画 NFT [↗](https://news.ycombinator.com/item?id=29679643) |
+| 以太坊验证节点 | ~$600/月（理论） | 质押 ETH [↗](https://news.ycombinator.com/item?id=29669559) |
+| 加密借贷/质押 | ~$500/周 | 稳定币与蓝筹币借贷收益 [↗](https://news.ycombinator.com/item?id=29668677) |
+| 哥伦比亚咖啡农场 | ~$800/月 | 买下咖啡农场，产量翻倍中 [↗](https://news.ycombinator.com/item?id=29668530) |
+| 家庭挖矿 | ~$100/天利润 | ASIC + 显卡挖矿，顺便给房子供暖 [↗](https://news.ycombinator.com/item?id=29668425) |
+
 ### 游戏
 
 | 项目 | 收入（自述） | 简介 |
@@ -798,17 +818,6 @@
 | [Online Solitaire](https://online-solitaire.com/) | $10k+/月 | 纸牌接龙网站 [↗](https://news.ycombinator.com/item?id=29672706) |
 | [Rows & Tables](https://rowsandtables.com) | 未披露 | 学 SQL 的卡牌游戏 [↗](https://news.ycombinator.com/item?id=29669415) |
 | [Twenty](https://news.ycombinator.com/item?id=9543005) | ~$500/月 | 多年前 Show HN 起飞的数字游戏 [↗](https://news.ycombinator.com/item?id=29668661) |
-
-### 其他
-
-| 项目 | 收入（自述） | 简介 |
-|---|---|---|
-| eBay 二手转卖 | 首年流水~$20k | 午休逛二手店，用 eBay 扫码比价后转卖 [↗](https://news.ycombinator.com/item?id=29667315) |
-| [SyncXColors](https://syncxcolors.xyz/) | 累计~$20k | 链上动画 NFT [↗](https://news.ycombinator.com/item?id=29679643) |
-| 以太坊验证节点 | ~$600/月（理论） | 质押 ETH [↗](https://news.ycombinator.com/item?id=29669559) |
-| 加密借贷/质押 | ~$500/周 | 稳定币与蓝筹币借贷收益 [↗](https://news.ycombinator.com/item?id=29668677) |
-| 哥伦比亚咖啡农场 | ~$800/月 | 买下咖啡农场，产量翻倍中 [↗](https://news.ycombinator.com/item?id=29668530) |
-| 家庭挖矿 | ~$100/天利润 | ASIC + 显卡挖矿，顺便给房子供暖 [↗](https://news.ycombinator.com/item?id=29668425) |
 
 ### 开源/赞助
 
@@ -885,6 +894,270 @@
 | 项目 | 收入（自述） | 简介 |
 |---|---|---|
 | [Checkbot](https://www.checkbot.io/) | 未披露 | 批量检查网站 SEO/速度/安全问题的 Chrome 扩展 [↗](https://news.ycombinator.com/item?id=24949936) |
+
+## 2019 年（15 个）
+
+### SaaS
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [Amazing Marvin](https://amazingmarvin.com/) | 未披露 | 高度可定制的待办和效率工具 [↗](https://news.ycombinator.com/item?id=20901813) |
+| [Traffic Ticker](https://trafficticker.com) | 未披露 | 网站实时访客通知 [↗](https://news.ycombinator.com/item?id=20912869) |
+
+### 移动/桌面 App
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [Sun Locator](http://www.sunlocator.com) | 未披露 | 预测太阳位置和山体阴影的 Android App [↗](https://news.ycombinator.com/item?id=20899942) |
+
+### 内容/社区/媒体
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [Disk Prices](https://diskprices.com) | >$500/月 | 按每 TB 单价排序的硬盘比价站 [↗](https://news.ycombinator.com/item?id=20899932) |
+| [Wander and Ponder](https://wanderandponder.com) | ~$30/月 | 旅行博客 [↗](https://news.ycombinator.com/item?id=20918663) |
+
+### 开发者工具/API
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [BrowseNodes](https://www.browsenodes.com) | 首月 $500+ | 下载亚马逊商品类目 CSV [↗](https://news.ycombinator.com/item?id=20900491) |
+| [ZeroMac](https://zeromac.com) | 未披露 | 按小时计费的 Mac 虚拟机托管 [↗](https://news.ycombinator.com/item?id=20901704) |
+
+### 电商/实体产品
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [Fine Word Clocks](https://www.finewordclocks.com) | 接近 $500/月 | 夫妻在地下室做的文字时钟 [↗](https://news.ycombinator.com/item?id=20905395) |
+| [Lignin & Light](http://ligninandlight.com) | 未披露 | Etsy 激光切割手工艺品店 [↗](https://news.ycombinator.com/item?id=20902019) |
+
+### 服务/外包
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [Castup](https://usecastup.com) | 未披露 | 播客剪辑服务 [↗](https://news.ycombinator.com/item?id=20902388) |
+
+### 其他
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [Adpexity](https://adpexity.com) | 自称 20 万美元/月 | 只说了一句收入，没有细节 [↗](https://news.ycombinator.com/item?id=20902171) |
+| 业余乐队演出 | 年$4k–6k | 周末乐队商演 [↗](https://news.ycombinator.com/item?id=20934331) |
+
+### 游戏
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [ReqLoot](https://reqloot.com) | 接近 $500/月 | 加密货币网页游戏 [↗](https://news.ycombinator.com/item?id=20930370) |
+
+### 浏览器扩展/插件
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [Checkbot](https://www.checkbot.io) | 未披露 | 批量检查网站 SEO、速度和安全的 Chrome 扩展 [↗](https://news.ycombinator.com/item?id=20906400) |
+| [SmartEdit](https://www.smart-edit.com/) | >$500/月 | 给小说作者的 Word 插件 [↗](https://news.ycombinator.com/item?id=20902348) |
+
+## 2018 年（27 个）
+
+### SaaS
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [BX](https://usebx.com/app) | 自称每月数十万英镑 | 面向企业的会计和项目管理软件 [↗](https://news.ycombinator.com/item?id=17790954) |
+| [Cronote](http://www.cronote.com) | ~$600/月（净） | 定时发送短信和邮件提醒 [↗](https://news.ycombinator.com/item?id=17790905) |
+| [Fitloop](https://fitloop.co/) | $500–1k/月 | 自重健身训练追踪 [↗](https://news.ycombinator.com/item?id=17790950) |
+| [PlaceCard.me](https://www.placecard.me/) | ~$800/月 | 婚礼和活动席位卡模板 [↗](https://news.ycombinator.com/item?id=17840314) |
+| [ServiceHQ](https://servicehq.ca) | ~$1k/月 | 现场服务管理平台 [↗](https://news.ycombinator.com/item?id=17792559) |
+
+### 移动/桌面 App
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [Circa](http://omgenomics.com/circa) | ~$1.5k/月 | 画基因组 circos 图的桌面软件 [↗](https://news.ycombinator.com/item?id=17790991) |
+| [Defqt](https://itunes.apple.com/app/defqt/id817026377) | ~$500/月 | iOS 故障风相机 [↗](https://news.ycombinator.com/item?id=17809078) |
+| [Wokabulary](https://wokabulary.com/) | 未披露 | Mac 和 iOS 单词记忆软件 [↗](https://news.ycombinator.com/item?id=17793299) |
+
+### 内容/社区/媒体
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [Click Clack Clunk](https://www.youtube.com/c/ClickClackClunk) | >$500/月 | 木工 YouTube 频道 [↗](https://news.ycombinator.com/item?id=17793557) |
+| [Down For Everyone Or Just Me](https://downforeveryoneorjustme.com/) | ~$1k/月（毛收入） | 查网站是不是只有你打不开 [↗](https://news.ycombinator.com/item?id=17795553) |
+| [Gematrix](https://www.gematrix.org) | >$500/月 | 英语和希伯来语字母数值计算器 [↗](https://news.ycombinator.com/item?id=17835690) |
+| [Market Godfathers](http://www.marketgodfathers.com) | 未披露 | 付费 Discord 期权跟单社群 [↗](https://news.ycombinator.com/item?id=17792222) |
+| [Netho.me](https://netho.me/) | 不到 $500/月 | 网站流量估算工具 [↗](https://news.ycombinator.com/item?id=17802789) |
+| [Sound Shelter](https://www.soundshelter.net) | 未披露 | 连接独立唱片店的黑胶市场 [↗](https://news.ycombinator.com/item?id=17793958) |
+
+### 开发者工具/API
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [ConvertCsv](https://www.convertcsv.com) | 未披露 | CSV 与 JSON、XML、SQL 互转 [↗](https://news.ycombinator.com/item?id=17818599) |
+
+### 电商/实体产品
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [Small Batch Made](http://smallbatchmade.com) | 首月 $700 | 机械工程师用 CNC 做的小物件 [↗](https://news.ycombinator.com/item?id=17799960) |
+| [U2F Zero](https://www.amazon.com/gp/product/B01L9DUPK6) | $500–1k/月 | 开源两步验证硬件密钥 [↗](https://news.ycombinator.com/item?id=17791497) |
+
+### 课程/书籍
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [Coders School](http://coders.school) | >$2k/月 | 波兰的 C++ 进阶课 [↗](https://news.ycombinator.com/item?id=17813835) |
+
+### 服务/外包
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [ChatterBox](http://www.heychatterbox.com) | ~$500/月 | 给律所和诊所的外包服务 [↗](https://news.ycombinator.com/item?id=17796857) |
+| [Kaori](http://www.meetkaori.com) | 未披露 | 日英双语虚拟助理 [↗](https://news.ycombinator.com/item?id=17791135) |
+| [ManyPixels](https://www.manypixels.co) | $40k/月 | 包月无限次平面设计服务 [↗](https://news.ycombinator.com/item?id=17792846) |
+| [The Sequencing Center](https://thesequencingcenter.com/) | ~$23k/月 | 家族经营的基因测序实验室 [↗](https://news.ycombinator.com/item?id=17807136) |
+| [WooRender](https://woorender.com) | $100/天 | 出租 10 张 1080Ti 的深度学习服务器 [↗](https://news.ycombinator.com/item?id=17791273) |
+| 本地企业软件外包 | ~$7.2k/月 | 下班后给本地企业写软件 [↗](https://news.ycombinator.com/item?id=17791342) |
+
+### 其他
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [180 Fitness](https://180fitness.co.uk) | £4k/月（利润） | 意外接手的全自动无人健身房 [↗](https://news.ycombinator.com/item?id=17794671) |
+
+### 开源/赞助
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [Traccar](https://www.traccar.org/) | 未披露 | 开源 GPS 定位追踪平台 [↗](https://news.ycombinator.com/item?id=17791265) |
+
+### 浏览器扩展/插件
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [CardSync](https://teams.cardsync.xyz/) | ~$1.2k/月 | 在 Trello 看板之间同步卡片 [↗](https://news.ycombinator.com/item?id=17795920) |
+
+## 2017 年（71 个）
+
+### SaaS
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [99inbound](https://www.99inbound.com) | 合计 ~$500/月 | 网站表单同步到 Close.io 的工具 [↗](https://news.ycombinator.com/item?id=15149950) |
+| [BacktestMarket](https://www.backtestmarket.com/) | ~$1.5k/月 | 给散户的历史金融数据 [↗](https://news.ycombinator.com/item?id=15150026) |
+| [Datastarta](http://datastarta.com) | $1,350/月 | 花 $29 用 Bubble 做的 MVP [↗](https://news.ycombinator.com/item?id=15150691) |
+| [DocsApp](https://www.docsapp.io/) | 未披露 | 几分钟搭好文档站 [↗](https://news.ycombinator.com/item?id=15150094) |
+| [Doorbell.io](https://doorbell.io) | ~$2.8k/月 | 网站和 App 内的用户反馈收集 [↗](https://news.ycombinator.com/item?id=15153075) |
+| [Drafty](https://drafty-app.com/) | 未披露 | 网页版剧场灯光和音响设计 CAD [↗](https://news.ycombinator.com/item?id=15149573) |
+| [EmailOctopus](https://emailoctopus.com) | $5k+/月 | 低价邮件营销工具 [↗](https://news.ycombinator.com/item?id=15150456) |
+| [Fantasy Math](https://fantasymath.com) | >$500/月 | 梦幻橄榄球预测模型 [↗](https://news.ycombinator.com/item?id=15149497) |
+| [Gantt Planner](https://www.ganttplanner.com) | ~$1.2k/月 | 把 Google 日历变成甘特图 [↗](https://news.ycombinator.com/item?id=15152248) |
+| [GDPR App](https://gdprapp.com) | 未披露 | 给数据保护官的 GDPR 合规软件 [↗](https://news.ycombinator.com/item?id=15151216) |
+| [KidGenius](https://kidgenius.daycareiq.com/) | 未披露 | 加拿大托育中心管理软件，连接园所与家长 [↗](https://news.ycombinator.com/item?id=15149352) |
+| [LiveReacting](http://livereacting.com/) | ~$3k/月 | 直播互动和投票工具 [↗](https://news.ycombinator.com/item?id=15152169) |
+| [LogMyHours](https://logmyhours.com) | >$700/月 | 工时记录和开票工具 [↗](https://news.ycombinator.com/item?id=15149738) |
+| [Planeol](https://www.planeol.com) | 未披露 | 软件停止支持提醒 [↗](https://news.ycombinator.com/item?id=15150038) |
+| [Publir Subscriptions](https://subscriptions.publir.com/) | 未披露 | 让读者付小额订阅去掉网站广告 [↗](https://news.ycombinator.com/item?id=15149442) |
+| [Recapped](https://www.recapped.io) | ~$600/月 | 销售协作工具 [↗](https://news.ycombinator.com/item?id=15151304) |
+| [SanityCheck](https://www.sanitycheck.io) | $970/月 | 网站检查服务，带“代办”选项 [↗](https://news.ycombinator.com/item?id=15149798) |
+| [Server Check.in](https://servercheck.in) | 未披露 | 网站和服务器宕机监控 [↗](https://news.ycombinator.com/item?id=15149774) |
+| [SkySight](https://skysight.io/) | 未披露 | 滑翔飞行气象预报，已成主业 [↗](https://news.ycombinator.com/item?id=15149685) |
+| [StatusGator](https://statusgator.com) | ~$1k/月 | 聚合云服务状态页，宕机时通知 [↗](https://news.ycombinator.com/item?id=15149579) |
+| [Strum Machine](https://strummachine.com) | ~$1k/月 | 蓝草和民谣乐手的伴奏练习工具 [↗](https://news.ycombinator.com/item?id=15213323) |
+| [TurboHiring](https://turbohiring.co) | $3k+/月 | 乌克兰 IT 人才招聘数据库 [↗](https://news.ycombinator.com/item?id=15156210) |
+| [Wandering Labs 露营位提醒](http://reserve.wanderinglabs.com/) | 未披露 | 抓取露营预订网站，有空位时发通知 [↗](https://news.ycombinator.com/item?id=15149391) |
+| [Workroll](https://workroll.com) | ~$2k/月 | 自由职业者的销售线索自动化 [↗](https://news.ycombinator.com/item?id=15150250) |
+
+### 移动/桌面 App
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [Leap Second](https://www.leapsecond.co) | $1k–3k/月 | 每天一秒的视频日记 App [↗](https://news.ycombinator.com/item?id=15150076) |
+| [Meta Meme](https://itunes.apple.com/zw/app/meta-meme/id1173783944?mt=8) | $500–700/月 | 做表情包的 iOS App [↗](https://news.ycombinator.com/item?id=15150307) |
+| [Mosaico](http://www.soulidstudio.com) | 未披露 | Windows 窗口排布软件 [↗](https://news.ycombinator.com/item?id=15149896) |
+| [MoveWell](http://movewellapp.com) | 未披露 | 居家物理治疗和活动度训练教练 [↗](https://news.ycombinator.com/item?id=15150703) |
+| [Optimage](http://getoptimage.com) | 接近 $500/月 | Mac 图片无损压缩工具 [↗](https://news.ycombinator.com/item?id=15150030) |
+| [Read Across The Aisle](http://www.ReadAcrossTheAisle.com) | 累计数千美元捐赠 | 帮人跨越党派读新闻的 App 和 Chrome 插件 [↗](https://news.ycombinator.com/item?id=15149560) |
+| [Sparkistic 手表表盘](https://play.google.com/store/apps/details?id=com.sparkistic.justaminute) | $500–1.5k/月 | 夫妻俩做的 Android Wear 表盘 [↗](https://news.ycombinator.com/item?id=15211018) |
+
+### 内容/社区/媒体
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [Article.rocks](https://article.rocks) | 低于 $500/月 | 自动策展的新闻文章站 [↗](https://news.ycombinator.com/item?id=15150008) |
+| [Blocks（比特币区块可视化）](https://blocks.wizb.it/) | ~€500/月（曾经） | 周末做的比特币区块可视化网站，靠 AdSense [↗](https://news.ycombinator.com/item?id=15149431) |
+| [Casting Call Club](https://www.castingcall.club) | 未披露 | 配音演员招募社区，约 6.5 万用户 [↗](https://news.ycombinator.com/item?id=15149438) |
+| [Craig Cherlet 博客](http://www.craigcherlet.com) | $1k+/月 | 推广 SaaS 的教程博客 [↗](https://news.ycombinator.com/item?id=15156129) |
+| [Funtober](https://www.funtober.com) | 未披露 | 秋季活动目录和服装店 [↗](https://news.ycombinator.com/item?id=15149734) |
+| [Namevine](https://namevine.com/) | 未披露 | 域名和社交账号名查询工具，靠联盟佣金 [↗](https://news.ycombinator.com/item?id=15149475) |
+| [Nugget](https://nugget.one) | 最高 $4k/月 | 给开发者和创业者推送创业点子 [↗](https://news.ycombinator.com/item?id=15149537) |
+| [Only Used Tesla](https://onlyusedtesla.com/) | ~$150/天 | 二手特斯拉交易市场 [↗](https://news.ycombinator.com/item?id=15149837) |
+| [Review Signal](http://reviewsignal.com) | ~$3k/月 | 用 Twitter 评论做的主机评测站 [↗](https://news.ycombinator.com/item?id=15155875) |
+| [TechPressList](https://www.techpresslist.com) | 上线一周累计 $480 | 科技媒体联系人名单 [↗](https://news.ycombinator.com/item?id=15152713) |
+| [Top Talked Books](http://toptalkedbooks.com) | 尚无收入 | 统计 HN、Stack Overflow、Reddit 上最常提到的书 [↗](https://news.ycombinator.com/item?id=15149593) |
+| [UI Movement](https://uimovement.com/) | >$500/月 | UI 设计灵感周刊 [↗](https://news.ycombinator.com/item?id=15149962) |
+| [VisaOK](http://www.visaok.in/) | ~$700/月（6月） | 只收录愿意担保工作签证的职位 [↗](https://news.ycombinator.com/item?id=15149890) |
+| [World of Tea](https://worldoftea.org/) | ~$1.5k/月 | 2009 年起的茶叶知识网站 [↗](https://news.ycombinator.com/item?id=15149538) |
+| [湾区日报（Wanqu）](https://wanqu.co) | ~$1.2k/月 | 每天精选 5 篇英文科技文章给中文读者 [↗](https://news.ycombinator.com/item?id=15150622) |
+
+### 开发者工具/API
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [AMQP Hosting](https://www.amqphosting.com) | ~$1k/月 | RabbitMQ 托管服务 [↗](https://news.ycombinator.com/item?id=15153699) |
+| [Apibot](https://apibot.co) | 未披露 | REST API 测试与监控工具 [↗](https://news.ycombinator.com/item?id=15149663) |
+| [AppToolkit](https://apptoolkit.io) | >$500/月 | 给 App 开发者的超级用户和云配置服务 [↗](https://news.ycombinator.com/item?id=15151354) |
+| [Backtrac](https://backtrac.io) | >$500/月（净） | 网站视觉回归测试 [↗](https://news.ycombinator.com/item?id=15156210) |
+| [Bugfender](https://bugfender.com) | ~$8.6k/月 | 远程查看 iOS 和安卓日志 [↗](https://news.ycombinator.com/item?id=15149901) |
+| [Cronitor](https://cronitor.io) | 未披露 | 定时任务和心跳监控 [↗](https://news.ycombinator.com/item?id=15150205) |
+| [Hosted Apache Solr](https://hostedapachesolr.com) | 未披露 | 托管 Solr 搜索索引 [↗](https://news.ycombinator.com/item?id=15149774) |
+| [Kernl](https://kernl.us) | $650/月 | WordPress 插件和主题的更新分发服务 [↗](https://news.ycombinator.com/item?id=15149598) |
+| [Localname](https://localname.io) | 不到 $500/月 | 给本地开发机一个公网地址 [↗](https://news.ycombinator.com/item?id=15152557) |
+| [ParrotQA](https://www.parrotqa.com/) | ~$1k/月 | 让 Selenium 测试更好管理的 QA 工具 [↗](https://news.ycombinator.com/item?id=15149514) |
+| [Requires.io](https://requires.io) | 未披露 | 追踪 Python 依赖更新 [↗](https://news.ycombinator.com/item?id=15149995) |
+| [RESTfender](https://restfender.com) | 未披露 | 连接和保护 IoT 设备的服务 [↗](https://news.ycombinator.com/item?id=15149534) |
+
+### 电商/实体产品
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [DonaldTrumpDogPoopBags.com](http://donaldtrumpdogpoopbags.com) | ~$500/天（营收） | 印着特朗普的狗便袋 [↗](https://news.ycombinator.com/item?id=15150024) |
+| [Tomotcha](https://tomotcha.com) | 未披露 | 日本绿茶订阅盒 [↗](https://news.ycombinator.com/item?id=15149995) |
+| 定制手袋 | >$500/月 | 为每位顾客单独设计的手袋 [↗](https://news.ycombinator.com/item?id=15150004) |
+
+### AI 产品
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [Market Vulture](https://marketvulture.com) | 未披露 | 用机器学习从全球事件里找投资机会 [↗](https://news.ycombinator.com/item?id=15150181) |
+
+### 课程/书籍
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [ACCT229](https://acct229.com) | >$500/月 | 针对特定大学课程的会计辅导网站 [↗](https://news.ycombinator.com/item?id=15150077) |
+| [Ansible for DevOps](https://www.ansiblefordevops.com) | 未披露 | 自出版的 Ansible 技术书 [↗](https://news.ycombinator.com/item?id=15149774) |
+| [AWS Lambda 电子书](https://www.amazon.com/AWS-Lambda-Guide-Serverless-Microservices-ebook/dp/B016JOMAEE) | 未披露 | Lambda 刚出时写的 Kindle 书 [↗](https://news.ycombinator.com/item?id=15150165) |
+| [Nick Janetakis 视频课](https://nickjanetakis.com) | $5k–15k/月 | 面向开发者的 Docker 等视频课 [↗](https://news.ycombinator.com/item?id=15150536) |
+| [Swizec 的 React + D3 课程](https://swizec.com/reactd3js) | 年$20k | React 数据可视化书和课程 [↗](https://news.ycombinator.com/item?id=15149955) |
+| [The Final Six Days](http://timecrossers.com/) | 推广月近 $1k | 作者自出版的科幻小说 [↗](https://news.ycombinator.com/item?id=15149979) |
+
+### 服务/外包
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [Dotlayer](https://dotlayer.com) | 未披露 | WordPress 维护与技术支持服务 [↗](https://news.ycombinator.com/item?id=15149376) |
+
+### 开源/赞助
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [ORY Hydra](https://github.com/ory/hydra) | $700+/月 | 开源 OAuth2 服务器，靠 Patreon [↗](https://news.ycombinator.com/item?id=15149610) |
+
+### 浏览器扩展/插件
+
+| 项目 | 收入（自述） | 简介 |
+|---|---|---|
+| [Custom Fields（Shopify 插件）](https://customfields.bonify.io) | ~$5k/月 | Shopify 自定义字段插件，700+ 客户 [↗](https://news.ycombinator.com/item?id=15149528) |
 
 
 ## Cloudflare 部署

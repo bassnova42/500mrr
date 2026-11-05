@@ -1,0 +1,442 @@
+=== 15149311 by christilut
+Check out https://www.indiehackers.com. Lots of side projects (and bigger) there with full interviews.
+
+=== 15149352 by giarc
+I co-founded a childcare management software business here in Canada.  We now have customers in both US and Canada.  We were on IndieHackers a few months ago.[0]
+
+Our main product is KidGenius[1] that helps childcare centres run their day to day operations as well as connect with parents.  Becoming a bit of a crowded space but we are doing what we can to rise to the top.
+
+0 - https://www.indiehackers.com/businesses/kidgenius
+
+1 - https://kidgenius.daycareiq.com/
+
+=== 15149376 by eulid55
+Started https://dotlayer.com like 2 years ago, it was initially called wpzoan, I started it when my friends would message me about issues they were facing with WordPress, at that time I totally hated WordPress, I guess that was the developer in me. But I later saw all the issues people were facing and it's worked out well.
+
+=== 15149391 by timmaah
+I screen scrape camping reservations and send out notifications when a campsite becomes available.
+
+http://reserve.wanderinglabs.com/
+
+Currently working on integrating the new CA reserve website. It is a shit show.
+
+=== 15149431 by askmike
+I made ~500 euro a month by running ads on my a visualization website[1] I made a few years back (in a weekend). I've earned that until a month ago, when I changed the Google AdSense ads to a static ad (which I don't get commission for).
+
+[1] https://blocks.wizb.it/
+
+=== 15149438 by buf
+Looking for a voice actor, look no further than https://www.castingcall.club
+
+Strong network effect so far, about 65k users
+
+=== 15149442 by malchow
+I offer web publishers a stack that enables client-side removal of programmatic ads when users pay a small subscription fee. Lots of law blogs, economics blogs, etc., are using this now. [1]
+
+[1] https://subscriptions.publir.com/
+
+=== 15149464 by pilom
+I've cut my expenses and invested the extra in index funds. Currently at a nest egg of around $300k which spews off dividends of around $500/month and is currently appreciating a bit faster than that.
+
+=== 15149475 by mikejarema
+My domain name and social media handle search tool has been humming along nicely for 5+ years now and produces a modest amount of profit each month.
+
+https://namevine.com/
+
+It makes money from domain name registrations it refers via affiliate links.
+
+I've been playing with the idea of adding "pro" features for a couple of years now but I worry anything that detracts from its simplicity may hurt sales.
+
+=== 15149497 by peacetreefrog
+Planning a 'Show HN' on this as we get closer to the season, but I built a model for Fantasy Football that works pretty well and has done over $500 this month. Takes into account correlations across same-opposing team players to give a slight edge.
+
+https://fantasymath.com
+
+Modeler by trade, had to learn all the back and frontend stuff myself, been really fun so far.
+
+=== 15149514 by kring462
+I built https://www.parrotqa.com/ because overseeing non-deterministic selenium tests at my day job was such a hassle. It turned into a small (around $1k/mo) side project.
+
+=== 15149528 by donutdan4114
+I launched an app for Shopify about a year ago called Custom Fields: https://customfields.bonify.io
+
+Currently it's making about $5,000 / month.
+
+It's been a very interesting process dealing with building the app, marketing it, and dealing with support. The app is $19/mo for regular Shopify stores, and we have about 700+ total customers (only some are paying). We get A LOT of support requests for misc things and have been trying to build up a knowledge base of articles and help guides in our ZenDesk.
+
+We have recently been running into an issue with file hosting storage fees (we allow people to upload files, no additional charge). We have a couple of Shopify stores that are costing us about $70/mo each in file hosting fees (we don't charge them extra).
+
+I absolutely LOVE building apps for 3rd party providers. We don't really market the app, it's found organically in Shopify's app store. The first 8 months were filled with lots of little bugs needing fixing, but that has since slowed down as I've fixed things. At this point, it's a pretty stable application that doesn't require much maintenance, mostly just user support.
+
+=== 15149534 by jaypaulynice
+I'm working on RESTfender: https://restfender.com to connect and secure IoT devices. Show HN link: https://news.ycombinator.com/item?id=15106959
+
+=== 15149537 by jv22222
+I've been working on a side project that sends startup ideas to developers and entrepreneur for the past year. Revenue high point has been $4k/month.
+
+https://nugget.one
+
+Within the next few months I'll be pivoting to The Nugget Startup Academy and will focus on training entrepreneurs  instead of sending out ideas.
+
+=== 15149538 by tony584
+Nearing $1500/mo on ads and affiliate links, been running since 2009, did not monetize until 2015: https://worldoftea.org/
+
+=== 15149560 by gnicholas
+My main startup [1] launched a side project called Read Across The Aisle [2] earlier this year. Even though the iOS app and Chrome extension app are free, we've actually seen several thousand come in through donations and whatnot.
+
+Lots of traffic comes from Google, since we are apparently the first result for "read WSJ free" (we have a partnership with the WSJ that gives free access through our tools).
+
+1: http://www.BeeLineReader.com
+
+2: http://www.ReadAcrossTheAisle.com
+
+=== 15149573 by karcass
+I wrote an in-browser CAD tool for theater lighting and sound design: https://drafty-app.com/.  I have a partner who does that for a living.  We've just hired (part time, 5-10h/wk) a tester and a salesperson.
+
+=== 15149579 by colinbartlett
+https://statusgator.com
+
+StatusGator aggregates the public service status pages for all the cloud services you use. You can get automatic notifications when services go down and up, and you can query the service status from things like Slack.
+
+It makes about $1,000 month right now.
+
+=== 15149593 by guohuang
+I have been working on a side project to show all the most mentioned books from hacker news, stackoverflow, reddit.  http://toptalkedbooks.com
+
+we are still struggling on marketing, no revenue yet.
+
+=== 15149598 by vital101
+I've been working on https://kernl.us for a little over 2 years now.
+
+It's currently making $650 / month and growing.
+
+Something I "knew" but never really understood about growing a business is how long it can take. Granted this is completely on the side, but it still takes a long time to find your market, grow, get customers, etc. Learning that this is actually a marathon was valuable.
+
+The other thing I have to actively manage is building things that are valuable -vs- things that I find interesting. As a developer I LOVE tinkering with new technology, but when I'm wearing my business hat upgrading to the new hot frontend framework doesn't make that much sense.
+
+=== 15149610 by arekkas
+I make over 700$ per month through patreon for my open source work, primarily https://github.com/ory/hydra . Hydra started as a side project for a work-for-hire project. After getting bashed by people for it being trash (it was, mostly due to bad dependencies but also due to bad architecture), I rewrote it (and the libraries enabling it) and now it's one of the go-to services for getting an OAuth2 server up and running. I am very stubborn and spent a ton of time on auth* questions while building other projects, and it seems like people like my approaches to it! :)
+
+It's come so far now that I'm starting to consider this my full-time thing (I'm in the final stages of completing my MSc computer science) and I'm currently running evaluation on an API security platform based on that technology. Basically, I spend most of my time on it and I even got a small team helping me - but it's not what earns my living at the moment.
+
+Before that I gathered a lot of experience from running and building https://en.serlo.org/ which is basically a Wikipedia for learning (I built the whole CMS from scratch) that serves over 1m MAUs in Germany (the english page is very sparse, most of it is on https://de.serlo.org ) and is thus on the most popular learning platforms in Germany. The company behind it is an NGO (= no profits) I cofounded and the platform is ad-free and doesn't cost anything. We get money through donations and other funds.
+
+It's an exciting journey, I'm now at a point where I need to figure out how to actually make money on the web that doesn't come through donations and goodwill, but I think I can do it - why not, right?
+
+By the way, you may also like the WYSIWYG editor I wrote - I also plan a static site generator based on it with a themeforest-y market place. Feel free to check those out:
+
+* https://www.ory.am/sites/
+* https://github.com/ory/editor
+
+ps: It took me almost 2 years to get to 700$ at patreon and most of it comes from one sponsorship I'm very glad of. Their CTO texted me one day because he saw hydra on HN frontpage and he works in the identity space.
+
+=== 15149663 by fernandohur
+Working on https://apibot.co, a testing and monitoring tool for REST APIs.
+
+Many of our customers come from word of mouth plus talking to people. Its been very interesting to see the kind of tests that people built with our tool.
+
+We're still technically in BETA although sales are going slow but smoothly. Send me a message if you are interested (fernandohur at apibot.co).
+
+=== 15149685 by plantain
+https://skysight.io/
+
+Soaring (gliding) weather forecasts for EU/NA/SA/AU. My side project has now become my main gig. Took approximately 3 years to build, 2 before I started making any money from it.
+
+=== 15149734 by funtober
+Fall event directory and costume store launched in 2012: https://www.funtober.com
+
+Basically a one-stop shop for fall festivals, Oktoberfest, haunted houses, pumpkin patches, etc.  Still have a long way to go to make it what I would like but traffic last year was roughly 1 million in the month of October. Anticipate it will double to 2 million/October this year.  Still working on the right revenue model.
+
+=== 15149738 by jwho82
+Launched https://logmyhours.com 2 years ago. Hour tracking and invoicing. I actually log all my hours working on it :). Launched an iOS and Android app last year that syncs up with the website.
+
+Currently making over $700/month and growing. Hoping to go full time on it early next year.
+
+=== 15149774 by geerlingguy
+https://hostedapachesolr.com - since 2013, started with intention of just hosting my own search indexes (since cheap shared hosting didn't allow java apps to be installed), then ballooned from there. Minimal maintenance, almost every process is automated with Ansible + Jenkins + tiny bits of PHP glue code.
+
+https://servercheck.in - since 2012, same as Solr, I started it to do SMS messages for my own site outages... then realized I could scale it easily using cheap ~$10/year VPSes and Node.js, currently have a few hundred clients monitoring ~1000 servers and websites.
+
+https://www.ansiblefordevops.com - book I started writing during the process of automating both of the above SaaS products—and now the book generates more monthly revenue than both of the above :)
+
+I've written extensively about all three projects, but continue to devote more time to the Ansible for DevOps book / project. Here are some posts with history/reflection on self-publishing: https://www.jeffgeerling.com/search/self-publishing
+
+=== 15149798 by nickswan
+I started charging for https://www.sanitycheck.io in July and am at $970 per month. $800 of this is from 2 customers going for the 'done for you' option though - which is kinda productised consulting.
+
+=== 15149837 by adamqureshi
+https://onlyusedtesla.com/
+$150/day around that! A used tesla marketplace.
+
+=== 15149890 by justboxing
+http://www.visaok.in/ - Since late 2016. Soft-launched in April 2017.
+
+Made 700$ in June, been fluctuating since then, but I'm not doing it for the money though.
+
+When I first came to America on a H1-B visa, I remember job searches were super-annoying because I'd find a position that I was a good fit for, only to find "Sorry we can't sponsor your Work Visa" in Bold H2 font. I am now an American Citizen, but even now, I find these exclusions on several popular websites like dice.com, indeed.com and even here on @whoishiring
+
+So I decided to create this curated job board listing jobs with employers who are willing to sponsor or transfer your work visa in over 30 countries around the world. Lot of countries in Europe (ex: Germany, UK, Netherlands etc) have recently launched "Startup Visa" programs that lets entrepreneurs come to their country and live and work on exciting new technologies and eventually get permanent residency.
+
+A new modern UI, email alerts for jobs matching your search, and a Visa application / help community site is in the works.
+
+Meanwhile if you have feedback please shoot me an email. theblogdoctor [@] gmail
+
+=== 15149896 by uakiki
+http://www.soulidstudio.com - since 2009, Mosaico started as a side project to help me handling dozens of windows on my desktop. Now it's a commercial product appreciated by thousands. It's C++ and Qt, I also wrote the licensing system in .NET and C++.
+
+=== 15149901 by znq
+We've developed an internal tool to remotely access iOS and Android log files (NSLog and logcat). We work remotely, so we always had issues debugging problems that we couldn't reproduce.
+
+Initially it was just an internal experiment at Mobile Jazz and at some point we even thought killing it, but now after 3 years we're at €7300 MRR (~$8600/month) and growing consistently.
+
+That said, we still haven't reached our break even point (also because we decided to invest more in marketing and supporting additional platforms) and it'll take us some more years to recuperate the time (=money) invested.
+
+We've written about our story here: https://bugfender.com/blog/three-years-bugfender-9-5m-users/ and have provided an updated to revenue numbers and other statistics here: https://bugfender.com/blog/updates-from-bugfender-q2-2017/
+
+=== 15149950 by rathboma
+Making ~$500/month from a combination of things:
+
+https://blog.matthewrathbone.com - Articles about Hadoop, Hive, and Spark with Amazon book and Coursera course affiliate links
+
+https://www.99inbound.com - Forms and form-endpoints for close.io, add a form to your website and have entries sync to Close.io as new leads. Made this as a side-project when I needed this functionality and didn't want to pay out the nose for Zapier.
+
+https://play.google.com/store/apps/details?id=com.matthewrathbone.simplecheckin - Android app to check-in to foursquare/swarm in one click. Used to be more popular when checking in was more of a thing. Revenue comes from an in-app upgrade that adds minimal features, so is more of a 'thank you' upgrade. Built in a weekend.
+
+And of course, investments in index funds like VTI and BND.
+
+When I launched Simple Check-in upgrade payments it did about $400/day for a week which was very exciting.
+
+=== 15149952 by eljamon
+I made ~$4000 last month by arbitraging crypto currencies on 3 markets.
+
+I use a bot to do the work for me, but I monitor it very closely and I spend a lot of optimizing the old code. I don't have much money on the exchanges because I don't trust them but I could make much more if I wanted to risk more.
+
+=== 15149955 by Swizec
+https://swizec.com/reactd3js
+
+Classic content with attached sales funnel play. The aim is to help people become better engineers. Been hammering away at the React visualizations niche for a bit over two years now and it’s time to make something new.
+
+Product sales make around $20k/year and are slowly trending up, and I’m experimenting with coaching which makes around $1k/month but is hard to scale due to time/focus.
+
+Also doing some influencer marketing type deal with https://school.shoutem.com makes about $1.5k/month and I build React Native apps for them and write about it.
+
+All in all, going to come up to around $50k in sidehustle this year. Been 2x-ing YoY steadily for the past 3 years since I got serious about it.
+
+I write posts about all this stuff on my blog if you’re interested —> swizec.com/blog
+
+=== 15149962 by khuknows
+UI design newsletter (https://uimovement.com/) - still making over $500 a month on average from sponsorships and Carbon ads on the site.
+
+Going steady for a couple of years now - but requires very little time from me.
+
+Shameless plug: Currently working on a service (https://letterfuel.com/) that makes building daily/weekly newsletters like UI Movement super-easy.
+
+=== 15149979 by joeax
+I wrote a science fiction novel, The Final Six Days. I had been kicking around the idea for 5 years, working on technical side projects until I decided to shift course toward writing. I'm in the process of writing out the rest of the series (books 2-4).
+
+As far as money, I've made close to a thousand on months that I am promoting it heavily. Right now I have pulled all advertising and promotion until book 2 is in pre-order.
+
+http://timecrossers.com/
+
+=== 15149995 by Xixi
+Two side projects: Tomotcha and Requires.io. Tomotcha (https://tomotcha.com) is a Japanese green tea subscription service (inspired by Bemmu's Candy Japan). Requires.io (https://requires.io) is a spin-off from a now defunct Continuous Integration service to track python dependencies.
+
+As a software engineer Tomotcha is more challenging to work on, as it doesn't involve much tech at all: it's all about logistic, customer service and marketing. I will admit that I'm not very good at it yet, but improving slowly. I think a side project is the perfect opportunity get outside of one's comfort zone. For instance we are currently completely reviewing the packaging of our tea shipments... It should be ready for either November or December.
+
+=== 15150004 by billwear
+Making ~$500+ per month designing handbags, word of mouth / text / facebook posts.  Not just sewing bags mind you, unique bags designed to fit each person. Problem is throughput -- I'll have to hire soon or keep it smallish.
+
+=== 15150008 by donohoe
+https://article.rocks
+
+Started it in 2014 or 2015 and just keep rebuilding it every 3-6 months. Its a curation of news and articles that I personally like. Its a mix of scraping, automated curation, rough sentiment analysis, randomness.
+
+I built it for my commute, eventually giving it its own domain.
+
+Its no longer hitting that per month since I intentionally scaled back the custom ads that earned referral fees. Its just Amazon now. Money is not a goal.
+
+This side project is more focused on keeping my coding skills going and playing around with ideas in media/publishing and ads.
+
+For example, I redid things so it would get a 99 or 100 PageSpeed score:
+
+https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Farticle.rocks&tab=mobile
+
+=== 15150024 by lxmorj
+DonaldTrumpDogPoopBags.com pulls in about $500 in revenue per day after some FB ad tuning. I acquired the site from a client when he decided to shut it down. It's moreorless break even until his earn-out is complete after a few hundred more orders.
+
+Fortunately running the site break-even supports main business, and e-commerce fulfillment company (MonthlyBoxer.com)
+
+=== 15150026 by BacktestMarket
+https://www.backtestmarket.com/ - since 2015, we started a service collecting historical financial data to help retail traders getting high quality information.
+
+In 2016 we started offering Expert Advisors
+we started for personal necessity, and now we are earning around 1.5k per month.
+
+BacktestMarket will come out with a new version of the website on October 2017 with new products and new services
+
+=== 15150030 by vladdanilov
+Getting close with Optimage for Mac [1], a visually lossless image optimization tool.
+
+[1] http://getoptimage.com
+
+=== 15150038 by FloayYerBoat
+https://www.planeol.com
+
+I wrote a subscription service that notifies IT administrators when software they have purchased is coming up on End of Life. Helps plan and manage budget and for security reasons.
+
+=== 15150040 by billwear
+~$500+ per month making custom-designed handbags; not just sewing bags, mind you, but one-offs for individuals : word-of-mouth, facebook, friends, etc. Can't afford to advertise, couldn't handle the demand without hiring, don't want it to get too big.
+
+=== 15150076 by jonandersense
+I've been working on my app Leap Second, it generates somewhere around 1-3k per month. https://www.leapsecond.co
+
+I created the app after using 1 Second Everyday crashed on me and deleted a few years videos. The app stores everything in the Photos app which made it very fast and easy to develop (a weekend). Now I spend a few hours a month mostly improving the UI and doing bug fixes as I find them.
+Initial traction was very slow as I didn't do any marketing. I started using App Store ads and it gave me a good help of getting small user base that could grow on it's own.
+
+=== 15150077 by aarondf
+I have an accounting tutoring website for students at specific colleges. You can see one of them here: https://acct229.com. It makes > 500 a month, but the bulk of it (obviously) comes in two waves: middle of fall semesters and middle of spring semesters. There is no activity at all during summers and christmas breaks, which really is quite nice.
+
+=== 15150094 by docsapp_io
+DocsApp https://www.docsapp.io/ - Started ~ 2 years ago but only profitable since few months ago.
+
+I built DocsApp to provide platform to publish documentation easily. Instead of spending time to build your documentation site, DocsApp allow you to start publish documentation in minutes.
+
+The challenges to build a profitable SaaS is marketing, especially for people with only technical background.
+
+No extensive marketing done yet so users growth slowly. A lot improvement to be done especially on UX side.
+
+=== 15150165 by cddotdotslash
+I wrote an eBook[1] on AWS Lambda when it first came out. Still brings in a decent monthly revenue. I'm working on an updated version as well, since a lot of new features have been added.
+
+[1] https://www.amazon.com/AWS-Lambda-Guide-Serverless-Microservices-ebook/dp/B016JOMAEE
+
+=== 15150181 by marketvulture
+https://marketvulture.com - Monitors dramatic events around the world and spots the opportunities that lie beneath.  Using machine learning, we track global happenings, business downturns, logistic delays, breaking news, disasters, market conditions, macroeconomics and more to find interesting and profitable ways to leverage current events.
+
+We've been open to the public for about 5 months; php7/python/redis/mariadb/workers/queues, NLP, tons of machine learning, etc.  Cleaning and normalizing hundreds of feeds from different sources and formats is definitely a pain for us, as well as all the machine learning fun (training, feature selection and normalization, etc.)
+
+=== 15150205 by encoderer
+Three years in, Cronitor.io is finally paying both of our (SFBA) mortgages. My co-founder August did a great write up for IndieHackers if you're interested in learning more.
+
+=== 15150250 by mitchellbryson
+https://workroll.com - started in June, turns over $2k a month. Built whilst automating my own freelance sales work flow and figured others could make use of it too. It saves me about a week a month from doing my own lead generation. Been trying to get funding but had no luck. Too early.
+
+Also started a blog to help freelancers grow: https://medium.com/workroll
+
+=== 15150307 by par
+Meta Meme: https://itunes.apple.com/zw/app/meta-meme/id1173783944?mt=8
+
+Doing around $500-700/month in revenue right now, all through in app purchases. Still growing and a lot of work to do.
+
+=== 15150434 by jadeydi
+ICO, we raised more than $15M in 9 minutes, we only built a website with homepage, lol
+
+=== 15150451 by feralmoan
+I don't do side projects or open source any more and run some bots for cryptocurrency trading instead. The bots continue to grow their positions and has been several times more lucrative than anything else I've tried to monetize at a fraction of the effort
+
+¯\_(シ)_/¯ I guess it still counts
+
+=== 15150456 by 02thoeva
+Went full time on our side project, https://emailoctopus.com, last year when we hit the $5k a month mark. We'd been working on it for 3 years and had some steady growth - contracted a few days a week alongside until I could afford to go full time.
+
+In hindsight should have done it sooner, a year on we've grown so much more by taking it seriously as a business. We value our time more and as such charge more, yet growth has only accelerated.
+
+=== 15150536 by nickjj
+Anywhere from $5,000 to $15,000 per month selling video courses for software developers.
+
+Details are in this Indie Hacker interview:
+https://www.indiehackers.com/businesses/nick-janetakis
+
+=== 15150622 by wanqu
+https://wanqu.co - A San Francisco engineer (me) curates 5 English articles on tech & startup for Chinese makers everyday.
+
+Started on August 6, 2014. It's a side project of mine. I built a website (Django), a native iOS app (Swift), a native Android app (React Native), and some automation tools. It brings around $1200/month via iOS in-app-purchase, sponsorship, affiliate links etc. I keep a full time job while doing this content curation thing at night (2~3 hours per day). So far, I've curated 5000+ articles and I've written over 1 million Chinese characters for comments -- The Chinese translation of all Harry Potter books consist of 2 million Chinese characters :)
+
+Over 3 years, it accumulates over 140,000 followers across 10 content distribution channels as of today (Sep 1, 2017), including iOS push notifications, android push notifications, Weibo, Twitter, chrome push notifications ...
+
+It's in Chinese, so it's pretty much unknown to the English-speaking world. Hacker News and Product Hunt are English only. Non-English projects are not allowed :( I hope my side project can fill the gap between Chinese-speaking makers and the English-dominant tech world. I believe doing good is the best business model.
+
+Checkout my Indie Hackers interview (in English, of course): https://www.indiehackers.com/businesses/wanqu
+
+=== 15150691 by andygor
+http://datastarta.com — launched 3 months ago. The last month was $1350. I spent a month and $29 (domain + bubble) to build an MVP.
+
+=== 15150703 by joelrunyon
+http://movewellapp.com
+
+Built this as a home physical therapy coach after I busted my ankle running an ultra marathon. It's grown quite a bit in hte last few months.
+
+=== 15151216 by pypetey
+We've started https://gdprapp.com - a piece of software for data protection officers / it auditors - to help with compliance and auditing process - it's focused at the moment on General Data Protection Regulation (GDPR) but we will be integrating it with other security standards.
+
+It was an internal project in the beginning and after some time and reworks we've decided to open it up to public.
+
+=== 15151304 by markfer
+https://www.recapped.io is what I actually launched 2 months ago since I was frustrated by the lack of existing solutions for my sales team.
+
+Around $600/mo now, but believe I should hit $2,000+ MRR by next month.
+
+TL;DR: Sales-enablement that helps sales reps communicate, collaborate, and engage with potential customers.
+
+=== 15151354 by GoLocalApps
+We launched AppToolkit.io earlier in the year and it's now breaking $500 monthly. Since we use it in-house, we don't judge it quite the same as if it needed to support itself. It isn't profitable yet, but as more app developers sign up for our Super User and Cloud Config service, we're seeing faster revenue growth.
+
+Our original goal was to cover the AWS bill and pay for all the in-house dev work and I think we'll have that by the end of the year.
+
+If you're interested in the background to AppToolkit and where it came from, we did an interview on Indie Hackers here - https://www.indiehackers.com/businesses/apptoolkit
+
+=== 15151670 by ryandrake
+This is a great Ask HN, and it would be even better to specify whether $500+/month is in revenue or profit. I can't imagine most of these things listed so far could actually make $500 in profit a month!
+
+=== 15152169 by archiolidius
+http://livereacting.com/ - SaaS app launched about 8 months ago. Currently $3k/mo. I automated everything. Last 3-4 months it works almost on autopilot I just do customer support
+
+=== 15152248 by Schweigi
+https://www.ganttplanner.com - April 2015. A tool to turn your Google Calendar into a Gantt chart.
+
+Its currently running on autopilot and making ~$1200/month.
+
+Its all running on Heroku and barely requires any maintainance.
+
+=== 15152557 by jgimenez
+I built https://localname.io as an excuse to learn some Swift and node.js.
+
+It helps server side development by giving a publicly accessible URL to your computer.
+
+I needed it for development and testing of mobile applications together with the backend. Also works well for webhooks.
+
+Didn't reach the $500 yet, but it's getting there!
+
+=== 15152713 by petecodes
+Well I've made $480 since 25th august with www.techpresslist.com
+
+Attention from top 10 on Product Hunt definitely helping.
+
+=== 15153075 by manavo11
+I've been working on https://doorbell.io since 2013, and although it had a slow start in terms of revenue it is making just shy of $2,800/month at the moment, still as a side project.
+
+=== 15153699 by RabbitmqGuy
+https://www.amqphosting.com - started just over a year ago. It is a RabbitMQ as a service company. I started it because I wasn't satisfied with the few RabbitMQ SaaS companies that were already there.
+
+Currently doing about $1k/month
+
+=== 15155875 by ohashi
+http://reviewsignal.com - ~$3,000/month
+
+I run the largest web hosting review site. It uses twitter comments as the data source. I wrote nearly the entire thing from scratch in PHP/MySql with a couple libraries for twitter streaming api, templating, WordPress blog.
+
+I did a long interview at IndieHackers if people are really curious with full monthly revenue disclosed (https://www.indiehackers.com/businesses/reviewsignal)
+
+=== 15156129 by craigcherlet
+http://www.craigcherlet.com - started writing how to articles and promoting SaaS  applications as an affiliate on my blog. Already doing over $1,000 a month in recurring revenue and growing. Focusing on value and it seems to be working.
+
+=== 15156210 by ygerasimov
+https://backtrac.io, visual regression tool for websites. Started two years ago and it is doing 500$+ a month after all expenses. Has great potential for growth.
+
+https://turbohiring.co, built a year ago. Database for recruiting IT specialists in Ukraine. After only one year it already generates $3k+ in revenue and growing. Finding a right sales person was a key.
+
+=== 15211018 by rundavidrun
+Me and my husband had been developing our own Android apps published to Google Play for a while and never made much money. But when Android Wear first came out, we started developing watch faces (mostly ones we wanted for ourselves) and persistence finally paid off. Income varies, but we've been steadily making between $500 and $1500/month. These are the top two: https://play.google.com/store/apps/details?id=com.sparkistic.justaminute and https://play.google.com/store/apps/details?id=com.sparkistic.photowear
+
+=== 15213323 by lukebyear
+I built Strum Machine (https://strummachine.com) which is a music practice tool aimed at players of bluegrass, old-time, folk, etc (the music sub-culture I grew up in). I started working on it only after having failed to find an existing product like it and wanting one to be available for my music students. Development began in Jan 2016, launch was May 2016. Built with the Meteor Javascript platform as a mobile-friendly website; native apps still in (very slow) development. About 300 paying users, mostly through word of mouth; it's been hard to figure out how to do marketing otherwise. Just cracked 1k MRR. Minimal ongoing costs and maintenance, although I still have a looong list of improvement-related TODOs. It's been an extremely rewarding project to be working on, and the extra income has been a very nice bonus as well. :-)

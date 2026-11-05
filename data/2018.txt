@@ -1,0 +1,192 @@
+=== 17790374 by wheresvic1
+checkout indiehackers.com!
+
+=== 17790899 by imhoguy
+I don't know why I have read $500k/month. The weekend bbq effect probably.
+
+Anyone?
+
+But then it wouldn't be a side project I guess.
+
+=== 17790905 by aabajian
+wwww.cronote.com
+
+Simple website for sending reminders. It didn't make any money for 4 years until I added commonly-requested features (templates, recurring reminders, and variables for recipient names). Now I have about 60 paying customers and it makes about $600 per month after all expenses paid. It's been running essentially autonomously for the past five months.
+
+The iOS app is still difficult to use. I'm slowly rebuilding it. I'd say the main claim to fame at this point is if you Google "text message reminders" it's the first or second result.
+
+=== 17790915 by farseer
+No one wants to advertise their money making niche ideas, especially if they are easy to copy.
+
+=== 17790950 by _august
+https://fitloop.co/
+
+A site I built to teach myself bodyweight fitness (from a routine I found on reddit) -- grew a userbase and built up more detailed tracking, configuration, and usability.
+
+The MRR is a bit hard to calculate right now (since I charge annually), but somewhere in the $500 - $1000 range.
+
+Edit: This app grew from feelings of being stuck / burned out / almost depressed that can come from being in front of the computer too much. I was trying to build another startup out of college from my parents' house, and was having little progress or social interaction. There's been a number of threads about depression on HN recently, I felt the same. I realized I needed to be able to work out, but had no good gym accessible at the time, thus this little project was born (and went on to be more successful than the app I was initially trying to work on).
+
+=== 17790954 by osrec
+I started https://usebx.com/app just under a year ago. We now do a few hundred thousand GBP per month in revenue. Nothing fancy, just a solid accounting and project management app, solid service, and good sales to corporate customers (we look after the smaller customers too, but only actively market to larger corporate clients, where the returns are significantly better).
+
+We've just invested more in the code base to offer more features within our app, but kept things pretty simple at the start. Releasing in a couple of weeks!
+
+=== 17790987 by dpcan
+I don't think many people are going to share their idea unless they are sure it's not something that can be hacked together in a week.
+
+It would be interesting to also see people simply saying "I do" and maybe the "space" it's in?
+
+That too would be encouraging I think.
+
+=== 17790991 by marianattestad
+http://omgenomics.com/circa
+Circa is an easy-to-use tool for building circos plots with genomics data. I built the visualization piece (and most of the UI) with D3.js and made it into a desktop app with Electron. Initially sold it for $25 per user (one-time cost), which made about $750 a month. Then some professors told me it was way too cheap, so I increased the price to $100. Since then, it has made about $1,500 every month for the last year. This week I started to add some new features and will soon make some more demo videos to see if I can increase that number. :)
+I think it has worked this well so far because building circos plots is a well-known painful problem in the genomics field. And it was one that I had experienced myself during my PhD work. I was surprised at how many academics actually are willing to pay for software, but still unsure how big that market actually is and how much of it I am already covering. The nice thing about a tiny niche like this is that when you Google "circos", Circa's tutorial and demo videos show up on the first page.
+
+=== 17791135 by joewee
+http://www.meetkaori.com multilingual virtual assistants. Right now the focus is Japanese / English but plans to add other tough to hire languages like Chinese.
+
+=== 17791262 by nickpsecurity
+wheresvic1 mentioned indiehackers.com. Ill add Barnacl.es also has lots of examples and advice for executing on the idea. Lots of articles on reaching customers, too.
+
+https://barnacl.es
+
+=== 17791265 by tananaev
+https://www.traccar.org/
+
+It's an open source GPS tracking solution. We make money on SaaS, support and customisation services. Some of it basically passive income from subscriptions, some is new development.
+
+=== 17791273 by freediver
+Built WooRender to allow easy access to GPU compute. Basically leasing my deep learning server with 10x 1080ti cards for $100/day.
+
+https://woorender.com
+
+=== 17791342 by 300bps
+Probably not what you're asking, but my side project is working on software projects for a couple local businesses.  I work about 12 hours per week on the side at $150 per hour so I make about $7,200 per month.
+
+Having W2 and 1099 income like this is advantageous as well.  First, I max out my social security tax at my main employer which means my side income is social security tax free.  Second, I max out my 401k employee contribution of $18,500 at my main employer.  I then have an Individual 401k with Vanguard where I take about 20% of my profits and deposit that as the employer portion which lowers my federal taxes substantially.  I take a good portion of what's left and deposit that in a 529 account for my kids which my state gives a tax deduction for that on state taxes.
+
+My smaller client was just a friend that I met through my kids' school.  My larger client I met while studying for a programming certification at a baseball clinic my oldest son attended.  A guy who owned a local business saw me with a thick book and approached me with, "Are you in IT?"
+
+=== 17791497 by conorpp
+This is a hardware project I started when I was a senior in college.  U2F Zero, a open source U2F token / two factor authentication device.
+
+https://www.amazon.com/gp/product/B01L9DUPK6
+https://conorpp.com/designing-and-producing-2fa-tokens-to-sell-on-amazon
+
+Brings in around $500-$1000 per month of revenue (when in stock haha).  I started just to learn how to lay out a circuit board and make my own embedded device, just kind of took off.
+
+Using the U2F protocol is nice, since it's a standard and the PC side infrastructure is all there for the users to use it.  I just have to do the hardware development :)
+
+Also, I'm working on a new U2F token.  It supports FIDO2 (password replacement protocol, upgrade to U2F), NFC, USB-C, and will have a nice case.  If you're interested, sign up here, we'll be releasing  more news soon :)
+
+https://solokeys.com/
+
+=== 17792222 by marketgod
+I was trading options for a while and a lot of people kept asking me how I did it, just never had the time to describe everything. Finally decided to setup a website, www.marketgodfathers.com and a Discord channel. Automated reading my entries and exists from my brokerage and posting to discord allowing everyone to enter and exit the trades when I do. Now I just wait for people to sign up and I pay someone to chat with the customers/answer their questions on Discord.
+
+Need to work on automatically posting my plans to other locations, or maybe find a service  that does it for me, if anyone has recommendations. Looking to private message  Discord users, Facebook friends, Facebook groups, Instagram posts, and Reddit subreddits/daily threads.
+
+=== 17792559 by jasdeepsingh
+https://servicehq.ca Built this over about 2-3 months with the help from a Beta customer satisfying their requirements slowly, but still ensuring that the platform is generic and modular enough.
+
+It’s now averaging about $1000/month with 2 customers. I’m now planning to slowly rebuild the mobile app (need to improve UX and add offline functionality). Once ready, I can start selling to more customers, Also thinking of adding a few integrations with tools like Google Drive, Office 365 & Slack to improve market visibility.
+
+Our stack is Ruby/Rails/React/React Native.
+
+=== 17792846 by vinrob92
+https://www.manypixels.co
+
+I started Manypixels as a side project while being a digital nomad in Bangkok.
+
+After a few weeks it grew to $5000/month then $10,000 month and we're now at $40,000/month after 8 months.
+
+Wrote about that story from the early beginning here: https://www.indiehackers.com/@Vinrob/bootstrapping-a-productized-service-to-40-000-mrr-in-6-months-964127afc3
+
+=== 17793299 by tonyjstark
+https://wokabulary.com/
+
+Wokabulary is a vocabulary trainer for macOS and iOS. We started many years ago when we were still studying and published various projects (like a text editor with syntax coloring) but Wokabulary is the only one left, that is actively developed. It grew out of a personal need and at first you could use it for free, only later we thought that we could also sell it. At some point we rewrote it and since then it's low maintenance, basically no known bugs. People a generally very happy with the apps and we still have a lot of feature ideas that would improve the whole platform. Time is our limiting factor, and of course there is a lot of competition out there.
+
+=== 17793557 by ramijames
+It sounds ridiculous, but I started a YouTube channel (https://www.youtube.com/c/ClickClackClunk) a few months ago that focuses on my woodworking hobby. This was the first month that I made >$500 from amazon affiliate links (mostly from the instructables (https://www.instructables.com/member/clickclackclunk/instructables/) related portion of the project).
+
+It's been a lot of fun and I enjoy focusing on something which is less about computers and more about working with my hands.
+
+=== 17793958 by siquick
+https://www.soundshelter.net
+
+Sound Shelter is a vinyl marketplace that connects records buyers with small independent record stores.
+
+Revenue comes from a mixture of affiliate sales and subscriptions from records stores listing their inventory.
+
+Building a two-sided marketplace is a lot more challenging than I had expected but definitely rewarding when the users find the rare record they probably wouldn't have ever found.
+
+=== 17794671 by roybarberuk
+I’m a full time developer but own a gym. By accident! 
+I went to take over a building as office space that was a liquidated gym. Signed the lease and the day before we moved in the owner called and said we can’t remove the equipment as it was all put in before the stairs. I asked a lot of questions about why the gym didn’t work, had already seen the equipment in there and did some negotiating on purchasing the kit, knowing I could still convert an area to offices. 
+The gyms main failure was due to the cost of staff. So I fully automated everything, door access, lights, aircon, TVs etc etc. Built a membership system. Making it a fully automated unmanned gym!
+We then recruited a freelance personal trainer who does all the inductions in return for advertising and doing PT in our facility with no charge. 
+2 years in and it’s making £4,000 profit a month with minimal costs. Now looking to buy the building. 
+Gym: https://180fitness.co.uk
+Me: https://roybarber.com
+
+=== 17795553 by bwb
+Down For Everyone Or Just Me
+https://downforeveryoneorjustme.com/
+
+Makes ~$1,000 a month gross, lot less after AWS costs.
+
+I've had it for a long time, but haven't done much with it because of my primary business. After I sold that I spent the last year playing with some ideas and testing. I am working to get a new design up and just partnered with a friend to redo the arch and let him see what ideas he has to better monetize it.
+
+=== 17795920 by fiatjaf
+https://teams.cardsync.xyz/, a Trello Power-Up I started as a Trello bot some years ago (I actually "invented" the concept of Trello bots as there were no one doing that at the time, but now all bots are banned).
+
+I just made it because I thought it was a cool feature that was missing. As I started to develop it I realized it was much more complicated to implemente than it seemed, that was probably the reason the feature was missing. Anyway I accepted the challenge, put it live for free on Heroku and forgot about it.
+
+One year later I got back to check it out and thousands of people were using it.
+
+Still, I'm bad at market and monetization, and it's still a side-project to this day, but makes about $1200/mo.
+
+=== 17796857 by goatherders
+I started ChatterBox as a side project to the actual business I started. www.heychatterbox.com
+
+Clients are all lawyers or medical/health services like Spas and Chiropractors.  Marketing is all done by email.  Everything in the service delivery is outsourced or automated.  All I do is send some cold-outreach campaigns each month and process the client invoices at the end of the month.  Just about past $500.  If I focused on it more I'm sure it would grow a lot.
+
+=== 17799960 by hapabrah
+I'm a mechanical design engineer. I "accidentally" ended up as the solo owner and operator of a CNC machine shop. Instead of buying gifts for friends, i would design and machine some sort of a trinket. I was constantly told I should sell these trinkets. It never occured to me that people would buy something I made. I started SmallBatchMade.com a little over a year ago. To my suprise, I sold $700 worth of product the first month. I now pAy my shop rent with this "side" income
+
+=== 17802789 by mr4k
+https://netho.me/ - website traffic estimator. Now there are tons of sites like this, but when i started it the niche was not so crowded.
+I made this website while learning basic programming (php, html, css, js). It makes a bit under $500/month from ads. For now the main feature is to estimate website traffic, but pretty often it is not very accurate. Last feature i plugged is voting that allows tagging sites as legit or scam. Another one - showing free domain name alternatives. The system is buggy and from time to time i'm still fixing bugs and js\css issues when i have time. i've learned a lot building this thing.
+
+=== 17807136 by rfc
+Bit on the weirder submissions for YC but our family genome sequencing facility is generating more than $500/mo on the side.
+
+Currently growing at over 100% YOY (somewhere around 26% QOQ), closed out our last month at over $23k, and on pace to do somewhere between $350-400k. This is not an easy side project and there's been an insane amount of learnings on both the wet lab and informatics side. We've had some set backs but it's worth it when we get to hear what sort of life changing (literally) work we get to contribute.
+
+https://thesequencingcenter.com/
+
+=== 17809078 by fakeElonMusk
+I have an iOS glitch camera app making around $500/mo most months https://itunes.apple.com/app/defqt/id817026377 - app is featured in some China photography lists and Apple recently requested promo assets for a feature, although they have not featured it yet. The only marketing is on IG, just posting images from the app and from other Defqt users. Been in the app store since 2014.  My main income is as a freelance iOS and Android app developer. It's really a niche app so unless we get featured by Apple it will stay small. Ranking in the app store is a nightmare and outside of spending your way into rankings, you are left with the coveted Gold Standard of getting Editor's Pick from the Cupertino gang.
+
+=== 17813835 by Lukin
+I believe that in Poland you cannot get a normal programmer's job after studies at universities. New programmers have such big lacks of knowledge that it cost really great amount of money and time to employers to teach them how to code properly. 
+I started teaching people C++ in January 2018. I choose only those, who have basics of programming. I do not teach from scratch, because there are many such companies. I teach programmers tools (git, make, cmake, vim), scrum, exceptions, objective C++, STL, memory management, testing and TDD, Modern C++ (C++11/14/17), good programming practices, templates, recruitment tips.
+After the second edition of my course, I started earning over 8k PLN/month, which is over 2k USD/month. I spend only about 10h a week on teaching and running my business as a side project. 
+I teach in Wroclaw, Poland. From the next year, I plan to make it a full-time job (it means 20h a week for me ;)) and prepare some good online courses. 
+http://coders.school
+
+=== 17818599 by ddgflorida
+ConvertCsv.com - converts delimited data to/from JSON, XML, SQL, HTML Table, XML, and more. I built it because I work with data every day and need these tools. API coming soon.
+
+=== 17835690 by caviv
+I have created https://www.gematrix.org - it is an English and Hebrew Gematria calculator to calculate Gimatria values for words and phrases. It's making more the $500 a month with Google Ads and a some more for selling the Database directly.
+
+=== 17840314 by czue
+I make about $800/month selling place card templates and formatting at https://www.placecard.me/.
+
+I started the project last year and made $3 in my first six months. But have seen pretty decent slow and steady growth since then.
+
+I've written extensively about the process on my website (http://www.coryzue.com/writing/) and on indie hackers in case interesting to anyone.

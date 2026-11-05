@@ -1,0 +1,73 @@
+=== 20899932 by synack
+Running https://diskprices.com and https://battprices.com, I've been consistently making >$500 in Amazon affiliate fees each month for the last couple of years. It's still growing, slowly. I'm working on some improvements to the software to add more metadata about the drives like warranty and advertised performance numbers.
+
+=== 20899942 by folli
+I'll start: I'm still actively working on my Android app, Sun Locator, that helps photographers and outdoorsy people to predict the position of the sun and the shadows caused by mountains and hills. It helped me to learn quite a lot about Android programming, the app ecosphere and costumer support, and it makes a bit of spending money on the side.
+More info: http://www.sunlocator.com
+
+=== 20900333 by throwaway13000
+Also, does anyone want to sell their side project?
+
+=== 20900386 by segmondy
+Go to indie hackers
+
+https://www.indiehackers.com/products?minRevenue=500&sorting=lowest-revenue
+
+=== 20900491 by QueensGambit
+Download Amazon product categories as a CSV file - https://www.browsenodes.com . Interestingly, I bought this domain with all the backlinks for $500 and made more than $500 in the first month itself.
+
+=== 20900566 by erulabs
+Were making about that - but as we have recently quit our jobs, it’s no longer a side project :P
+
+=== 20901704 by scottjg
+i run https://zeromac.com , a hosting service for Mac VMs. i charge by the hour. the margins aren't as lucrative as a traditional software startup.
+
+i'm considering two new offerings:
+
+1. lower-priced option where the servers would be overcommitted.
+
+2. bringing up a SAN (VMs currently run on local storage) and charging for storage and compute time separately. this would also enable things like spinning up VM based on a custom disk images.
+
+=== 20901813 by marktucker
+https://amazingmarvin.com/ has been my side project since 2016 (wow!).  I will finally quit my job at the end of the year to go full-time on it (co-founder is already full-time).  I worried a lot about doing something that had already been done 1000 times (a productivity tool), but now that it's working out I realized there's always room for a better mousetrap!  Another surprising learning: it's still possible to have a product that people will pay for in 2019 with a mediocre phone app.
+
+=== 20902019 by dangrossman
+I opened an Etsy store selling laser-cut crafts. http://ligninandlight.com
+
+=== 20902171 by entrepre1999
+Adpexity.com - $200,000 a month , AMA
+
+=== 20902348 by DarrenDev
+SmartEdit — https://www.smart-edit.com/ — A Microsoft Word Add-In for creative writers. It’s been around for a few years now, brings in a good bit more than $500 a month, but nowhere near enough to quit the day job. Doesn’t require much upkeep either. It just keeps rolling on...
+
+=== 20902388 by anmolparashar
+useCastup.com — Professional Podcast Editing services, starting at 40¢ per published minute.
+
+I have been running this for a while, along with my full-time job.
+
+=== 20905395 by matt_the_bass
+I’m almost there. Hopefully that will be the case by 2020.  But mine is not a Saas or app. I actually make things as a hobby and sell them in low volume.
+
+A few years ago, I started making word clocks as presents for people. After a while I started teaching a workshop on how to make a simple clock at a local maker space. Now I have a refined design that my wife and I are producing in our basement and starting to sell at low volume: www.finewordclocks.com
+Making clocks is also a great excuse to buy cool tools. We have a probotix asteroid cnc in the basement. I have a 3yo and 6yo. It’s been fun getting them involved in making things. Most of the presents for their friends’ birthday parties are home made (mostly by me but with the kids’ participation) and are REALLY well received.
+
+=== 20906400 by seanwilson
+Checkbot for Chrome: https://www.checkbot.io :)
+
+It checks 100s of pages on your website at a time for SEO, speed and security problems like broken links, duplicate content, invalid HTML/CSS/JavaScript, insecure pages, redirect chains and 50+ other issues.
+
+=== 20912869 by shrutipathak
+https://trafficticker.com
+
+Husband doesn’t talk about it a lot.
+
+=== 20918663 by AwesomeFaic
+Managing the tech/business side of wanderandponder.com, making about 30/mo between Brave tips and nanoinfluencer gigs. Looking to increase traffic and find more influencer opportunities right now.
+
+=== 20930370 by flignats
+https://reqloot.com - an online cryptocurrency game that is close to generating that per month. ~100-150 daily active players.
+
+=== 20934331 by blisterpeanuts
+Playing in a band!  It's a side project, earns me between $4K and $6K per year, depending how many gigs of course.  Last year was huge for me, around $8K, and this year is slow, probably will be about $4K.
+
+I'm just about to upgrade my sound equipment to probably the Electro-Voice Evolve system, which has bluetooth, can be operated by a phone app, sets up easily, and sounds incredible.  This is an investment which will make my band more marketable but also set me up to do more paid sound gigs.  The day job will always be my main gig but this is a great side project.

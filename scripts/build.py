@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parent.parent
 THREADS = {
     2025: 46307973, 2024: 42373343, 2023: 38467691,
     2022: 34190421, 2021: 29667095, 2020: 24947167,
+    2019: 20899863, 2018: 17790306, 2017: 15148804,
 }
 
 rows = []
@@ -30,7 +31,19 @@ with open(ROOT / "projects.csv", "w", newline="", encoding="utf-8-sig") as f:
     for r in sorted(rows, key=lambda r: (-r["year"], r["category"], r["name"])):
         w.writerow([r["year"], r["name"], r["url"], r["category"], r["revenue"], r["desc"], r["hn_link"]])
 
+import sys
+sys.path.insert(0, str(ROOT / "scripts"))
+import build_site
+stats = build_site.main()
 intro = (ROOT / "scripts/intro.md").read_text(encoding="utf-8")
+years = sorted(THREADS)
+est = [m for m in (build_site.monthly(r["revenue"]) for r in rows) if m is not None]
+for k, v in {
+    "N": len(rows), "UP": stats["up"], "NYEARS": len(years), "RANGE": f"{years[0]}–{years[-1]}",
+    "EST": len(est), "PCT": round(100 * sum(500 <= m < 2000 for m in est) / len(est)),
+    "TOPCATS": "、".join(f"{c}（{n}）" for c, n in Counter(r["category"] for r in rows).most_common(4)),
+}.items():
+    intro = intro.replace("{{" + k + "}}", str(v))
 
 def esc(s):
     return s.replace("|", "/")
@@ -68,7 +81,4 @@ out.append((ROOT / "scripts/deploy.md").read_text(encoding="utf-8"))
 
 import json
 (ROOT / "site").mkdir(exist_ok=True)
-# index.html + p/*.html: the local site with screenshots and detail pages.
-import build_site
-build_site.main()
 print(f"{len(rows)} rows -> projects.csv, README.md")

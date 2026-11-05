@@ -95,6 +95,7 @@ def main():
         r["thumb"] = thumb(r["shot"]) if r["shot"] else None
 
     order = sorted(rows, key=lambda r: (-int(r["year"]), r["name"].lower()))
+    years = sorted({int(r["year"]) for r in rows})
     checked = max((r["site"].get("checkedAt", "")[:10] for r in rows), default="")
     for r in order:
         r["m"] = monthly(r["revenue"])
@@ -115,7 +116,8 @@ def main():
     tpl = (ROOT / "scripts/gallery.template.html").read_text(encoding="utf-8")
     def fill(mode):
         return tpl.replace('/*MODE*/"site"', json.dumps(mode)).replace("/*ASSETS*/", "assets/") \
-                  .replace("/*CHECKED*/", checked) \
+                  .replace("/*CHECKED*/", checked).replace("/*RANGE*/", f"{years[0]}–{years[-1]}") \
+                  .replace("/*NYEARS*/", str(len(years))) \
                   .replace("/*HERO*/[]", json.dumps(hero)) \
                   .replace("/*DATA*/[]", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")) \
                   .replace("/*STATUS*/{}", json.dumps({k: list(v) for k, v in STATUS.items()}, ensure_ascii=False))
@@ -126,6 +128,7 @@ def main():
     (SITE / "artifact.html").write_text(apage, encoding="utf-8")
     c = Counter(r["status"] for r in rows)
     print(f"{len(rows)} pages; status {dict(c)}; with details {sum(1 for r in rows if r['money'])}")
+    return dict(c)
 
 
 # Well-known projects whose screenshots make up the hero wall.
