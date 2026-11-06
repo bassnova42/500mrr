@@ -16,6 +16,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
+BASE_URL = "https://500mrr.rokoai.fun"
+OG_IMAGE = "assets/og.jpg"  # 1200x600, resized from assets/banner.jpg
+SITE_DESC = "587 个独立开发者在 Hacker News 上自述的月入 $500 副业项目，每个都有网站截图、中文简介、怎么挣钱和今天是否还在运营。"
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700'
@@ -69,11 +72,23 @@ def thumb(shot):
     return f"shots/thumb/{src.name}" if dst.exists() else None
 
 
-def page(title, body, depth=0):
+def social(title, desc, path, image):
+    """Open Graph + Twitter card tags so a shared link shows a large preview image on X / WeChat / Slack."""
+    url, img = f"{BASE_URL}/{path}", f"{BASE_URL}/{image}"
+    tags = [("property", "og:type", "website"), ("property", "og:site_name", "500MRR"),
+            ("property", "og:title", title), ("property", "og:description", desc),
+            ("property", "og:url", url), ("property", "og:image", img),
+            ("name", "twitter:card", "summary_large_image"), ("name", "twitter:site", "@slashui"),
+            ("name", "twitter:title", title), ("name", "twitter:description", desc), ("name", "twitter:image", img)]
+    return f'<meta name="description" content="{e(desc)}">\n<link rel="canonical" href="{e(url)}">\n' + \
+        "".join(f'<meta {k}="{n}" content="{e(v)}">\n' for k, n, v in tags)
+
+
+def page(title, body, depth=0, meta=""):
     pre = "../" * depth
     return ('<!doctype html>\n<html lang="zh-CN">\n<head>\n<meta charset="utf-8">\n'
             '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
-            f'<title>{e(title)}</title>\n{FONTS}\n<link rel="stylesheet" href="{pre}assets/style.css">\n'
+            f'<title>{e(title)}</title>\n{meta}{FONTS}\n<link rel="stylesheet" href="{pre}assets/style.css">\n'
             f'</head>\n<body>\n{body}\n</body>\n</html>\n')
 
 
@@ -103,7 +118,10 @@ def main():
 
     (SITE / "p").mkdir(parents=True, exist_ok=True)
     for i, r in enumerate(order):
-        (SITE / "p" / f'{r["pid"]}.html').write_text(page(f'{r["name"]} · 500MRR', detail_html(r, i, order), 1), encoding="utf-8")
+        t = f'{r["name"]} · 500MRR'
+        d = f'{r["year"]} · {r["category"]} · 自述收入 {r["revenue"]}。{r["summary"]}'
+        meta = social(t, d, f'p/{r["pid"]}', r["shot"] or OG_IMAGE)
+        (SITE / "p" / f'{r["pid"]}.html').write_text(page(t, detail_html(r, i, order), 1, meta), encoding="utf-8")
 
     data = [{
         "pid": r["pid"], "year": int(r["year"]), "name": r["name"], "category": r["category"], "revenue": r["revenue"],
@@ -129,8 +147,10 @@ def main():
                   .replace("/*HERO*/[]", json.dumps(hero)) \
                   .replace("/*DATA*/[]", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")) \
                   .replace("/*STATUS*/{}", json.dumps({k: list(v) for k, v in STATUS.items()}, ensure_ascii=False))
-    (SITE / "index.html").write_text(page("HN 月入 $500 副业名录", fill("site")), encoding="utf-8")
-    (SITE / "all.html").write_text(page("全部项目 · HN 月入 $500 副业名录", fill("site", "all")), encoding="utf-8")
+    home_title = "月入 $500 的副业：587 个 Hacker News 独立开发者的赚钱项目"
+    (SITE / "index.html").write_text(page("HN 月入 $500 副业名录", fill("site"), 0, social(home_title, SITE_DESC, "", OG_IMAGE)), encoding="utf-8")
+    (SITE / "all.html").write_text(page("全部项目 · HN 月入 $500 副业名录", fill("site", "all"), 0,
+                                        social("全部项目 · " + home_title, SITE_DESC, "all", OG_IMAGE)), encoding="utf-8")
     # artifact.html: one-page version for claude.ai (gallery + hash-routed detail view, no document skeleton).
     atpl = (ROOT / "scripts/artifact.template.html").read_text(encoding="utf-8")
     apage = atpl.replace("/*CSS*/", (SITE / "assets/style.css").read_text(encoding="utf-8")).replace("/*BODY*/", fill("artifact"))
